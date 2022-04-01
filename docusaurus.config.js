@@ -79,16 +79,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Combased Discord - Learn web3!',
+                href: 'https://discord.gg/nh46kvc3Fa',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'J4cks\'s Twitter',
+                href: 'https://twitter.com/J4cksDX',
               },
             ],
           },
