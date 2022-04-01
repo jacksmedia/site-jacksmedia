@@ -2,7 +2,7 @@
 slug: node-fever
 title: Next Day Woke Up w Node Fever
 authors:
-  name: Jacks Media
+  name: j4cks
   title: DIY Digital Agency
   url: https://github.com/jacksmedia
   image_url: https://github.com/jacksmedia.png

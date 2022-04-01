@@ -2,7 +2,7 @@
 slug: nodelife-begins
 title: Nodelife Begins, Feb 22 2022
 authors:
-  name: Jacks Media
+  name: j4cks
   title: DIY Digital Agency
   url: https://github.com/jacksmedia
   image_url: https://github.com/jacksmedia.png

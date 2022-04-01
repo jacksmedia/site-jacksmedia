@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'J4cks dot com',
+  tagline: 'Elrond Enthusiasm, Not Financial Advice',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'jacksmedia', // Usually your GitHub org/user name.
+  projectName: 'j4cksdotcom', // Usually your repo name.
 
   presets: [
     [
@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'J4cks.com',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -57,8 +57,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/jacksmedia/j4cksdotcom',
+            label: 'This Codebase',
             position: 'right',
           },
         ],
@@ -100,13 +100,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'This Code',
+                href: 'https://github.com/jacksmedia/j4cksdotcom',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media. Built with LKMEX, caffeine & other vitamins and ethers.`,
       },
       prism: {
         theme: lightCodeTheme,

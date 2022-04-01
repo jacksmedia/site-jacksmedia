@@ -2,7 +2,7 @@
 slug: pi-day
 title: Pi Day Math Holiday
 authors:
-  name: Jacks Media
+  name: j4cks
   title: DIY Digital Agency
   url: https://github.com/jacksmedia
   image_url: https://github.com/jacksmedia.png
