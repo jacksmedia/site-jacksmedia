@@ -102,7 +102,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media. Built with LKMEX, caffeine & other vitamins and ethers.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media. $ZIL: zil1h5yl2jrfk9y2cmzkcvemywedcxtzekmskazh3x`,
       },
       prism: {
         theme: lightCodeTheme,
