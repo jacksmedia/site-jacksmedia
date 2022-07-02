@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'J4cks dot com',
+  title: 'J4cks Media',
   tagline: 'Elrond Enthusiasm, Not Financial Advice',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'J4cks.com',
+        title: 'Jacks.media',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Jacks Media Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -102,7 +102,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media. $ZIL: zil1h5yl2jrfk9y2cmzkcvemywedcxtzekmskazh3x`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media. $EGLD: erd159mypt4myss3mqrs89ft0hjeacffks2690gq9u3mlh73m9sh0w5s09eqhh`,
       },
       prism: {
         theme: lightCodeTheme,
