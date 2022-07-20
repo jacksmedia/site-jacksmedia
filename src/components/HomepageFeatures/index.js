@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Use EGLD',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Elrond EGLD is the crypto with the world's best wallet &
+        you can send/use/stake it for fractions of a penny
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Keep Calm & Hold Combeys',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Combased Combeys are the cream of the crop of Elrond NFTs
+        for passive income plus added holder benefits
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Follow Lannuvár DAO',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The Realm of Karitha is the MMO world that birthed Lannuvár,
+        a DAO focused on role playing and successful brand management
       </>
     ),
   },

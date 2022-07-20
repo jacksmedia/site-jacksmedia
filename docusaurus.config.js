@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'J4cks Media',
-  tagline: 'Elrond Enthusiasm, Not Financial Advice',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'J4cks\'s Guides &c',
+  tagline: 'Enthusiasm, Not Financial Advice',
+  url: 'https://j4cks.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,10 +43,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Jacks.media',
+        title: 'J4cks.com',
         logo: {
-          alt: 'Jacks Media Logo',
-          src: 'img/logo.svg',
+          alt: 'Jacks Media',
+          src: 'img/Rock98.png',
         },
         items: [
           {
@@ -79,12 +79,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Combased Discord - Learn web3!',
-                href: 'https://discord.gg/nh46kvc3Fa',
+                label: 'Lannuvar DAO in Realm of Karitha',
+                href: 'https://lannuvar.super.site',
               },
               {
-                label: 'J4cks\'s Twitter',
-                href: 'https://twitter.com/J4cksDX',
+                label: 'Combased Discord - Learn web3!',
+                href: 'https://discord.gg/nh46kvc3Fa',
               },
             ],
           },
@@ -92,12 +92,16 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Blog of Crypto/web3 Learnings',
                 to: '/blog',
               },
               {
-                label: 'This Code',
-                href: 'https://github.com/jacksmedia/j4cksdotcom',
+                label: 'J4cks\'s Twitter',
+                href: 'https://twitter.com/J4cksDX',
+              },
+              {
+                label: 'Jacks Media',
+                href: 'https://jacks.media',
               },
             ],
           },
