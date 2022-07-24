@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Use EGLD',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    img: require('@site/static/img/magic-egld.png').default,
     description: (
       <>
         Elrond EGLD is the crypto with the world's best wallet &
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Keep Calm & Hold Combeys',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    img: require('@site/static/img/archduke-combey253.png').default,
     description: (
       <>
         Combased Combeys are the cream of the crop of Elrond NFTs
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Follow Lannuvár DAO',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    img: require('@site/static/img/cropped-Lannuvar.png').default,
     description: (
       <>
         The Realm of Karitha is the MMO world that birthed Lannuvár,
@@ -35,11 +35,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({img, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureSvg} src={img} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
