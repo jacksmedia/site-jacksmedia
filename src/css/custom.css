@@ -49,6 +49,9 @@ h1, h2, h3, button {
 .no-bullet {
   list-style-type: none;
 }
+.widest-column {
+  min-width: 18vw;
+}
 
 
 
