@@ -6,6 +6,7 @@ const FeatureList = [
   {
     title: 'Use EGLD',
     img: require('@site/static/img/magic-egld.png').default,
+    linker: 'https://get.maiar.com/referral/o6q0in3yh6',
     description: (
       <>
         Elrond EGLD is the crypto with the world's best wallet &
@@ -16,6 +17,7 @@ const FeatureList = [
   {
     title: 'Keep Calm & Hold Combeys',
     img: require('@site/static/img/archduke-combey253.png').default,
+    linker: 'https://www.combased.io/',
     description: (
       <>
         Combased Combeys are the cream of the crop of Elrond NFTs
@@ -24,18 +26,19 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Follow Lannuvár DAO',
-    img: require('@site/static/img/cropped-Lannuvar.png').default,
+    title: 'Help SuperVictor',
+    img: require('@site/static/img/SVcombased.png').default,
+    linker: 'https://twitter.com/dnsv123',
     description: (
       <>
-        The Realm of Karitha is the MMO world that birthed Lannuvár,
-        a DAO focused on role playing and successful brand management
+        Help a kid with the world's worst medical bills, he needs
+        SMA treatments ASAP so maybe donate a tiny bit?
       </>
     ),
   },
 ];
 
-function Feature({img, title, description}) {
+function Feature({img, title, description, linker}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -44,6 +47,9 @@ function Feature({img, title, description}) {
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+        <a href={linker}>
+          <button>Go See</button>
+        </a>
       </div>
     </div>
   );

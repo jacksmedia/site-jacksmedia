@@ -67,10 +67,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Guides',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Intro',
                 to: '/docs/intro',
               },
             ],
@@ -79,12 +79,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Lannuvar DAO in Realm of Karitha',
-                href: 'https://lannuvar.super.site',
-              },
-              {
                 label: 'Combased Discord - Learn web3!',
                 href: 'https://discord.gg/nh46kvc3Fa',
+              },
+              {
+                label: 'Lannuvar DAO in Realm of Karitha',
+                href: 'https://lannuvar.super.site',
               },
             ],
           },

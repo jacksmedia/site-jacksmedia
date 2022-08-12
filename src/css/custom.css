@@ -54,7 +54,7 @@ h1, h2, h3, button {
 }
 /* to make the default footer colors into a slight gradient */ 
 .footer {
-  background: linear-gradient(-14deg, rgba(0,0,0,0.0), rgba(0,172,138,0.4));
+  background: linear-gradient(-14deg, rgba(10,0,0,0.8), rgba(0,172,138,0.4));
 }
 
 

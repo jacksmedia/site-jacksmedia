@@ -20,7 +20,7 @@ All credits to the creators, whom are awesome!
     <td><h3>Additionals</h3></td>
   </tr>
   <tr>
-    <td>
+    <td class="">
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=X3-gKPNyrTA?t=26">🧘 Neck Hygiene</a></div>
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=SedzswEwpPw?t=51">🧣 Neck & Shoudler Relief</a></div>
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=Ba0fweKUwIc">🌳 Calm Your Nerves</a></div>
@@ -39,8 +39,9 @@ All credits to the creators, whom are awesome!
         <div class="no-bullet"><a href="https://youtu.be/EZT8RC0wRbA?t=88">🐻 Circulate Energy</a></div>
     </td>
     <td>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=V1HbXt5ZRlg&t=39s">🗼 Inversion Practice</a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=V1HbXt5ZRlg&t=39s">🗼 Inversion</a></div>
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=LZ2oHU-mMJI?t=25">🕸 Silken Wheel</a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=Yzm3fA2HhkQ&t=3s">🪢 Flexibility</a></div>
         <div class="no-bullet"><a href="https://youtu.be/ED3_i_xVd_s?t=54">🌈 8 Rainbows</a></div>
     </td>
   </tr>
