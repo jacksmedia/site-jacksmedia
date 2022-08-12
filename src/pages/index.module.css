@@ -12,11 +12,6 @@
   background: linear-gradient(-14deg, #B1F223, #01DFFF, #964273, #3F2731);
   background-size: 400% 400%;
   animation: gradient 23s ease infinite;
-/*  background: rgb(1,101,173);
-  background: -moz-radial-gradient(circle, rgba(1,101,173,1) 19%, rgba(55,51,161,1) 65%, rgba(23,40,171,1) 100%);
-  background: -webkit-radial-gradient(circle, rgba(1,101,173,1) 19%, rgba(55,51,161,1) 65%, rgba(23,40,171,1) 100%);
-  background: radial-gradient(circle, rgba(1,101,173,1) 19%, rgba(55,51,161,1) 65%, rgba(23,40,171,1) 100%);*/
-
 }
 
 @media screen and (max-width: 996px) {

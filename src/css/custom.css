@@ -52,6 +52,9 @@ h1, h2, h3, button {
 .widest-column {
   min-width: 18vw;
 }
-
+/* to make the default footer colors into a slight gradient */ 
+.footer {
+  background: linear-gradient(-14deg, rgba(0,0,0,0.0), rgba(0,172,138,0.4));
+}
 
 

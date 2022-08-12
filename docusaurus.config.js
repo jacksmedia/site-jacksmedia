@@ -53,7 +53,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorials',
+            label: 'Guides',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
