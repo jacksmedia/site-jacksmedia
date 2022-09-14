@@ -28,7 +28,7 @@ const FeatureList = [
   {
     title: 'Help SuperVictor',
     img: require('@site/static/img/SVcombased.png').default,
-    linker: 'https://twitter.com/dnsv123',
+    linker: 'https://www.frameit.gg/marketplace/nft/VICLOTTERY-19f055-01/19772',
     description: (
       <>
         Help a kid with the world's worst medical bills, he needs

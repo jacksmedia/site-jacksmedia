@@ -9,10 +9,9 @@ authors:
   image_url: https://github.com/jacksmedia.png
 tags: [taichi, qigong, chi, qi, yoga, yoqi]
 ---
-These are excellent qi exercise videos that work really well if you do one or more daily!
-All credits to the creators, whom are awesome!
-
-
+Listen:
+[😈 Boards of Canada - The Devil is in the Details](https://www.youtube.com/watch?v=N2jNdHnOsG8)
+Act:
 <table>
   <tr>
     <td><h3>Warm Ups</h3></td>
@@ -23,7 +22,7 @@ All credits to the creators, whom are awesome!
     <td class="">
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=X3-gKPNyrTA?t=26">🧘 Neck Hygiene</a></div>
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=SedzswEwpPw?t=51">🧣 Neck & Shoudler Relief</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=Ba0fweKUwIc">🌬 Calm Your Nerves</a></div>
+        <div class="no-bullet"><a href="https://youtu.be/ED3_i_xVd_s?t=54">🌈 8 Rainbows</a></div>
         <div class="no-bullet"><a href="https://youtu.be/50txkOrJn9o?t=41">🦩 Tai Chi Warm Up</a></div>
         <div class="no-bullet"><a href="https://youtu.be/jOfshreyu4w">🫂 Quick Stress Fix</a></div>
     </td>
@@ -36,6 +35,7 @@ All credits to the creators, whom are awesome!
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=8wddPSIEpvE?t=54">🐠 Door of Life</a></div>
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=RoIqYtiTLFI">🐍🍂 4️⃣ </a></div>
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=nmmNWj9YtAw?t=60">🐢 Zip Up</a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=Ba0fweKUwIc">🌬 Calm Your Nerves</a></div>
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=62a20CiIAlY?t=25">🐉☂️ 5️⃣</a></div>
         <div class="no-bullet"><a href="https://youtu.be/EZT8RC0wRbA?t=88">🐻 Circulate Energy</a></div>
     </td>
@@ -45,9 +45,9 @@ All credits to the creators, whom are awesome!
         <div class="no-bullet"><a href="https://youtu.be/FgfT2fOv31E">🫧 Yoga for Abs</a></div>
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=LZ2oHU-mMJI?t=25">🕸 Silken Wheel</a></div>
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=Yzm3fA2HhkQ&t=3s">🪢 Flexibility</a></div>
-        <div class="no-bullet"><a href="https://youtu.be/ED3_i_xVd_s?t=54">🌈 8 Rainbows</a></div>
         <div class="no-bullet"><a href="https://youtu.be/eBdfCX5XnX4">🦎 Open Hips</a></div>
     </td>
   </tr>
 </table>
-
+These are excellent qi exercise videos that work really well if you do one or more daily!
+All credits to the creators, whom are awesome!
