@@ -27,16 +27,16 @@ Act:
         <div class="no-bullet"><a href="https://youtu.be/jOfshreyu4w">🫂 Quick Stress Fix</a></div>
     </td>
     <td>
-        <div class="no-bullet"><a href="https://youtu.be/cEOS2zoyQw4?t=89">🦆🌊 1️⃣ </a></div>
+        <div class="no-bullet"><a href="https://youtu.be/cEOS2zoyQw4?t=89">🦆🌊</a></div>
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=HMbT-CPVl2k?t=33">🐵 Mood Lifter</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=enk0bOv-gF8?t=17">🦇☁️ 2️⃣ </a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=IyINAjEoTIs?t=80">🐯 Expanding 6D</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=OPcZlXYcdMA?t=31">🐎🌕 3️⃣ </a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=enk0bOv-gF8?t=17">🦇☁️</a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=IyINAjEoTIs?t=80">🦅 Expanding 6D</a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=OPcZlXYcdMA?t=31">🐎🌕</a></div>
         <div class="no-bullet"><a href="https://www.youtube.com/watch?v=8wddPSIEpvE?t=54">🐠 Door of Life</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=RoIqYtiTLFI">🐍🍂 4️⃣ </a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=nmmNWj9YtAw?t=60">🐢 Zip Up</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=Ba0fweKUwIc">🌬 Calm Your Nerves</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=62a20CiIAlY?t=25">🐉☂️ 5️⃣</a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=RoIqYtiTLFI">🐍🍂</a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=nmmNWj9YtAw?t=60">🐯 Zip Up</a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=Ba0fweKUwIc">🌬🦮 Calm Your Nerves</a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=62a20CiIAlY?t=25">🐉☂️</a></div>
         <div class="no-bullet"><a href="https://youtu.be/EZT8RC0wRbA?t=88">🐻 Circulate Energy</a></div>
     </td>
     <td>
