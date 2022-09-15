@@ -14,38 +14,38 @@ Listen:
 Act:
 <table>
   <tr>
-    <td><h3>Warm Ups</h3></td>
-    <td class="widest-column"><h3>Exercises</h3></td>
-    <td><h3>Additionals</h3></td>
+    <td><h2>🌅</h2></td>
+    <td><h2>💪</h2></td>
+    <td><h2>🎋</h2></td>
   </tr>
   <tr>
     <td class="">
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=X3-gKPNyrTA?t=26">🧘 Neck Hygiene</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=SedzswEwpPw?t=51">🧣 Neck & Shoudler Relief</a></div>
-        <div class="no-bullet"><a href="https://youtu.be/ED3_i_xVd_s?t=54">🌈 8 Rainbows</a></div>
-        <div class="no-bullet"><a href="https://youtu.be/50txkOrJn9o?t=41">🦩 Tai Chi Warm Up</a></div>
-        <div class="no-bullet"><a href="https://youtu.be/jOfshreyu4w">🫂 Quick Stress Fix</a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=X3-gKPNyrTA?t=26"><h3>🛣🧘</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=SedzswEwpPw?t=51"><h3>🧣🧘</h3></a></div>
+        <div class="no-bullet"><a href="https://youtu.be/ED3_i_xVd_s?t=54"><h3>🌈☸️</h3></a></div>
+        <div class="no-bullet"><a href="https://youtu.be/50txkOrJn9o?t=41"><h3>🦩🪃</h3></a></div>
+        <div class="no-bullet"><a href="https://youtu.be/jOfshreyu4w"><h3>🫂🏅</h3></a></div>
     </td>
     <td>
-        <div class="no-bullet"><a href="https://youtu.be/cEOS2zoyQw4?t=89">🦆🌊</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=HMbT-CPVl2k?t=33">🐵💝</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=enk0bOv-gF8?t=17">🦇☁️</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=IyINAjEoTIs?t=80">🦅🌴</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=OPcZlXYcdMA?t=31">🐎🌕</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=8wddPSIEpvE?t=54">🐠🪜</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=RoIqYtiTLFI">🐍🍂</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=nmmNWj9YtAw?t=60">🐯🌋</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=Ba0fweKUwIc">🌬🦮</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=62a20CiIAlY?t=25">🐉☂️</a></div>
-        <div class="no-bullet"><a href="https://youtu.be/EZT8RC0wRbA?t=88">🐻🔥</a></div>
+        <div class="no-bullet"><a href="https://youtu.be/cEOS2zoyQw4?t=89"><h3>🦆🌊</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=HMbT-CPVl2k?t=33"><h3>🐵🎁</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=enk0bOv-gF8?t=17"><h3>🦇☁️</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=IyINAjEoTIs?t=80"><h3>🦅🌴</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=OPcZlXYcdMA?t=31"><h3>🐎🌕</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=8wddPSIEpvE?t=54"><h3>🐠🛸</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=RoIqYtiTLFI"><h3>🐍🍂</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=nmmNWj9YtAw?t=60"><h3>🐯🌋</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=Ba0fweKUwIc"><h3>🌬🦮</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=62a20CiIAlY?t=25"><h3>🐉☂️</h3></a></div>
+        <div class="no-bullet"><a href="https://youtu.be/EZT8RC0wRbA?t=88"><h3>🐻🔥</h3></a></div>
     </td>
     <td>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=V1HbXt5ZRlg&t=39s">🗼 Inversion</a></div>
-        <div class="no-bullet"><a href="https://youtu.be/Nnd5Slo02us">✨ Focus & Productivity</a></div>
-        <div class="no-bullet"><a href="https://youtu.be/FgfT2fOv31E">🫧 Yoga for Abs</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=LZ2oHU-mMJI?t=25">🕸 Silken Wheel</a></div>
-        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=Yzm3fA2HhkQ&t=3s">🪢 Flexibility</a></div>
-        <div class="no-bullet"><a href="https://youtu.be/eBdfCX5XnX4">🦎 Open Hips</a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=V1HbXt5ZRlg&t=39s"><h3>🗼🪜</h3></a></div>
+        <div class="no-bullet"><a href="https://youtu.be/Nnd5Slo02us"><h3>✨🧘</h3></a></div>
+        <div class="no-bullet"><a href="https://youtu.be/FgfT2fOv31E"><h3>🫧🧘</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=LZ2oHU-mMJI?t=25"><h3>🕸☸️</h3></a></div>
+        <div class="no-bullet"><a href="https://www.youtube.com/watch?v=Yzm3fA2HhkQ&t=3s"><h3>🪢🧘</h3></a></div>
+        <div class="no-bullet"><a href="https://youtu.be/eBdfCX5XnX4"><h3>🦎🧘</h3></a></div>
     </td>
   </tr>
 </table>
