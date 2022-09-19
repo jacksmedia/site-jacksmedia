@@ -37,3 +37,17 @@
     background-position: 0% 50%;
   }
 }
+
+.containerxj {
+  background-color: tomato;
+  padding: 2rem;
+}
+.rowxj {
+  background-color: papayawhip;
+  padding: 2rem;
+}
+.colxj {
+  background-color: aliceblue;
+  width: 30vw;
+  padding: 2rem;
+}
