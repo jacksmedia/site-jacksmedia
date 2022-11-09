@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'Help SuperVictor',
-    img: require('@site/static/img/SVcombased.png').default,
+    img: require('@site/static/img/blaz-svcoin.gif').default,
     linker: 'https://www.frameit.gg/marketplace/nft/VICLOTTERY-19f055-01/19772',
     description: (
       <>
