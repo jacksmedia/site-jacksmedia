@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Get Elrond EGLD, be a Maiar 🧙
+            Get EGLD & enter MultiversX
           </Link>
         </div>
       </div>

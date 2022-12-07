@@ -10,7 +10,7 @@ The currency EGLD exists as a robust, multi-sharded metadata record on the Elron
 
 ## How to get some EGLD?
 
-You can buy it from the [Maiar App](https://maiar.com/), and you can also purchase at the [elrond.com](https://www.elrond.com) site. Once you have EGLD then you can see it in your wallet (a unique address, like an email account) and you can interact with it from the [wallet.elrond.com](https://wallet.elrond.com) website and or the [Maiar Wallet](https://maiar.com/) (soon to be xWallet).
+You can buy it from the [Maiar App](https://maiar.com/), and you can also purchase at the [elrond.com](https://www.elrond.com) site. Once you have EGLD then you can see it in your wallet (a unique address, like an email account) and you can interact with it from the [wallet.elrond.com](https://wallet.elrond.com) website and or the [Maiar Wallet](https://maiar.com/) (soon to be xPortal).
 
 Individual wallets send and receive blockchain data, and there is a decentralized financial system built around using EGLD. The central Maiar Exchange (soon to be xPortal) uses EGLD to provide lending services (liquidity) for EGLD and other cryptos. Other exchanges exist to provide extra features, currencies, and tools, such as [ashswap](https://ashswap.io/), [arda.run](https://arda.run), [jexchange.io](https://jexchange.io).
 

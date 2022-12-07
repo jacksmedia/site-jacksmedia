@@ -9,7 +9,7 @@ const FeatureList = [
     linker: 'https://get.maiar.com/referral/o6q0in3yh6',
     description: (
       <>
-        Elrond EGLD is the crypto with the world's best wallet &
+        EGLD is the crypto with the world's best wallet &
         you can send/use/stake it for fractions of a penny
       </>
     ),
