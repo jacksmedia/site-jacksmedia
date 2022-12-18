@@ -9,7 +9,7 @@
   position: relative;
   overflow: hidden;
   
-  background: linear-gradient(-14deg, #B1F223, #01DFFF, rgba(0,172,138,0.4));
+  background: linear-gradient(-14deg, #B1F223, #23f6DC, rgba(0,172,138,0.4));
   background-size: 400% 400%;
   animation: gradient 23s ease infinite;
 }
@@ -36,18 +36,4 @@
   100% {
     background-position: 0% 50%;
   }
-}
-
-.containerxj {
-  background-color: tomato;
-  padding: 2rem;
-}
-.rowxj {
-  background-color: papayawhip;
-  padding: 2rem;
-}
-.colxj {
-  background-color: aliceblue;
-  width: 30vw;
-  padding: 2rem;
 }
