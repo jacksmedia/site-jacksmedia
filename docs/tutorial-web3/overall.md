@@ -1,11 +1,11 @@
 ---
 sidebar_position: 6
 ---
+# Overall Web3 Etiquette
 
 ![A horned cartoon ape with lion's mane, eyes glowing like radium](./layc728.png)
 - Lazy Ape Yacht Club 728, one of nine in the tribe of 10000 w both Evil Eye and Horns
 
-# Overall Web3 Etiquette
 
 What's that? You too wish to sell metadata deeds to monkey jpgs, flip edgy pop culture for profit-- in theory if not practice??
 
