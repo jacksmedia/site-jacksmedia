@@ -15,8 +15,12 @@ What's that? You too wish to sell metadata deeds to monkey jpgs, flip edgy pop c
 
 3. Use [Trust Wallet app](https://trustwallet.com) or a hardware wallet to store your crypto. Do not rely on a central exchange (CEX) like Coinbase or KuCoin, that is akin to doing blockchain-assisted banking. Self custody of thousands of dollars of capital in uncertain times provides tremendous peace of mind. 
 
+4. Visit places like these for NFT acquisition, liquidation, or just shopping, and use TrustWallet and/or [MetaMask](https://metamask.io)) to log in:
+- [FrameIt](https://frameit.gg)
+- [NFTKEY](https://nftkey.app)
+- [OpenSea](https://opensea.io)
 
-This is more or less the enduring & prevailing attitude in Crypto Space 2022, to sum up things from my POV in a quick take. We've seen titanic loss of faith and trust in heroes many, many times this year; yet the folks who still use crypto to build dapps, mint and trade NFTs, democratize social media, and other cool stuff, we love it and believe in it no matter how much scamming and swindling occurs. It will continue, even once the regulators arrive-- I believe it's irresistable, this is the newest and most exciting frontier rn (right now) for hustling ("freelancing", mainly through DMs on CT, Discord) on Earth.
+Point #1 is more or less the overall attitude in Crypto Space 2022, to sum up things from my POV in a quick take. We've seen titanic loss of faith and trust in heroes many, many times this year; yet the folks who still use crypto to build dapps, mint and trade NFTs, democratize social media, and other cool stuff, we love it and believe in it no matter how much scamming and swindling occurs. It will continue, even once the regulators arrive-- I believe it's irresistable, this is the newest and most exciting frontier rn (right now) for hustling on Earth, and it's not geographically fenced!
 
 
 Some useful guides to MultiversX, Avalanche and Kuji/Tori will appear here in the weeks ahead. Please check back soon.
