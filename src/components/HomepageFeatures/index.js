@@ -10,7 +10,7 @@ const FeatureList = [
     description: (
       <>
         EGLD is the crypto with the world's best wallet &
-        you can send/use/stake it for fractions of a penny
+        you can send/use/stake it for fractions of a penny on the MultiversX blockchain
       </>
     ),
   },
@@ -20,8 +20,8 @@ const FeatureList = [
     linker: 'https://www.combased.io/',
     description: (
       <>
-        Combased Combeys are the cream of the crop of Elrond NFTs
-        for passive income plus added holder benefits
+        ComVerse Combeys are the cream of the crop of
+        passive income NFTs with added holder benefits
       </>
     ),
   },
