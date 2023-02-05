@@ -97,7 +97,7 @@ const config = {
               },
               {
                 label: 'J4cks\'s Twitter',
-                href: 'https://twitter.com/J4cksDX',
+                href: 'https://twitter.com/xJ4cks',
               },
               {
                 label: 'Jacks Media',

@@ -6,13 +6,13 @@ sidebar_position: 2
 
 ## What is eGold?
 
-The currency EGLD exists as a robust, multi-sharded metadata record on the Elrond blockchain. (The upcoming rebrand will be MultiversX, but the currency will remain eGold.) It excels as a store of value, a financial utility, and a programmatic resource, due to unusually good blockchain design.
+The currency EGLD exists as a robust, multi-sharded metadata record on the MultiversX blockchain. (You may have heard of the Elrond blockchain, which is the older branding-- the currency has remained eGold.) $EGLD excels as a store of value, a financial utility, and a programmatic resource, due to unusually good blockchain design.
 
 ## How to get some EGLD?
 
-You can buy it from the [Maiar App](https://maiar.com/), and you can also purchase at the [multiversx.com](https://multiversx.com) site. Once you have EGLD then you can see it in your wallet, which is a unique address, like an email account. You can interact with it from the [wallet.elrond.com](https://wallet.elrond.com) website and or the [Maiar Wallet](https://maiar.com/) (soon to be xPortal).
+You can buy it from [multiversx.com](https://multiversx.com) site or directly from the xPortal wallet. Once you have $EGLD you can of course see it in your wallet, which is a unique address, like an email account. You can interact with it from the [wallet.elrond.com](https://wallet.multiversx.com) website and or the [xPortal Wallet](https://xport.al/referral/o6q0in3yh6/) (formerly Maiar wallet).
 
-Individual wallets send and receive blockchain data, and there is a decentralized financial system built around using EGLD. The central Maiar Exchange (soon to be xPortal) uses EGLD to provide lending services (liquidity) for EGLD and other cryptos. Other exchanges exist to provide extra features, currencies, and tools, such as [ashswap](https://ashswap.io/), [arda.run](https://arda.run), [jexchange.io](https://jexchange.io).
+Individual wallets send and receive blockchain data, and there is a decentralized financial system built around using EGLD. The central Maiar Exchange (soon to be xPortal) uses EGLD to provide lending services (liquidity) for EGLD and other cryptos. Other exchanges exist to provide extra features, currencies, and tools, such as [QuantumX](https://www.quantumx.network/), [arda.run](https://arda.run), [jexchange.io](https://jexchange.io), [ashswap](https://ashswap.io/).
 
 ## Why EGLD, Why MvX?
 

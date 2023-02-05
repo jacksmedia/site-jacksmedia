@@ -6,7 +6,7 @@ const FeatureList = [
   {
     title: 'Use EGLD',
     img: require('@site/static/img/magic-egld.png').default,
-    linker: 'https://get.maiar.com/referral/o6q0in3yh6',
+    linker: 'https://xport.al/referral/o6q0in3yh6/',
     description: (
       <>
         EGLD is the crypto with the world's best wallet &
