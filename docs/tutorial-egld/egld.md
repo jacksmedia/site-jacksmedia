@@ -16,10 +16,10 @@ Individual wallets send and receive blockchain data, and there is a financial sy
 
 ## Why EGLD, Why MvX?
 
-+ easy earnings
++ easy earnings from staking with validators
 + best in class blockchain architecture
 + best in class ecosystem of wallet + dapps
 
-You can stake EGLD at 10% APY right in the xPortal app, and you can swap it into many other cryptos with interesting projects and utilities implemented (or planned) in the exchanges. MultiversX boasts the *largest number of nodes (physical computing centers, enabling transactions and providing redundancy) of any current blockchain*. The ease of the wallet app combined with the security and speed of its web3 dapps is what makes MvX (Elrond) stand out from other ecosystems like Cosmos, Cardano, Solana, and Ethereum.
+You can stake EGLD at ~10% APY right in the xPortal app, and you can swap it into many other cryptos with interesting projects and utilities implemented (or planned) in the exchanges. MultiversX boasts the *largest number of nodes (physical computing centers, enabling transactions and providing redundancy) of any current blockchain*. The ease of the wallet app combined with the security and speed of its web3 dapps is what makes MvX (Elrond) stand out from other ecosystems like Cosmos, Cardano, Solana, and Ethereum.
 
 Security comes from easy & frequent multi-factor authentication (just zap the QR code on your laptop screen with your phone camera) at every step of the contract signing or purchase process. The MultiversX shards record every transaction and the state (values, amounts, etc) data in multiple places using a custom blend of the best existing blockchain technologies (consensus models, rollups).
