@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useState, useEffect } from "react"
 
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 const Monat = new Date().toLocaleDateString('en-US', options )
@@ -9,34 +9,31 @@ const Difference_In_Days = Difference_In_Time / (1000*60*60*24)
 const RoundedResult = Math.round(Difference_In_Days)
 
 const warmUps = ['🛣🧘','🦩🪃','🧣🧘','🫂🏅']
-const nextIndexWarmUps = 0
-const nextIndexExercises = 0
-const nextIndexExtras = 0
 const exercises = ['🦆🌊','🐵🎁','🦇☁️','🦅🌴','🐎🌕','🐠🛸','🐍🍂','🐯🌋','🐉☂️','🐻🔥','🐒🦜','🌬🦮','🦉🌜']
 const extras = ['🗼🪜','🎱🌈','🪗🫧','🪑🏹','🕸🎡','🪢🚼','🦎🍭']
 
 const Timecalc = () => {
-function chooseWarmUp (warmUps) {
-  if ( nextIndexWarmUps >= warmUps.length ) {
-    nextIndexWarmUps = 0
-  }
-  nextIndexWarmUps++
-  return warmUps[nextIndexWarmUps-1]
-}
-function chooseExercise (exercises) {
-  if ( nextIndexExercises >= exercises.length ) {
-    nextIndexExercises = 0
-  }
-  nextIndexExercises++
-  return warmUps[nextIndexExercises-1]
-}
-function chooseExtras (Extras) {
-  if ( nextIndexExtras >= Extras.length ) {
-    nextIndexExtras = 0
-  }
-  nextIndexExtras++
-  return Extras[nextIndexExtras-1]
-}
+const DailyUpdater = ({ warmUps }) => {
+  const [index, setIndex] = useState(0);
+  const [date, setDate] = useState(new Date());
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setData(new Date());
+      setIndex((index + 1) % warmUps.length);
+    }, 24 * 60 * 60 * 1000);
+
+    return () => clearInterval(intervalId);
+  }, [index, warmUps]);
+  return(
+    <div>🥠 Suggested:
+      <span><em>{warmUps[index]}, </em></span>
+      <span><em>{}, </em></span>
+      <span><em>{}</em></span>
+    </div>
+  );
+};
+
 
   return(
     <div>
@@ -46,12 +43,8 @@ function chooseExtras (Extras) {
       <div>🤯 It's been
         <span> {RoundedResult} days since this practice began.</span>
       </div>
-      <div>🥠 Suggested:
-        <span><em> {warmUps[nextIndexWarmUps]}, </em></span>
-        <span><em>{exercises[nextIndexExercises]}, </em></span>
-        <span><em>{extras[nextIndexExtras]}</em></span>
-      </div>
     </div>
   )
 }
+
 export default Timecalc
