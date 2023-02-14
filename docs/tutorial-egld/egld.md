@@ -8,6 +8,9 @@ sidebar_position: 2
 
 The currency EGLD exists as a robust, multi-sharded metadata record on the MultiversX blockchain. (You may have heard of the Elrond blockchain, which is the older branding-- the currency has remained eGold.) $EGLD excels as a store of value, a financial utility, and a programmatic resource, due to unusually good blockchain design.
 
+![multiversX](./multiversX.png)
+> Author's synthography of MultiversX
+
 ## How to get some EGLD?
 
 You can buy it from [multiversx.com](https://multiversx.com) site or directly from the xPortal wallet. Once you have $EGLD you can of course see it in your wallet, which is a unique address, like an email account. You can interact with it from the [wallet.multiversx.com](https://wallet.multiversx.com) website and or the [xPortal Wallet](https://xport.al/referral/o6q0in3yh6/) (formerly Maiar app).

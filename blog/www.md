@@ -56,6 +56,8 @@ Manifesto more or less complete! What follows is jumbled thoughts I'm gathering 
 > - FP on these guys absolutely the healtiest thing I've ever witnessed, 260% gain in 3rd day
 > - top 10 volume since mint
 > - holders count growing steadily by the hour
+>
+> - WTF, I won 1st prize in the Karitha lore contest?! Free bottle of ElrondEnergy rum, plus secret entry to the Kalu'ak Faction DAO meetings comes with it, I'm enthused & glad my story was so well received.
 
 ## May '22 Thoughts on NFTs
 > - Holy Shibs I can't believe I actually traded those 2 GNOGONS for KROGAN ships! 3 Ships + 2 Drifter pilots for 2 dragons seems great to me!
@@ -69,8 +71,9 @@ Manifesto more or less complete! What follows is jumbled thoughts I'm gathering 
 
 ## Jan '22 Thoughts on NFTs
 > - These Combeys are awesome! I can't believe I bought something on a blockchain, p2p, and it worked out! web3 is about trust for one another, awesome!
-> - These Elrond Shibas are amazing, they look goofy cute & their Discord community is super fun
-> These Krypto Koalas look rad, they might be amazing if their merge feature gets built.
+> - These Elrond Shibas are amazing, they look goofy cute & their Discord community is super fun.
+> - These Krypto Koalas look rad, they might be amazing if their merge feature gets built.
+> - Glad I took the plunge and joined Discord, again, after the scam of last month. This blockchain is much easier to use than any of the Ethereum clones, much easier to see what's happening, too.
 
 ## Dec '21 Thoughts on NFTs
 > - I'm enjoying the MaiarDex DeFi but I'm stoked AF to actually buy some NFTs on this chain at last! Here's [the day I bought the BRICK NFTs](https://explorer.multiversx.com/transactions/2b917c8c184bb93c6e60932cc3e9de3931fbe48b11b3c127592af4ecc087e9f8)!

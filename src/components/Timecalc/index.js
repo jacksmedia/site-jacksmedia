@@ -13,7 +13,7 @@ const exercises = ['🦆🌊','🐵🎁','🦇☁️','🦅🌴','🐎🌕','�
 const extras = ['🗼🪜','🎱🌈','🪗🫧','🪑🏹','🕸🎡','🪢🚼','🦎🍭']
 
 const Timecalc = () => {
-const [index1, setIndex1] = useState(2);
+const [index1, setIndex1] = useState(1);
 const [index2, setIndex2] = useState(9);
 const [index3, setIndex3] = useState(2);
 

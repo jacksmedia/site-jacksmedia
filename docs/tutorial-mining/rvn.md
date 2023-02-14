@@ -2,11 +2,14 @@
 sidebar_position: 7
 ---
 
-# Ravencoin
+# Ravencoin GPU Mining
 
 ## Why Mine?
 
-Ravencoin is an upgraded Bitcoin-type blockchain that's designed to elude ASIC (professional) mining. It's still possible to mine $RVN & it's become more popular than ever with the end of mining for stake on Ethereum (a few weeks ago).
+Ravencoin is an upgraded Bitcoin-type blockchain that's designed to elude ASIC (professional) mining. It's still possible to mine $RVN & it's become more popular than ever with the end of mining for stake on Ethereum (2022Q3).
+
+![dark-falcon-almost-rvn](./dark-falcon-almost-rvn.png)
+> Author's synthography of a Ravencoin mining space pirate
 
 ## How to Mine
 

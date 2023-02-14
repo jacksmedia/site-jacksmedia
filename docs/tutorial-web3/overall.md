@@ -4,7 +4,7 @@ sidebar_position: 6
 # Overall Web3 Etiquette
 
 ![A horned cartoon ape with lion's mane, eyes glowing like radium](./layc728.png)
-- Lazy Ape Yacht Club 728, one of nine in the tribe of 10000 w both Evil Eye and Horns
+> Lazy Ape Yacht Club 728, one of nine in the tribe of 10000 w both Evil Eye and Horns
 
 
 What's that? You too wish to sell metadata deeds to monkey jpgs, flip edgy pop culture for profit-- in theory if not practice??
@@ -30,7 +30,7 @@ Guides to MultiversX and its growing ecosystem, plus perhaps a few about Kuji/To
 
 My donation links:
 
-- EGLD: [j4cks.elrond](https://explorer.elrond.com/accounts/erd159mypt4myss3mqrs89ft0hjeacffks2690gq9u3mlh73m9sh0w5s09eqhh)
+- EGLD: [j4cks.multiversx](https://explorer.multiversx.com/accounts/erd159mypt4myss3mqrs89ft0hjeacffks2690gq9u3mlh73m9sh0w5s09eqhh)
 - TeriTORI: [tori15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6ss5urh](https://www.mintscan.io/teritori/account/tori15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6ss5urh)
 - KUJIra: [kujira15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6rvpd4d](https://www.mintscan.io/kujira/account/kujira15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6rvpd4d)
 - ETHereum: [j4cks.eth](https://etherscan.io/enslookup-search?search=j4cks.eth)
