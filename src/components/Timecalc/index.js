@@ -13,8 +13,8 @@ const exercises = ['🦆🌊','🐵🎁','🦇☁️','🦅🌴','🐎🌕','�
 const extras = ['🗼🪜','🎱🌈','🪗🫧','🪑🏹','🕸🎡','🪢🚼','🦎🍭']
 
 const Timecalc = () => {
-const [index1, setIndex1] = useState(0);
-const [index2, setIndex2] = useState(1);
+const [index1, setIndex1] = useState(2);
+const [index2, setIndex2] = useState(9);
 const [index3, setIndex3] = useState(2);
 
 const DailyUpdater = ({ warmUps }) => {
@@ -34,16 +34,16 @@ const DailyUpdater = ({ warmUps }) => {
 
   return(
     <div>
-      <div>🥠 Suggested:
-        <span><em>{warmUps[index1]}, </em></span>
-        <span><em>{exercises[index2]}, </em></span>
-        <span><em>{extras[index3]}</em></span>
-      </div>
       <div>⚓️ Today is
         <span> {Monat}</span>
       </div>
       <div>🤯 It's been
         <span> {RoundedResult} days since this practice began.</span>
+      </div>
+      <div>🥠 Suggested:
+        <span><em>{warmUps[index1]}, </em></span>
+        <span><em>{exercises[index2]}, </em></span>
+        <span><em>{extras[index3]}</em></span>
       </div>
     </div>
   )
