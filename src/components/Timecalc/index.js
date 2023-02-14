@@ -13,30 +13,32 @@ const exercises = ['🦆🌊','🐵🎁','🦇☁️','🦅🌴','🐎🌕','�
 const extras = ['🗼🪜','🎱🌈','🪗🫧','🪑🏹','🕸🎡','🪢🚼','🦎🍭']
 
 const Timecalc = () => {
+const [index1, setIndex1] = useState(0);
+const [index2, setIndex2] = useState(1);
+const [index3, setIndex3] = useState(2);
+
 const DailyUpdater = ({ warmUps }) => {
-  const [index, setIndex] = useState(0);
   const [date, setDate] = useState(new Date());
 
-  useEffect(() => {
+  useEffect(({ warmUps }) => {
     const intervalId = setInterval(() => {
       setData(new Date());
-      setIndex((index + 1) % warmUps.length);
+      setIndex1((index1 + 1) % warmUps.length);
+      setIndex2((index2 + 1) % exercises.length);
+      setIndex3((index3 + 1) % extras.length);
     }, 24 * 60 * 60 * 1000);
 
     return () => clearInterval(intervalId);
-  }, [index, warmUps]);
-  return(
-    <div>🥠 Suggested:
-      <span><em>{warmUps[index]}, </em></span>
-      <span><em>{}, </em></span>
-      <span><em>{}</em></span>
-    </div>
-  );
+  }, [index1, warmUps]);
 };
-
 
   return(
     <div>
+      <div>🥠 Suggested:
+        <span><em>{warmUps[index1]}, </em></span>
+        <span><em>{exercises[index2]}, </em></span>
+        <span><em>{extras[index3]}</em></span>
+      </div>
       <div>⚓️ Today is
         <span> {Monat}</span>
       </div>
