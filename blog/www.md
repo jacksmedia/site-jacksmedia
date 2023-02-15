@@ -14,6 +14,7 @@ Who is the guy behind j4cks? Sorry, I'm not comfortable fully doxxing in 2023Q1.
 First off, which brands do I consider worth your time, in MultiversX, in 2023?
 Here's a quick list just in case you came here to find this out, too.
 
+0. SuperVictor 
 1. Combased / ComVerse
 2. MaiarGhost (MxGhost)
 3. MaiarWizards 
@@ -21,6 +22,8 @@ Here's a quick list just in case you came here to find this out, too.
 5. Lannuvar (SubDAO of Realmx.io)
 
 Other people know more about other projects, and they can vouch for them, or not. I can vouch for these. I've ranked then in descending order of their estimated capital inflows, as of this quarter (2023Q1).
+
+You can [donate to SuperVictor](https://t.co/Jbf09LUtTw) with crypto or with fiat bank currency. He needs all the money he can get because it's a race to get him expensive medicine in time. I mention it first and foremost, it's a charity and not a typical capitalist venture yet community is everything so consider helping ours out.
 
 > ![stardiver, an astronaut Combey of ComVerse](./stardiver.png)
 > #### Stardiver, one of my rarest ComVerse Combeys
