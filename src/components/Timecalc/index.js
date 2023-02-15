@@ -13,8 +13,8 @@ const exercises = ['🦆🌊','🐵🎁','🦇☁️','🦅🌴','🐎🌕','�
 const extras = ['🗼🪜','🎱🌈','🪗🫧','🪑🏹','🕸🎡','🪢🚼','🦎🍭']
 
 const Timecalc = () => {
-const [index1, setIndex1] = useState(1);
-const [index2, setIndex2] = useState(9);
+const [index1, setIndex1] = useState(2);
+const [index2, setIndex2] = useState(10);
 const [index3, setIndex3] = useState(2);
 const incrementAll = () => {
   setIndex1(index1 = index1 + 1)
@@ -27,9 +27,6 @@ const DailyUpdater = ({}) => {
   useEffect(({ warmUps, exercises, extras }) => {
     const intervalId = setInterval(() => {
       setData(new Date());
-      setIndex1((index1 + 1) % warmUps.length);
-      setIndex2((index2 + 1) % exercises.length);
-      setIndex3((index3 + 1) % extras.length);
     }, 24 * 60 * 60 * 1000);
     incrementAll();
     return () => clearInterval(intervalId);
