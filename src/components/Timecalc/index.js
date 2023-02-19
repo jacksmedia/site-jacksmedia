@@ -13,14 +13,10 @@ const exercises = ['🦆🌊','🐵🎁','🦇☁️','🦅🌴','🐎🌕','�
 const extras = ['🗼🪜','🎱🌈','🪗🫧','🪑🏹','🕸🎡','🪢🚼','🦎🍭']
 
 const Timecalc = () => {
-const [index1, setIndex1] = useState(3);
-const [index2, setIndex2] = useState(11);
-const [index3, setIndex3] = useState(3);
-const incrementAll = () => {
-  setIndex1(index1 = index1 + 1)
-  setIndex2(index2 = index2 + 1)
-  setIndex3(index3 = index3 + 1)
-}
+const [index1, setCount1] = useState(3);
+const [index2, setCount2] = useState(11);
+const [index3, setCount3] = useState(3);
+
 const DailyUpdater = ({}) => {
   const [date, setDate] = useState(new Date());
 
@@ -28,7 +24,6 @@ const DailyUpdater = ({}) => {
     const intervalId = setInterval(() => {
       setData(new Date());
     }, 24 * 60 * 60 * 1000);
-    this.incrementAll();
     return () => clearInterval(intervalId);
   }, []);
 };
