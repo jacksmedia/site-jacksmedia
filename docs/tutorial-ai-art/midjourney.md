@@ -41,9 +41,15 @@ Here are two images chosen, a pommes frites & a diamond NewDegenOrder pyramid.
 
 ![blend ingredients](./blend1.png)
 
-Behold their ineffable blended result! This was after I pushed V a few times, and then Upscaled my favorite one. 
-
 ![deep fried pyramid frites](./blend2.png)
+> Behold their ineffable blended result! This was after I pushed V a few times, and then Upscaled my favorite one. 
+
+## /imagine examples
+![combat medic nurse duck](./prompt9.png)
+> marzipan carving, 3D laser printing, combat medic, anthro lady duck. steampunk, neoclassical, rococo, 8k
+
+![hyper-real pommes frites](./prompt8.png)
+> basket of potato fries in their coffin of hot fry grease in a downbeat McD kitchen at 9:15am. octane render, Global Illumination, Screen Space Global Illumination, Ray Tracing Global Illumination, Optics, Scattering, Glowing, Shadows, Rough, Shimmering, Ray Tracing Reflections, Lumen Reflections, Screen Space Reflections, Diffraction Grading, insane details, realistic, Shaders, OpenGL-Shaders, GLSL-Shaders, Post Processing, Post-Production, Cell Shading, Tone Mapping, CGI, VFX, SFX, insanely detailed and intricate, hyper maximalist, elegant, super detailed, dynamic pose, photography, volumetric, ultra-detailed, intricate details, 8K, super detailed, ambient occlusion, volumetric lighting, high contrast, soft tones
 
 Remember to share this new art movement with your frens, and maybe invite the Midjourney bot to your home Discord server, too!
 
