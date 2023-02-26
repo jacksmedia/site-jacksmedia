@@ -14,6 +14,9 @@ const extras = ["🗼🪜","🎱🌈","🪗🫧","🪑🏹","🕸🎡","🪢🚼
 const howManyWarmUps = warmUps.length;
 const howManyExercises = exercises.length;
 const howManyExtras = extras.length;
+const slice1 = RoundedResult % howManyWarmUps
+const slice2 = RoundedResult % howManyExercises
+const slice3 = RoundedResult % howManyExtras
 
 const Timecalc = () => {
 const todaysWarmUps = warmUps[howManyWarmUps];
@@ -28,9 +31,8 @@ const todaysExtras = extras[howManyExtras];
         <span> {RoundedResult} days since this practice began.</span>
       </div>
       <div>🥠 Suggested:
-        <span><em>Try video {RoundedResult % howManyWarmUps} of {warmUps}| </em></span>
-        <span><em>Try video {RoundedResult % howManyExercises} of {exercises}| </em></span>
-        <span><em>Try video {RoundedResult % howManyExtras} of {extras}</em></span>
+        <span>Try videos {warmUps[slice1]}|
+        {exercises[slice2]}|{extras[slice3]}</span>
       </div>
     </div>
   )
