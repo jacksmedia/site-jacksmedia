@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 8
 ---
 # AI Art: Midjourney Basics
 
@@ -9,12 +9,12 @@ Midjourney is a copyrighted, closed-source tool that's available via Discord cha
 > There are many paramilitary merfolk, but plz draw w/e you wish
 
 ## How to start
-- 1️⃣ Go to the mid-journey chat in your server
+- 1️⃣ Go to the Midjourney chat in your server. You can also DM with the MJ bot instead of doing the prompts in a public room, yet you'll learn more working in public.
 - 2️⃣ type in */imagine*
 - ![prompt is what triggers the art engine](./prompt.png)
 - 3️⃣ the *prompt:* will show up, and you can describe what you wanna see it synthesize in there & then press return
 
-## How to drive
+## How to Drive
 Prompt is the default way to leverage AI art (some are calling it 'synthography'). The complexity of the prompt can work in your favor or it can make things too confused. Experiment, and use this broad format to start out:
 
 > THING doing THIS. style, style, style, style, style, THING, style
@@ -23,9 +23,9 @@ Try using cinematography terms, the midjourney tool understands different camera
 
 ![midjourney buttons](./mjbtns.png)
 Things to note:
-+ The 1 thru 4 is just which image it's gonna Upscale or create Versions.
++ The 1 thru 4 is just which image it's gonna Upscale or create Versions of.
 + The U and V buttons will enhance and make more versions, respectively.
-+ And the 🔁  button re-rolls the prompt w a new seed 🌱.
++ And the 🔁  button re-rolls the prompt with a new seed 🌱.
 
 ## Redo &c
 After many V cycles you'll want to finally U your favorite result. Once you do, there will also be *Redo* options. These are strange, and sometimes make the image a very different style. Nothing is lost, so experiment and enjoy!
