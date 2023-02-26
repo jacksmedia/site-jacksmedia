@@ -14,26 +14,11 @@ const extras = ["🗼🪜","🎱🌈","🪗🫧","🪑🏹","🕸🎡","🪢🚼
 const howManyWarmUps = warmUps.length;
 const howManyExercises = exercises.length;
 const howManyExtras = extras.length;
-const arrayResult1 = "";
-const arrayResult2 = "";
-const arrayResult3 = "";
 
 const Timecalc = () => {
-
-const DailyUpdater = ({}) => {
-  const [date, setDate] = useState(new Date());
-  const arrayResult1 = warmUps[howManyWarmUps];
-  const arrayResult2 = exercises[howManyExercises];
-  const arrayResult3 = extras[howManyExtras];
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setData(new Date());
-    }, 24 * 60 * 60 * 1000);
-    return () => clearInterval(intervalId);
-  }, []);
-};
-
+const todaysWarmUps = warmUps[howManyWarmUps];
+const todaysExercises = exercises[howManyExercises];
+const todaysExtras = extras[howManyExtras];
   return(
     <div>
       <div>⚓️ Today is
@@ -43,9 +28,9 @@ const DailyUpdater = ({}) => {
         <span> {RoundedResult} days since this practice began.</span>
       </div>
       <div>🥠 Suggested:
-        <span><em>{arrayResult1} of {howManyWarmUps}| </em></span>
-        <span><em>{arrayResult2} of {howManyExercises}| </em></span>
-        <span><em>{arrayResult3} of {howManyExtras}</em></span>
+        <span><em>Try video {RoundedResult % howManyWarmUps} of {warmUps}| </em></span>
+        <span><em>Try video {RoundedResult % howManyExercises} of {exercises}| </em></span>
+        <span><em>Try video {RoundedResult % howManyExtras} of {extras}</em></span>
       </div>
     </div>
   )
