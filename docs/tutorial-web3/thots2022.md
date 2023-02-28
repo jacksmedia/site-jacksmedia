@@ -1,11 +1,10 @@
 ---
-sidebar_position: 6
+sidebar_position: 9
 ---
-# Overall Web3 Etiquette
+# 2022 Reflections on My web3 Experience
 
 ![A horned cartoon ape with lion's mane, eyes glowing like radium](./layc728.png)
 > Lazy Ape Yacht Club 728, one of nine in the tribe of 10000 w both Evil Eye and Horns
-
 
 What's that? You too wish to sell metadata deeds to monkey jpgs, flip edgy pop culture for profit-- in theory if not practice??
 
@@ -25,7 +24,7 @@ Regardless of what you do, self custody of thousands of dollars of capital in un
 Point #1 is more or less the overall attitude in Crypto Space 2022, to sum up things from my POV in a quick take. We've seen titanic loss of faith and trust in heroes many, many times last year; yet the folks who still use crypto to build dapps, mint and trade NFTs, democratize social media, and other cool stuff, we love it and believe in it no matter how much scamming and swindling occurs. It will continue, even once the regulators arrive-- I believe it's irresistable, this is the newest and most exciting frontier rn (right now) for hustling on Earth, and it's not geographically fenced!
 
 
-Guides to MultiversX and its growing ecosystem, plus perhaps a few about Kuji/Tori (in Cosmos), will appear here in the weeks ahead. Please check back regularly.
+Guides to MultiversX and its growing ecosystem, plus perhaps a few about about other things, await you in this resource.
 
 
 My donation links:

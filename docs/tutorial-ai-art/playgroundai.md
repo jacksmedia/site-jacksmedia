@@ -11,14 +11,18 @@ sidebar_position: 9
 - ![Try different models](./ai-tools-models.png)
 
 ## Now for Image to Image
-This is just magic, there's no need to get too technical about it. Choose one of the good results you've made with Playground or Midjourney and choose Image to Image in the bottom of the left panel.
-Control how much (30 is the start) influence you want the Image you're uploading to have on the Image you're prompting.
-Then experiment, and discover.
+This is just magic, there's no need to get too technical about it. 
+
+1. Choose one of the good results you've made with Playground or Midjourney and upload it with the *Image to Image* button in the bottom of the left panel.
+
+2. Control how much (30 is the start) influence you want the Image you're uploading to have on the Image you're prompting (image strength slider).
+
+3. Add a Prompt up top as usual: the output will get steered by the uploaded image! Experiment, and discover.
 
 ![What number value is the best for influence 46?](./img2img-46.png)
 > "castle complex, insanely detailed line art, isekai, anime style, hand drawn style, cel shading, hyper maximalist, dystopian, victorian, cyberpunk" at Image strength 46
 
 ![What number value is the best for influence 47?](./img2img-47.png)
-> Same prompt, but 47! This seems like a borderline to me, your results will vary.
+> Same prompt, but one tick higher at 47! This seems like a borderline to me, your results will vary.
 
 Remember to share this new art movement with your frens!
