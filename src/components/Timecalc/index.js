@@ -1,27 +1,24 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 
-const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 const Today = new Date().toLocaleDateString('en-US', options )
-const date1 = new Date('5/12/2021')
-const date2 = new Date(Today)
-const Difference_In_Time = date2.getTime() - date1.getTime()
+const dayOneDate = new Date('5/12/2021')
+const nowDate = new Date(Today)
+const Difference_In_Time = nowDate.getTime() - dayOneDate.getTime()
 const Difference_In_Days = Difference_In_Time / (1000*60*60*24)
 const RoundedResult = Math.round(Difference_In_Days)
 
 const warmUps = ["🛣🧘","🦩🪃","🧣🧘","🫂🏅"]
 const exercises = ["🦆🌊","🐵🎁","🦇☁️","🦅🌴","🐎🌕","🐠🛸","🐍🍂","🐯🌋","🐉☂️","🐻🔥","🐒🦜","🌬🦮","🦉🌜"]
-const extras = ["🗼🪜","🎱🌈","🪗🫧","🪑🏹","🕸🎡","🪢🚼","🦎🍭"]
-const howManyWarmUps = warmUps.length;
-const howManyExercises = exercises.length;
-const howManyExtras = extras.length;
+const extras = ["🗼🪜","🎱🌈","🪗🫧","🪑🏹","🕸🎡","🪢🪡","🦎🍭"]
+const howManyWarmUps = warmUps.length
+const howManyExercises = exercises.length
+const howManyExtras = extras.length
 const slice1 = RoundedResult % howManyWarmUps
 const slice2 = RoundedResult % howManyExercises
 const slice3 = RoundedResult % howManyExtras
 
 const Timecalc = () => {
-const todaysWarmUps = warmUps[howManyWarmUps];
-const todaysExercises = exercises[howManyExercises];
-const todaysExtras = extras[howManyExtras];
   return(
     <div>
       <div>⚓️ Today is

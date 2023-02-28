@@ -15,13 +15,13 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Keep Calm & Hold Combeys',
-    img: require('@site/static/img/archduke-combey253.png').default,
-    linker: 'https://www.combased.io/',
+    title: 'Wield Synthography',
+    img: require('@site/static/img/book02.png').default,
+    linker: '/docs/tutorial-ai-art/midjourney',
     description: (
       <>
-        ComVerse Combeys are the cream of the crop of
-        passive income NFTs with added holder benefits
+        Synthographic aka "AI Art" tools let you write 
+        what you wish to see, and refine your mind's eye
       </>
     ),
   },
