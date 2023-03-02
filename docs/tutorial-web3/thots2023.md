@@ -9,7 +9,7 @@ sidebar_position: 6
 
 I'm still semi-active (no longer daily, hourly) on ([Crypto Twitter](https://www.twitter.com/xJ4cks)) and I'm increasingly following ppl who represent Aiart or other interests tangential to NFTs and DAOs. 
 
-What's with the M shaped pastel emoji ghost up there? It's from a new NFTProject I'm curious about lately, one that pays out franctional income rewards (in EGLD!) monthly, sourced from a web2 biz. Each MaiarGhost (MxGhost) from [https://ghostverse.org/](Ghostverse.org) is unique, and this one just happens to be blissed out at sunrise on an airfield. Narratives abound.
+What's with the M shaped pastel emoji ghost up there? It's from a new NFTProject I'm curious about lately, one that pays out franctional income rewards (in EGLD!) monthly, sourced from a web2 biz. Each MaiarGhost (MxGhost) from [https://ghostverse.org/](https://Ghostverse.org) is unique, and this one just happens to be blissed out at sunrise on an airfield. Narratives abound.
 
 Why does web3 matter, when the world doesn't rage about and crave crypto right now? Two reasons:
 
