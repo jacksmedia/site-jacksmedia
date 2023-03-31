@@ -6,6 +6,8 @@ sidebar_position: 9
 ![A horned cartoon ape with lion's mane, eyes glowing like radium](./layc728.png)
 > Lazy Ape Yacht Club 728, one of nine in the tribe of 10000 w both Evil Eye and Horns
 
+## How web3
+
 What's that? You too wish to sell metadata deeds to monkey jpgs, flip edgy pop culture for profit-- in theory if not practice??
 
 1. You must say GM to anons on CT ([Twitter](https://www.twitter.com/xJ4cks)). Wagmi *(we are gonna make it)* bro bc we out here GMing one another to maintain the good vibes 24/7. 
@@ -13,6 +15,8 @@ What's that? You too wish to sell metadata deeds to monkey jpgs, flip edgy pop c
 2. Become familiar with [Discord](https://www.discord.com). This might be challenging at first, but next to Telegram it's THE major platform for NFT culture & therefore the crypto space relies on it for fundraising and community outreach/seeding. I've focused my energy on Twitter & Discord, completely avoiding Telegram after running across some bad actors and I don't like its interface as much as Discords. Your Mileage May Vary (YMMV). Discord will let you cross-polinate culture via infinite emojis and also gift upgrade Boost crystals at the lowest paid tier ($3 Nitro) so it's a gamified social media app that smart teams leverage with custom brand emojis, stickers, and sometimes even interactive bots. Cannot vouch for Telegram, try them both and see if you find them both useful-- they seem redundant in my experience, whereas CT is not missable if you're serious about NFTs and wanting to stay up to the current state of crypto.
 
 3. Use [xPortal](https://xport.al/referral/o6q0in3yh6/) for MultiversX and elsewhere use [Trust Wallet app](https://trustwallet.com) or a hardware wallet. Use both of these apps to store your crypto. Do not rely on a central exchange (CEX) like [KuCoin](https://accounts.binance.us/en/register?ref=52116724) or Coinbase to store large amounts of it long term-- this is akin to doing blockchain-assisted banking. Also, be EXTREMELY CAREFUL if you decide to use the MetaMask browser extension (which works with the 'chains and addresses much like Trust Wallet), bc hackers have levelled up and have infected the sub-par ecosystems beyond MultiversX with evil SCs (smart contracts) that will sell you nothing & steal your wallet empty in seconds. So be careful and maybe never use MetaMask, relying on the safer UX of Trust Wallet? Maybe just stay in the smarter, saner MultiversX and avoid the legacy chains? 
+
+## Why web3
 
 Regardless of what you do, self custody of thousands of dollars of capital in uncertain times provides tremendous peace of mind. Do not put all your eggs in one wallet, either!
 
