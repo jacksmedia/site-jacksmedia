@@ -6,7 +6,7 @@ sidebar_position: 7
 
 ## Why use a CEX?
 
-Thought this was all about decentralization, anon? Well ideally, of course it is! We all want to escape from the status quo and live in a world that's not controlled by banks. Yet there's no DEX to swap Ravencoin into EGLD, not in February 2023. So until this option exists, let's utilize the best option at hand, [KuCoin Exchange \(🇭🇰\)](https://www.kucoin.com/ucenter/signup?rcode=r3JHB3C&lang=en_US&utm_source=friendInvite).
+Thought this was all about decentralization, anon? Well ideally, of course it is! We all want to escape from the status quo and live in a world that's not controlled by banks. Yet there's no DEX to swap Ravencoin into EGLD, not in 2023Q2. So until this option exists, let's utilize the best option at hand, [KuCoin Exchange \(🇭🇰\)](https://www.kucoin.com/ucenter/signup?rcode=r3JHB3C&lang=en_US&utm_source=friendInvite).
 
 You can also find $RVN on [Binance US \(🗺️\), join here if applicable & interested](https://accounts.binance.us/en/register?ref=52116724). This is another great and fast way to convert $RVN to $EGLD, and allow your mining rig to augment your staking on MultiversX.
 
