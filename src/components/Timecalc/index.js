@@ -10,7 +10,7 @@ const RoundedResult = Math.round(Difference_In_Days)
 
 const warmUps = ["🛣🧘","🦩🪃","🧣🧘","🫂🏅"]
 const exercises = ["🦆🌊","🐵🎁","🦇☁️","🦅🌴","🐎🌕","🐠🛸","🐍🍂","🐯🌋","🐉☂️","🐻🔥","🐒🦜","🌬🦮","🦉🌜"]
-const extras = ["🗼🪜","🎱🌈","🪗🫧","🪑🏹","🕸🎡","🪢🪡","🦎🍭"]
+const extras = ["🗼🪜","🎱🌈","🪗🫧","🪑🏹","🕸🎡","🪢🪡","4️⃣🦎"]
 const howManyWarmUps = warmUps.length
 const howManyExercises = exercises.length
 const howManyExtras = extras.length
