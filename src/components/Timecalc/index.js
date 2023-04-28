@@ -9,7 +9,7 @@ const Difference_In_Days = Difference_In_Time / (1000*60*60*24)
 const RoundedResult = Math.round(Difference_In_Days)
 
 const warmUps = ["🛣🧘","🦩🪃","🧣🧘","🫂🏅"]
-const exercises = ["🦆🌊","🐵🎁","🦇☁️","🦅🌴","🐎🌕","🐠🛸","🐍🍂","🐯🌋","🐉☂️","🐻🔥","🐒🦜","🌬🦮","🦉🌜"]
+const exercises = ["🦆🌊","🍵🐵","🦇☁️","🦅🌴","🐎🌕","🐠🛸","🐍🍂","🐯🌋","🐉☂️","🐻🔥","🐒🦜","🌬🦮","🦉🌜"]
 const extras = ["🗼🪜","🎱🌈","🪗🫧","🪑🏹","🕸🎡","🪢🪡","4️⃣🦎"]
 const howManyWarmUps = warmUps.length
 const howManyExercises = exercises.length
