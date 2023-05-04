@@ -17,7 +17,7 @@ const FeatureList = [
   {
     title: 'Wield Synthography',
     img: require('@site/static/img/book02.png').default,
-    linker: '/docs/tutorial-ai-art/midjourney',
+    linker: '/docs/tutorial-ai-art/midjourney1',
     description: (
       <>
         Synthographic aka "AI Art" tools let you write 
