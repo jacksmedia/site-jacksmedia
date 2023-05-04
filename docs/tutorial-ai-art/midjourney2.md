@@ -1,39 +1,32 @@
 ---
 sidebar_position: 8
 ---
-# AI Art: Midjourney Advanced
+# AI Art: Midjourney Basics, Cont'd
 
-Once you have a grasp of the basic **/imagine** and **/blend** tools in MJ, it's time to combine them into one technique. This isn't explicitly detailed anywhere in the docs I've seen ([📧 let me know](https://twitter.com/xJ4cks) where, if I'm missing it!) so I'm pleased to share this with you.
+Interested in going deeper than prompting your imagination with words? Try the second popular mode, introduced early 2023 in Midjourney version 4, the **/blend**.
 
-## Blend Images + Prompt
+![Viera Queensguard from Final Fantasy XXV](./queensguard-blend-02.png)
+> These images were crafted from 2 other images, without a word prompt.
 
-![step 0 of the full blend technique](./full-blend-1.png)
-> Let's assume you have 2 or more images that you like, and you want to blend elements of them together WITHOUT losing the impact and details of the cool prompt that made them. There's an easy way to do this but it's not obvious, so read on!
+## /blend not /imagine
+A novel feature introduced in version 4 is the */blend* command. Use this instead of **/imagine** and it will request /image1 & /image2. Upload these and you'll receive 4 mashups of the two visuals, which is most useful over several attempts, or to refine a good idea by adding some new colors or motifs.
 
-![step 1 of the full blend technique](./full-blend-2.png)
-> If you use the **/blend** command on 2 outputs and lose some elements that you want, this is exactly the technique that will help you.
+## How to Blend
+- 1️⃣ Go to the Midjourney chat in your server. You can also DM with the MJ bot instead of doing the prompts in a public room, yet you'll learn more working in public.
+- 2️⃣ type in */blend*
+- ![blend will fuse 2 images without the need for words](./blen.png)
+- 3️⃣ the *uploads* will show up, choose 2 or more images from your device to upload and that's it!
+- ![blend ingredients](./blend1.png)
 
-![step 2 of the full blend technique](./full-blend-3.png)
-> Because we can see how this **/blend** lost track of the dynamic pose (and so much more 🤦‍♂️), let's use the "full blend" hacky trick to get the prompt back in there, too!
+In this example I chose a pommes frites & a diamond NewDegenOrder pyramid.
 
-![step 3 of the full blend technique](./full-blend-4.png)
-> <i><b>Upload</b> any images you want</i>, use the "⊕" button and they'll show up in Discord. Can't get more direct than this, right??
+![deep fried pyramid frites](./blend2.png)
 
-![step 4 of the full blend technique](./full-blend-5.png)
-> *Retrieve the images' URLs*. Open them in a new tab, and copy/pasta them into your prompt...
-
-![step 5 of the full blend technique](./full-blend-6.png)
-> All set, go ahead and **/imagine w this full prompt**! That's all there is to this hack! 😹 Now MJ can reference both the source images and the original prompt used to create them.
-
-This technique seems to offer a much more fine-tuned "full blend" informed by both text and picture, and I suggest you try it to enhance your workflow!
-
-Here is the prompt w the exact image links I used in this example. IDK if the MJ links will last very long, but give it a try with your own images ofc!
-
-```
-https://cdn.discordapp.com/attachments/1021494022986006538/1103473926341931009/001.png https://cdn.discordapp.com/attachments/1021494022986006538/1103473962220003498/002.png cartoon knightess with red hair and emerald green eyes. shield held high, sword drawn back, poised to attack. in the style of emotive brushwork, vray, charming character illustration, hyper-realistic oil, light teal and dark brown, cartoon realism, daz3d --ar 14:23 --v 5.1 --style raw
-```
+Behold their ineffable blended result! This was after I pushed **V** a few times on the blend output, and then **Upscaled** my favorite one.
 
 Enjoy and remember to share this new art movement with your frens. Maybe invite the Midjourney bot to your home Discord server, too...
+
+Read on to learn how to fuse these two modes together and become an advanced Midjourney user!
 
 ## My donation links:
 
