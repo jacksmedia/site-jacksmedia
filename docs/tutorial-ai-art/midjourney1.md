@@ -51,7 +51,7 @@ Here are two images chosen, a pommes frites & a diamond NewDegenOrder pyramid.
 ![hyper-real pommes frites](./prompt8.png)
 > basket of potato fries in their coffin of hot fry grease in a downbeat McD kitchen at 9:15am. octane render, Global Illumination, Screen Space Global Illumination, Ray Tracing Global Illumination, Optics, Scattering, Glowing, Shadows, Rough, Shimmering, Ray Tracing Reflections, Lumen Reflections, Screen Space Reflections, Diffraction Grading, insane details, realistic, Shaders, OpenGL-Shaders, GLSL-Shaders, Post Processing, Post-Production, Cell Shading, Tone Mapping, CGI, VFX, SFX, insanely detailed and intricate, hyper maximalist, elegant, super detailed, dynamic pose, photography, volumetric, ultra-detailed, intricate details, 8K, super detailed, ambient occlusion, volumetric lighting, high contrast, soft tones
 
-Remember to share this new art movement with your frens, and maybe invite the Midjourney bot to your home Discord server, too!
+Enjoy and remember to share this new art movement with your frens. Maybe invite the Midjourney bot to your home Discord server, too...
 
 ## My donation links:
 
