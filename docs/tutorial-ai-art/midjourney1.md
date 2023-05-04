@@ -38,13 +38,16 @@ Whatever you do, you don't have to keep starting from scratch-- use those grey b
 After many **V** cycles you'll want to finally **U** your favorite result. 
 
 ### Redo &c
-There are also **Redo** options, which are offered after an Upscale, and can be done anytime w the 🔁 button. The  I'd advise against burning too many credits on the Redo bc they sometimes make the image a very different style. 
+There are also **Redo** options, which are offered after an Upscale, and can be done anytime w the 🔁 button. I'd advise against burning too many credits on the Redo bc they sometimes make the image a very different style. 
 
 You can always access everything you've ever made at the [main Midjourney site](https://www.midjourney.com/app/), without opening Discord. Nothing is lost, so experiment and enjoy!
 
 ![demolitions expert mermaid troop](./demolisher-prompt.png)
 
-The prompt above is what created the tactical mermaid troop. Feel free to adapt it for your own use.
+The prompt above is what created the tactical mermaid troop. Feel free to adapt it for your own use. Short and vivid prompts work best, especially in the latest version 5. (You can change your settings and fine tune your workflow with the **/settings** menu. Perhaps MJ v4 will work better for what you're envisioning. 🤷‍♂️ Experimentation is the essence of this craft, so try and find out!)
+
+![settings menu](./settings.png)
+
 
 ### /imagine examples
 ![combat medic nurse duck](./prompt9.png)
