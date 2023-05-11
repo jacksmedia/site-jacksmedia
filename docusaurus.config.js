@@ -7,6 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'J4cks\'s Guides &c',
+  staticDirectories: ['public', 'static'],
   tagline: 'Enthusiasm, Not Financial Advice',
   url: 'https://j4cks.com',
   baseUrl: '/',
