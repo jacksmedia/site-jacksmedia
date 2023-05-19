@@ -26,13 +26,13 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Help SuperVictor',
-    img: require('@site/static/img/blaz-svcoin.gif').default,
-    linker: 'https://www.frameit.gg/marketplace/nft/VICLOTTERY-19f055-01/19772',
+    title: 'Mine Crypto in 2023',
+    img: require('@site/static/img/raven.png').default,
+    linker: '/docs/tutorial-mining/intro',
     description: (
       <>
-        Help a kid with the world's worst medical bills, he needs
-        SMA treatments ASAP so maybe donate a tiny bit?
+        Ravencoin can be yours when you download and run free software
+        on your gaming PC or laptop. Hodl or swap and be your own banker!
       </>
     ),
   },

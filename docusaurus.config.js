@@ -80,8 +80,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Combased Discord - Learn web3!',
-                href: 'https://discord.gg/nh46kvc3Fa',
+                label: 'ProjectX Discord - Learn web3!',
+                href: 'https://discord.gg/projectx-dao',
               },
               {
                 label: 'Lannuvar DAO in Realm of Karitha',
