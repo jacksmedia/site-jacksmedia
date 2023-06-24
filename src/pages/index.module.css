@@ -25,7 +25,10 @@
   align-items: center;
   justify-content: center;
 }
-
+ul a li {
+  list-style-type: none;
+  padding: 0.2em;
+}
 @keyframes gradient {
   0% {
     background-position: 0% 50%;

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'J4cks\'s Guides &c',
+  title: 'J4cks Guides &c',
   staticDirectories: ['public', 'static'],
   tagline: 'Enthusiasm, Not Financial Advice',
   url: 'https://j4cks.com',
@@ -59,7 +59,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/jacksmedia/j4cksdotcom',
-            label: 'This Codebase',
+            label: 'Code on GH',
             position: 'right',
           },
         ],
@@ -73,6 +73,10 @@ const config = {
               {
                 label: 'Intro',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Qi~Chi Play',
+                to: '/docs/tutorial-extras/qi',
               },
             ],
           },
