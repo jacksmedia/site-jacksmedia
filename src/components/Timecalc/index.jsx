@@ -12,8 +12,10 @@ const warmUps = [
 {"url":"https://www.youtube.com/watch?v=X3-gKPNyrTA?t=26","emojis":"🛣🧘"},
 {"url":"https://youtu.be/50txkOrJn9o?t=87","emojis":"🦩🪃"},
 {"url":"https://youtu.be/SedzswEwpPw?t=51","emojis":"🧣🧘"},
-{"url":"https://youtu.be/jOfshreyu4w","emojis":"🫂🏅"}]
+{"url":"https://youtu.be/jOfshreyu4w","emojis":"🫂🏅"}
+]
 const exercises = [
+{"https://youtu.be/3GtFp6sz5zM?t=68","emojis":"🍯💦"},
 {"url":"https://youtu.be/cEOS2zoyQw4?t=89","emojis":"🦆🌊"},
 {"url":"https://youtu.be/HMbT-CPVl2k","emojis":"🍵🐵"},
 {"url":"https://www.youtube.com/watch?v=enk0bOv-gF8?t=17","emojis":"🦇☁️"},
@@ -79,7 +81,7 @@ export default function Timecalc() {
       <div>🤯 It's been
         <span> {RoundedResult} days since this practice began.</span>
       </div>
-  
+
       <div>🥠 Today's Suggested Videos:
         <table>
           <tr>
