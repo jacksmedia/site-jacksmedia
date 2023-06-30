@@ -15,7 +15,7 @@ const warmUps = [
 {"url":"https://youtu.be/jOfshreyu4w","emojis":"🫂🏅"}
 ]
 const exercises = [
-{"https://youtu.be/3GtFp6sz5zM?t=68","emojis":"🍯💦"},
+{"url":"https://youtu.be/3GtFp6sz5zM?t=68","emojis":"🍯💦"},
 {"url":"https://youtu.be/cEOS2zoyQw4?t=89","emojis":"🦆🌊"},
 {"url":"https://youtu.be/HMbT-CPVl2k","emojis":"🍵🐵"},
 {"url":"https://www.youtube.com/watch?v=enk0bOv-gF8?t=17","emojis":"🦇☁️"},
