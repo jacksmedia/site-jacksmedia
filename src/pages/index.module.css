@@ -9,8 +9,10 @@
   position: relative;
   overflow: hidden;
   
-  background: linear-gradient(-23deg, #824BC7,#23F7DD);
-  background-size: 400% 400%;
+  background: url(./city2069.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
   animation: gradient 23s ease infinite;
 }
 
@@ -31,12 +33,12 @@ ul a li {
 }
 @keyframes gradient {
   0% {
-    background-position: 0% 50%;
+    color: red;
   }
   50% {
-    background-position: 100% 50%;
+    color: blue;
   }
   100% {
-    background-position: 0% 50%;
+    color: red;
   }
 }
