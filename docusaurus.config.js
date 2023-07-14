@@ -6,10 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'J4cks Guides &c',
+  title: 'Jacks Media',
   staticDirectories: ['public', 'static'],
   tagline: 'Enthusiasm, Not Financial Advice',
-  url: 'https://j4cks.com',
+  url: 'https://jacks.media',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'J4cks.com',
+        title: 'Jacks.Media',
         logo: {
           alt: 'Jacks Media',
           src: 'img/Rock98.png',
@@ -97,7 +97,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog of Crypto/web3 Learnings',
+                label: 'Blog',
                 to: '/blog',
               },
               {
@@ -105,8 +105,8 @@ const config = {
                 href: 'https://twitter.com/xJ4cks',
               },
               {
-                label: 'Jacks Media',
-                href: 'https://jacks.media',
+                label: 'xJ4cks Insta',
+                href: 'https://www.instagram.com/xj4cks',
               },
             ],
           },

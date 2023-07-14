@@ -33,12 +33,12 @@ ul a li {
 }
 @keyframes gradient {
   0% {
-    color: red;
+    color: #23F7DD;
   }
   50% {
     color: blue;
   }
   100% {
-    color: red;
+    color: #23F7DD;
   }
 }

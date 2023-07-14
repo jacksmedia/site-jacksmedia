@@ -44,11 +44,11 @@ function Feature({img, title, description, linker}) {
       <div className="text--center">
         <img className={styles.featureSvg} src={img} />
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className="text--center padding-horiz--md padding-vert--md">
         <h3>{title}</h3>
         <p>{description}</p>
         <a href={linker}>
-          <button>Go See</button>
+          <button>More...</button>
         </a>
       </div>
     </div>
