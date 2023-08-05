@@ -15,10 +15,10 @@ const warmUps = [
 {"url":"https://youtu.be/jOfshreyu4w?t=41","emojis":"🫂🏅"}
 ]
 const exercises = [
-{"url":"https://youtu.be/3GtFp6sz5zM?t=68","emojis":"🍯💦"},
+{"url":"https://youtu.be/3GtFp6sz5zM?t=68","emojis":"💨🍯"},
 {"url":"https://youtu.be/cEOS2zoyQw4?t=89","emojis":"🦆🌊"},
-{"url":"https://youtu.be/HMbT-CPVl2k","emojis":"🍵🐵"},
-{"url":"https://www.youtube.com/watch?v=enk0bOv-gF8?t=17","emojis":"🦇☁️"},
+{"url":"https://youtu.be/HMbT-CPVl2k?t=49","emojis":"🍵🐵"},
+{"url":"https://youtu.be/enk0bOv-gF8?t=16","emojis":"🦇☁️"},
 {"url":"https://youtu.be/IyINAjEoTIs?t=85","emojis":"🚪🦅"},
 {"url":"https://www.youtube.com/watch?v=OPcZlXYcdMA?t=31","emojis":"🐎🌕"},
 {"url":"https://youtu.be/8wddPSIEpvE?t=61","emojis":"🐠🛸"},
@@ -38,7 +38,7 @@ const extras = [
 {"url":"https://youtu.be/LZ2oHU-mMJI?t=443","emojis":"🕸🎡"},
 {"url":"https://youtu.be/Nnd5Slo02us?t=25","emojis":"🪑🏹"},
 {"url":"https://youtu.be/eBdfCX5XnX4","emojis":"4️⃣🦎"},
-{"url":"https://www.youtube.com/watch?v=8T39OBNaNzU","emojis":"✂🧱"}
+{"url":"https://youtu.be/8T39OBNaNzU?t=26","emojis":"✂🧱"}
 ]
 const howManyWarmUps = warmUps.length
 const howManyExercises = exercises.length
