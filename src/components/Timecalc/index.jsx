@@ -65,13 +65,13 @@ export default function Timecalc() {
     setRandomNumber3(randomNumber3)
   }
   const listWarmUps = warmUps.map((warmUp) => 
-    <a href="{warmUps.emojis}"><li>{warmUp.emojis}</li></a>
+    <a href="{warmUps.emojis}"><li className={`${warmUp.bgc}BG`}>{warmUp.emojis} {warmUp.title}</li></a>
   );
   const listExercises = exercises.map((exercise) => 
-    <a href="{exercises.emojis}"><li>{exercise.emojis}</li></a>
+    <a href="{exercises.emojis}"><li className={`${exercise.bgc}BG`}>{exercise.emojis} {exercise.title}</li></a>
   );
   const listExtras = extras.map((extra) => 
-    <a href="{extras.emojis}"><li>{extra.emojis}</li></a>
+    <a href="{extras.emojis}"><li className={`${extra.bgc}BG`}>{extra.emojis} {extra.title}</li></a>
   );
   return(
     <div>
@@ -86,23 +86,33 @@ export default function Timecalc() {
         <table>
           <tr>
             <td>
-              {/* map statement here, not an array pointer */}
-              <h2>{warmUps[choice1].emojis}</h2>
-              <p>{warmUps[choice1].title}</p>
+              <a href={warmUps[choice1].url}>
+                <h1>{warmUps[choice1].emojis}</h1>
+                <p>{warmUps[choice1].title}</p>
+              </a>
             </td>
             <td>
-              {/* map statement here, not an array pointer */}
-              <h2>{exercises[choice2].emojis}</h2>
-              <p>{exercises[choice2].title}</p>
+              <a href={exercises[choice2].url}>
+                <h1>{exercises[choice2].emojis}</h1>
+                <p>{exercises[choice2].title}</p>
+              </a>
             </td>
             <td>
-              {/* map statement here, not an array pointer */}
-              <h2>{extras[choice3].emojis}</h2>
-              <p>{extras[choice3].title}</p>
+              <a href={extras[choice3].url}>
+                <h1>{extras[choice3].emojis}</h1>
+                <p>{extras[choice3].title}</p>
+              </a>
             </td>
           </tr>
         </table>
       </div>
+      
+      <div className="flexbox1">
+      <ul className="smolTable">{listWarmUps}</ul>
+      <ul className="smolTable">{listExercises}</ul>
+      <ul className="smolTable">{listExtras}</ul>
+      </div>
+
     </div>
   )
 }

@@ -5,22 +5,36 @@
 /*@import url('./alagard.ttf');*/
 
 /* You can override the default Infima variables here. */
-.GoldBG{
+.smolTable {
+  display: inline;
+}
+.flexbox1 {
+  /*flex-flow: row no wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: stretch;
+  gap: 10px;*/
+}
+.flexbox1 > * {
+  font-size: 1.3em;
+}
+
+.lemonchiffonBG{
   background-color: LemonChiffon !important;
   color: black;
 }
 
-.RedBG{
+.indianredBG{
   background-color: indianred !important;
   color: black;
 }
 
-.GreenBG{
+.mediumaquamarineBG{
   background-color: MediumAquamarine;
   color: black;
 }
 
-.BlueBG{
+.cornflowerblueBG{
   background-color: cornflowerblue;
   color: black;
 }
