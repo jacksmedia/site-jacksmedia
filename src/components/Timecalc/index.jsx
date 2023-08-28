@@ -65,13 +65,13 @@ export default function Timecalc() {
     setRandomNumber3(randomNumber3)
   }
   const listWarmUps = warmUps.map((warmUp) => 
-    <a href="{warmUps.emojis}"><li className={`${warmUp.bgc}BG`}>{warmUp.emojis} {warmUp.title}</li></a>
+    <a href={warmUps[choice1].url}><li className={`${warmUp.bgc}`}>{warmUp.emojis} {warmUp.title}</li></a>
   );
   const listExercises = exercises.map((exercise) => 
-    <a href="{exercises.emojis}"><li className={`${exercise.bgc}BG`}>{exercise.emojis} {exercise.title}</li></a>
+    <a href={exercises[choice2].url}><li className={`${exercise.bgc}`}>{exercise.emojis} {exercise.title}</li></a>
   );
   const listExtras = extras.map((extra) => 
-    <a href="{extras.emojis}"><li className={`${extra.bgc}BG`}>{extra.emojis} {extra.title}</li></a>
+    <a href={extras[choice3].url}><li className={`${extra.bgc}`}>{extra.emojis} {extra.title}</li></a>
   );
   return(
     <div>
@@ -85,22 +85,22 @@ export default function Timecalc() {
       <div>🥠 Today's Suggested Videos:
         <table>
           <tr>
-            <td>
+            <td className={warmUps[choice1].bgc}>
               <a href={warmUps[choice1].url}>
                 <h1>{warmUps[choice1].emojis}</h1>
-                <p>{warmUps[choice1].title}</p>
+                <p className="unstyled-text">{warmUps[choice1].title}</p>
               </a>
             </td>
-            <td>
+            <td className={exercises[choice2].bgc}>
               <a href={exercises[choice2].url}>
                 <h1>{exercises[choice2].emojis}</h1>
-                <p>{exercises[choice2].title}</p>
+                <p className="unstyled-text">{exercises[choice2].title}</p>
               </a>
             </td>
-            <td>
+            <td className={extras[choice3].bgc}>
               <a href={extras[choice3].url}>
                 <h1>{extras[choice3].emojis}</h1>
-                <p>{extras[choice3].title}</p>
+                <p className="unstyled-text">{extras[choice3].title}</p>
               </a>
             </td>
           </tr>

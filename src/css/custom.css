@@ -5,6 +5,9 @@
 /*@import url('./alagard.ttf');*/
 
 /* You can override the default Infima variables here. */
+.unstyled-text {
+  color: black !important;
+}
 .smolTable {
   display: inline;
 }
@@ -19,22 +22,22 @@
   font-size: 1.3em;
 }
 
-.lemonchiffonBG{
+.lemonchiffon{
   background-color: LemonChiffon !important;
   color: black;
 }
 
-.indianredBG{
+.indianred{
   background-color: indianred !important;
   color: black;
 }
 
-.mediumaquamarineBG{
+.mediumaquamarine{
   background-color: MediumAquamarine;
   color: black;
 }
 
-.cornflowerblueBG{
+.cornflowerblue{
   background-color: cornflowerblue;
   color: black;
 }
