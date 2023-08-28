@@ -65,13 +65,13 @@ export default function Timecalc() {
     setRandomNumber3(randomNumber3)
   }
   const listWarmUps = warmUps.map((warmUp) => 
-    <a href={warmUps[choice1].url}><li className={`${warmUp.bgc}`}>{warmUp.emojis} {warmUp.title}</li></a>
+    <a href={`${warmUp.url}`}><li className={`${warmUp.bgc}`}>{warmUp.emojis} {warmUp.title}</li></a>
   );
   const listExercises = exercises.map((exercise) => 
-    <a href={exercises[choice2].url}><li className={`${exercise.bgc}`}>{exercise.emojis} {exercise.title}</li></a>
+    <a href={`${exercise.url}`}><li className={`${exercise.bgc}`}>{exercise.emojis} {exercise.title}</li></a>
   );
   const listExtras = extras.map((extra) => 
-    <a href={extras[choice3].url}><li className={`${extra.bgc}`}>{extra.emojis} {extra.title}</li></a>
+    <a href={`${extra.url}`}><li className={`${extra.bgc}`}>{extra.emojis} {extra.title}</li></a>
   );
   return(
     <div>
