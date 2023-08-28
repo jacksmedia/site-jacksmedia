@@ -9,7 +9,7 @@ const Difference_In_Days = Difference_In_Time / (1000*60*60*24)
 const RoundedResult = Math.round(Difference_In_Days)
 
 const warmUps = [
-{"url":"https://www.youtube.com/watch?v=X3-gKPNyrTA?t=26","emojis":"🛣🎒","title":"A 🧘 Yoga For Neck, Shoulders, Upper Back 10m37s"},
+{"url":"https://youtu.be/X3-gKPNyrTA?si=5uiflXNft6zCyvx6&t=25","emojis":"🛣🎒","title":"A 🧘 Yoga For Neck, Shoulders, Upper Back 10m37s"},
 {"url":"https://youtu.be/50txkOrJn9o?t=87","emojis":"🦩🪃","title":"L ☯️ Tai Chi 5 Minutes a Day - Warm Up 10m44s"},
 {"url":"https://youtu.be/SedzswEwpPw?t=51","emojis":"🧣🎒","title":"A 🧘 Yoga for Neck and Shoulder Relief 17m37s"},
 {"url":"https://youtu.be/jOfshreyu4w?t=41","emojis":"🫂🏅","title":"A 🧘 Quick Stress Fix - 5 Minute Sequence 6m18s"}
@@ -23,9 +23,9 @@ const exercises = [
 {"url":"https://www.youtube.com/watch?v=OPcZlXYcdMA?t=31","emojis":"🐎🌕","title":"L ☯️ Tai chi 5 Minutes a Day Module 03 9m8s"},
 {"url":"https://youtu.be/8wddPSIEpvE?t=61","emojis":"🐠🛸","title":"M 🪷 Qigong for Vitality: Opening the Door of Life 13m12s"},
 {"url":"https://youtu.be/RoIqYtiTLFI?t=18","emojis":"🐍🍂","title":"L ☯️ UPDATED: Module 04 beginners Tai Chi 10m38s"},
-{"url":"https://www.youtube.com/watch?v=nmmNWj9YtAw?t=60","emojis":"🐯🌋","title":"M 🪷 DAILY QIGONG ROUTINE 17m8s"},
+{"url":"https://youtu.be/nmmNWj9YtAw?si=Q7Hj2zZY6bPrq2GN&t=52","emojis":"🐯🌋","title":"M 🪷 DAILY QIGONG ROUTINE 17m8s"},
 {"url":"https://youtu.be/62a20CiIAlY?t=44","emojis":"🐉☂️","title":"L ☯️ Tai Chi Five Minutes a Day Module 05 7m2s"},
-{"url":"https://youtu.be/EZT8RC0wRbA?t=88","emojis":"🐻🔥","title":"M 🪷 Qigong to Circulate Your Energy 15m30s"},
+{"url":"hhttps://youtu.be/EZT8RC0wRbA?si=o8q9s3p7nwUaKhQw&t=112","emojis":"🐻🔥","title":"M 🪷 Qigong to Circulate Your Energy 15m30s"},
 {"url":"https://youtu.be/tbwbL1pg0HY?t=30","emojis":"🐒🦜","title":"D ☯️ Seated Tai Chi for Home Practice 18m48s"},
 {"url":"https://youtu.be/Ba0fweKUwIc?t=37","emojis":"🌬🦮","title":"A 🧘 Yoga to Calm Your Nerves 24m36s"},
 {"url":"https://youtu.be/_V29hE0_oBE","emojis":"🦉🌜","title":"D ☯️ Seated Tai Chi For Seniors with David-Dorian Ross 11m15s"}
@@ -88,14 +88,17 @@ export default function Timecalc() {
             <td>
               {/* map statement here, not an array pointer */}
               <h2>{warmUps[choice1].emojis}</h2>
+              <p>{warmUps[choice1].title}</p>
             </td>
             <td>
               {/* map statement here, not an array pointer */}
               <h2>{exercises[choice2].emojis}</h2>
+              <p>{exercises[choice2].title}</p>
             </td>
             <td>
               {/* map statement here, not an array pointer */}
               <h2>{extras[choice3].emojis}</h2>
+              <p>{extras[choice3].title}</p>
             </td>
           </tr>
         </table>

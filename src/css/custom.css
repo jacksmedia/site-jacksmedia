@@ -5,6 +5,26 @@
 /*@import url('./alagard.ttf');*/
 
 /* You can override the default Infima variables here. */
+.GoldBG{
+  background-color: LemonChiffon !important;
+  color: black;
+}
+
+.RedBG{
+  background-color: indianred !important;
+  color: black;
+}
+
+.GreenBG{
+  background-color: MediumAquamarine;
+  color: black;
+}
+
+.BlueBG{
+  background-color: cornflowerblue;
+  color: black;
+}
+
 :root {
   --ifm-color-primary: #1728AB;
   --ifm-color-primary-dark: #29784c;
