@@ -86,19 +86,22 @@ export default function Timecalc() {
         <table>
           <tr>
             <td className={warmUps[choice1].bgc}>
-              <a href={warmUps[choice1].url}>
+              <a href={warmUps[choice1].url}
+              target="_blank" rel="noreferrer noopener">
                 <h1>{warmUps[choice1].emojis}</h1>
                 <p className="unstyled-text">{warmUps[choice1].title}</p>
               </a>
             </td>
             <td className={exercises[choice2].bgc}>
-              <a href={exercises[choice2].url}>
+              <a href={exercises[choice2].url}
+              target="_blank" rel="noreferrer noopener">
                 <h1>{exercises[choice2].emojis}</h1>
                 <p className="unstyled-text">{exercises[choice2].title}</p>
               </a>
             </td>
             <td className={extras[choice3].bgc}>
-              <a href={extras[choice3].url}>
+              <a href={extras[choice3].url}
+              target="_blank" rel="noreferrer noopener">
                 <h1>{extras[choice3].emojis}</h1>
                 <p className="unstyled-text">{extras[choice3].title}</p>
               </a>
