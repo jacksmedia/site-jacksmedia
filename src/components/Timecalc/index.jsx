@@ -12,6 +12,7 @@ const warmUps = [
 {"url":"https://youtu.be/X3-gKPNyrTA?si=5uiflXNft6zCyvx6&t=25","emojis":"🛣🎒","title":"A 🧘 Yoga For Neck, Shoulders, Upper Back 10m37s","bgc":"cornflowerblue"},
 {"url":"https://youtu.be/50txkOrJn9o?t=87","emojis":"🦩🪃","title":"L ☯️ Tai Chi 5 Minutes a Day - Warm Up 10m44s","bgc":"lemonchiffon"},
 {"url":"https://youtu.be/SedzswEwpPw?t=51","emojis":"🧣🎒","title":"A 🧘 Yoga for Neck and Shoulder Relief 17m37s","bgc":"cornflowerblue"},
+{"url":"https://youtu.be/d-PTjUgMrig?si=vTk4v0k2vFpH-FYz&t=79","emojis":"🔥🟫","title":"M 🪷 Sun & Earth Purification Qigong 10m4s","bgc":"mediumaquamarine"},
 {"url":"https://youtu.be/jOfshreyu4w?t=41","emojis":"🫂🏅","title":"A 🧘 Quick Stress Fix - 5 Minute Sequence 6m18s","bgc":"cornflowerblue"}
 ]
 const exercises = [
