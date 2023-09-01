@@ -5,12 +5,25 @@
 /*@import url('./alagard.ttf');*/
 
 /* You can override the default Infima variables here. */
+
+@media screen and (max-width: 500px) {
+  .responsive-text {
+    padding: 1rem 3rem;
+    display: none;
+  }
+  .table-cell {
+    max-width: 15vw;
+  }
+  .smolTable {
+    display: inline;
+    max-width: 12vw;
+  }
+}
+
 .unstyled-text {
   color: black !important;
 }
-.smolTable {
-  display: inline;
-}
+
 .flexbox1 {
   /*flex-flow: row no wrap;
   justify-content: center;

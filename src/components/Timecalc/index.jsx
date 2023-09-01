@@ -65,13 +65,13 @@ export default function Timecalc() {
     setRandomNumber3(randomNumber3)
   }
   const listWarmUps = warmUps.map((warmUp) => 
-    <a href={`${warmUp.url}`}><li className={`${warmUp.bgc}`}>{warmUp.emojis} {warmUp.title}</li></a>
+    <a href={`${warmUp.url}`}><li className={`${warmUp.bgc} table-cell`}>{warmUp.emojis} <span className="responsive-text">{warmUp.title}</span></li></a>
   );
   const listExercises = exercises.map((exercise) => 
-    <a href={`${exercise.url}`}><li className={`${exercise.bgc}`}>{exercise.emojis} {exercise.title}</li></a>
+    <a href={`${exercise.url}`}><li className={`${exercise.bgc} table-cell`}>{exercise.emojis} <span className="responsive-text">{exercise.title}</span></li></a>
   );
   const listExtras = extras.map((extra) => 
-    <a href={`${extra.url}`}><li className={`${extra.bgc}`}>{extra.emojis} {extra.title}</li></a>
+    <a href={`${extra.url}`}><li className={`${extra.bgc} table-cell`}>{extra.emojis} <span className="responsive-text">{extra.title}</span></li></a>
   );
   return(
     <div>
@@ -88,19 +88,19 @@ export default function Timecalc() {
             <td className={warmUps[choice1].bgc}>
               <a href={warmUps[choice1].url}>
                 <h1>{warmUps[choice1].emojis}</h1>
-                <p className="unstyled-text">{warmUps[choice1].title}</p>
+                <p className="unstyled-text responsive-text">{warmUps[choice1].title}</p>
               </a>
             </td>
             <td className={exercises[choice2].bgc}>
               <a href={exercises[choice2].url}>
                 <h1>{exercises[choice2].emojis}</h1>
-                <p className="unstyled-text">{exercises[choice2].title}</p>
+                <p className="unstyled-text responsive-text">{exercises[choice2].title}</p>
               </a>
             </td>
             <td className={extras[choice3].bgc}>
               <a href={extras[choice3].url}>
                 <h1>{extras[choice3].emojis}</h1>
-                <p className="unstyled-text">{extras[choice3].title}</p>
+                <p className="unstyled-text responsive-text">{extras[choice3].title}</p>
               </a>
             </td>
           </tr>
