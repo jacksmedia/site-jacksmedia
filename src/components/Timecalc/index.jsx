@@ -66,13 +66,13 @@ export default function Timecalc() {
     setRandomNumber3(randomNumber3)
   }
   const listWarmUps = warmUps.map((warmUp) => 
-    <a href={`${warmUp.url}`}><li className={`${warmUp.bgc} table-cell`}>{warmUp.emojis} <span className="responsive-text">{warmUp.title}</span></li></a>
+    <a href={`${warmUp.url} table-cell`}><div className={`${warmUp.bgc}`}>{warmUp.emojis} <span className="responsive-text">{warmUp.title}</span></div></a>
   );
   const listExercises = exercises.map((exercise) => 
-    <a href={`${exercise.url}`}><li className={`${exercise.bgc} table-cell`}>{exercise.emojis} <span className="responsive-text">{exercise.title}</span></li></a>
+    <a href={`${exercise.url} table-cell`}><div className={`${exercise.bgc}`}>{exercise.emojis} <span className="responsive-text">{exercise.title}</span></div></a>
   );
   const listExtras = extras.map((extra) => 
-    <a href={`${extra.url}`}><li className={`${extra.bgc} table-cell`}>{extra.emojis} <span className="responsive-text">{extra.title}</span></li></a>
+    <a href={`${extra.url} table-cell`}><div className={`${extra.bgc}`}>{extra.emojis} <span className="responsive-text">{extra.title}</span></div></a>
   );
   return(
     <div>
@@ -108,15 +108,19 @@ export default function Timecalc() {
               </a>
             </td>
           </tr>
+          <tr>
+            <td>
+              <div className="smolTable">{listWarmUps}</div>
+            </td>
+            <td>
+              <div className="smolTable">{listExercises}</div>
+            </td>
+            <td>
+              <div className="smolTable">{listExtras}</div>
+            </td>
+          </tr>
         </table>
       </div>
-      
-      <div className="flexbox1">
-      <ul className="smolTable">{listWarmUps}</ul>
-      <ul className="smolTable">{listExercises}</ul>
-      <ul className="smolTable">{listExtras}</ul>
-      </div>
-
     </div>
   )
 }

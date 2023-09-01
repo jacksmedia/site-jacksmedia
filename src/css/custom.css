@@ -11,15 +11,31 @@
     padding: 1rem 3rem;
     display: none;
   }
+  .table-row {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
   .table-cell {
+    display: inline-flex;
     max-width: 15vw;
+    padding: 3vw;
+    margin: 3vw;
+    padding-bottom: 20px;
+    line-height: 3.5em;
   }
   .smolTable {
-    display: inline;
-    max-width: 12vw;
+    display: flex;
+    justify-items: flex-start;
+    justify-content: space-between;
   }
 }
-
+.smolTable {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .unstyled-text {
   color: black !important;
 }
