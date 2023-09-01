@@ -12,6 +12,7 @@ const warmUps = [
 {"url":"https://youtu.be/X3-gKPNyrTA?si=5uiflXNft6zCyvx6&t=25","emojis":"🛣🎒","title":"A 🧘 Yoga For Neck, Shoulders, Upper Back 10m37s","bgc":"cornflowerblue"},
 {"url":"https://youtu.be/50txkOrJn9o?t=87","emojis":"🦩🪃","title":"L ☯️ Tai Chi 5 Minutes a Day - Warm Up 10m44s","bgc":"lemonchiffon"},
 {"url":"https://youtu.be/SedzswEwpPw?t=51","emojis":"🧣🎒","title":"A 🧘 Yoga for Neck and Shoulder Relief 17m37s","bgc":"cornflowerblue"},
+{"url":"https://youtu.be/d-PTjUgMrig?si=vTk4v0k2vFpH-FYz&t=79","emojis":"🔥🟫","title":"M 🪷 Sun & Earth Purification Qigong 10m4s","bgc":"mediumaquamarine"},
 {"url":"https://youtu.be/jOfshreyu4w?t=41","emojis":"🫂🏅","title":"A 🧘 Quick Stress Fix - 5 Minute Sequence 6m18s","bgc":"cornflowerblue"}
 ]
 const exercises = [
@@ -86,19 +87,22 @@ export default function Timecalc() {
         <table>
           <tr>
             <td className={warmUps[choice1].bgc}>
-              <a href={warmUps[choice1].url}>
+              <a href={warmUps[choice1].url}
+              target="_blank" rel="noreferrer noopener">
                 <h1>{warmUps[choice1].emojis}</h1>
                 <p className="unstyled-text responsive-text">{warmUps[choice1].title}</p>
               </a>
             </td>
             <td className={exercises[choice2].bgc}>
-              <a href={exercises[choice2].url}>
+              <a href={exercises[choice2].url}
+              target="_blank" rel="noreferrer noopener">
                 <h1>{exercises[choice2].emojis}</h1>
                 <p className="unstyled-text responsive-text">{exercises[choice2].title}</p>
               </a>
             </td>
             <td className={extras[choice3].bgc}>
-              <a href={extras[choice3].url}>
+              <a href={extras[choice3].url}
+              target="_blank" rel="noreferrer noopener">
                 <h1>{extras[choice3].emojis}</h1>
                 <p className="unstyled-text responsive-text">{extras[choice3].title}</p>
               </a>
