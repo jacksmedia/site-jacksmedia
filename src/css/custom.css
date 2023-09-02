@@ -7,6 +7,9 @@
 /* You can override the default Infima variables here. */
 
 @media screen and (max-width: 500px) {
+  .spacing-class {
+    padding: 0.3rem!important;
+  }
   .responsive-text {
     padding: 1rem 3rem;
     display: none;
@@ -38,6 +41,10 @@
 }
 .unstyled-text {
   color: black !important;
+}
+
+.spacing-class {
+  padding: 0.7rem!important;
 }
 
 .flexbox1 {
