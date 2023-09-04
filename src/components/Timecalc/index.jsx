@@ -101,7 +101,6 @@ export default function Timecalc() {
               target="_blank" rel="noreferrer noopener">
                 <h1>{warmUps[choice1].emojis}</h1>
                 <p className="unstyled-text responsive-text">{warmUps[choice1].title}</p>
-                <p>{warmUps[choice2].length}</p>
               </a>
             </td>
             <td className={exercises[choice2].bgc}>
@@ -109,7 +108,6 @@ export default function Timecalc() {
               target="_blank" rel="noreferrer noopener">
                 <h1>{exercises[choice2].emojis}</h1>
                 <p className="unstyled-text responsive-text">{exercises[choice2].title}</p>
-                <p>{exercises[choice2].length}</p>
               </a>
             </td>
             <td className={extras[choice3].bgc}>
@@ -117,7 +115,6 @@ export default function Timecalc() {
               target="_blank" rel="noreferrer noopener">
                 <h1>{extras[choice3].emojis}</h1>
                 <p className="unstyled-text responsive-text">{extras[choice3].title}</p>
-                <p>{extras[choice2].length}</p>
               </a>
             </td>
           </tr>
