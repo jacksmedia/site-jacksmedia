@@ -43,7 +43,7 @@ const extras = [
 {"url":"https://youtu.be/LZ2oHU-mMJI?t=443","emojis":"🕸🎡","title":"Qigong 5 Minutes a Day - Spinning the Silk Wheel","length":"12m29s","bgc":"lemonchiffon"},
 {"url":"https://youtu.be/Nnd5Slo02us?t=25","emojis":"🪑🏹","title":"Yoga For Focus & Productivity","length":"9m51s","bgc":"cornflowerblue"},
 {"url":"https://youtu.be/eBdfCX5XnX4","emojis":"4️⃣🦎","title":"6-Minute Yoga For Hips","length":"6m15s","bgc":"cornflowerblue"},
-{"url":"https://youtu.be/8T39OBNaNzU?t=26","emojis":"✂🧱","title":"2-Minute Core Conditioning","length":"12m6s","bgc":"cornflowerblue"}
+{"url":"https://youtu.be/8T39OBNaNzU?t=26","emojis":"✂🧱","title":"12-Minute Core Conditioning","length":"12m6s","bgc":"cornflowerblue"}
 ]
 const howManyWarmUps = warmUps.length
 const howManyExercises = exercises.length
@@ -54,21 +54,6 @@ export default function Timecalc() {
   const choice2 = RoundedResult % howManyExercises
   const choice3 = RoundedResult % howManyExtras
 
-  const [randomNumber1, setRandomNumber1] = useState(howManyWarmUps)
-  const getRandomNumber1 = () => {
-    const randomNumber1 = Math.floor(Math.random() * howManyWarmUps + 1)
-    setRandomNumber1(randomNumber1)
-  }
-  const [randomNumber2, setRandomNumber2] = useState(howManyExercises)
-  const getRandomNumber2 = () => {
-    const randomNumber2 = Math.floor(Math.random() * howManyExercises + 1)
-    setRandomNumber2(randomNumber2)
-  }
-  const [randomNumber3, setRandomNumber3] = useState(howManyExtras)
-  const getRandomNumber3 = () => {
-    const randomNumber3 = Math.floor(Math.random() * howManyExtras + 1)
-    setRandomNumber3(randomNumber3)
-  }
   const listWarmUps = warmUps.map((warmUp) => 
     <a href={`${warmUp.url} table-cell`}>
       <div className={`spacing-class ${warmUp.bgc}`}><span className="responsive-text">{warmUp.title}&nbsp;</span><div>{warmUp.emojis}&nbsp;{warmUp.length}</div></div>
@@ -101,6 +86,7 @@ export default function Timecalc() {
               target="_blank" rel="noreferrer noopener">
                 <h1>{warmUps[choice1].emojis}</h1>
                 <p className="unstyled-text responsive-text">{warmUps[choice1].title}</p>
+                <p className="unstyled-text responsive-text">{warmUps[choice1].length}</p>
               </a>
             </td>
             <td className={exercises[choice2].bgc}>
@@ -108,6 +94,7 @@ export default function Timecalc() {
               target="_blank" rel="noreferrer noopener">
                 <h1>{exercises[choice2].emojis}</h1>
                 <p className="unstyled-text responsive-text">{exercises[choice2].title}</p>
+                <p className="unstyled-text responsive-text">{exercises[choice2].length}</p>
               </a>
             </td>
             <td className={extras[choice3].bgc}>
@@ -115,6 +102,7 @@ export default function Timecalc() {
               target="_blank" rel="noreferrer noopener">
                 <h1>{extras[choice3].emojis}</h1>
                 <p className="unstyled-text responsive-text">{extras[choice3].title}</p>
+                <p className="unstyled-text responsive-text">{extras[choice3].length}</p>
               </a>
             </td>
           </tr>
