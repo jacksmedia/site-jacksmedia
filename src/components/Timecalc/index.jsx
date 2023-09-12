@@ -16,7 +16,7 @@ const warmUps = [
 "bgc":"cornflowerblue"},
 {"url":"https://youtu.be/50txkOrJn9o?t=87","emojis":"🦩🪃","title":"Tai Chi 5 Minutes a Day - Warm Up","length":"10m44s","bgc":"lemonchiffon"},
 {"url":"https://youtu.be/SedzswEwpPw?t=51","emojis":"🧣🎒","title":"Yoga for Neck and Shoulder Relief","length":"17m37s","bgc":"cornflowerblue"},
-{"url":"https://youtu.be/d-PTjUgMrig?si=vTk4v0k2vFpH-FYz&t=79","emojis":"🔥🟫","title":"Sun & Earth Purification Qigong","length":"10m4s","bgc":"mediumaquamarine"},
+{"url":"https://youtu.be/d-PTjUgMrig?si=vTk4v0k2vFpH-FYz&t=79","emojis":"☀️🌐","title":"Sun & Earth Purification Qigong","length":"10m4s","bgc":"mediumaquamarine"},
 {"url":"https://youtu.be/jOfshreyu4w?t=41","emojis":"🫂🏅","title":"Quick Stress Fix - 5 Minute Sequence","length":"6m18s","bgc":"cornflowerblue"}
 ]
 const exercises = [
@@ -30,10 +30,10 @@ const exercises = [
 {"url":"https://youtu.be/RoIqYtiTLFI?t=18","emojis":"🐍🍂","title":"UPDATED: Module 04 beginners Tai Chi","length":"10m38s","bgc":"lemonchiffon"},
 {"url":"https://youtu.be/nmmNWj9YtAw?si=Q7Hj2zZY6bPrq2GN&t=52","emojis":"🐯🌋","title":"DAILY QIGONG ROUTINE","length":"17m8s","bgc":"mediumaquamarine"},
 {"url":"https://youtu.be/62a20CiIAlY?t=44","emojis":"🐉☂️","title":"Tai Chi Five Minutes a Day Module 05","length":"7m2s","bgc":"lemonchiffon"},
-{"url":"hhttps://youtu.be/EZT8RC0wRbA?si=o8q9s3p7nwUaKhQw&t=112","emojis":"🐻🔥","title":"Qigong to Circulate Your Energy","length":"15m30s","bgc":"mediumaquamarine"},
+{"url":"https://youtu.be/EZT8RC0wRbA?si=o8q9s3p7nwUaKhQw&t=112","emojis":"🐻🔥","title":"Qigong to Circulate Your Energy","length":"15m30s","bgc":"mediumaquamarine"},
 {"url":"https://youtu.be/tbwbL1pg0HY?t=30","emojis":"🐒🦜","title":"Seated Tai Chi for Home Practice","length":"18m48s","bgc":"indianred"},
 {"url":"https://youtu.be/Ba0fweKUwIc?t=37","emojis":"🌬🦮","title":"Yoga to Calm Your Nerves","length":"24m36s","bgc":"cornflowerblue"},
-{"url":"https://youtu.be/_V29hE0_oBE","emojis":"🦉🌜","title":"Seated Tai Chi For Seniors with David-Dorian Ross","length":"11m15s","bgc":"indianred"}
+{"url":"https://youtu.be/_V29hE0_oBE?si=1hOSHW9iDzupCTiB&t=47","emojis":"🦉🌜","title":"Seated Tai Chi For Seniors with David-Dorian Ross","length":"11m15s","bgc":"indianred"}
 ]
 const extras = [
 {"url":"https://youtu.be/Yzm3fA2HhkQ?t=45","emojis":"🪢🪡","title":"Yoga For Flexibility","length":"16m26s","bgc":"cornflowerblue"},

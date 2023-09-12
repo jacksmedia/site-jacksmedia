@@ -17,7 +17,7 @@ Here's a recipe that we've refined for several years now-- it's possible that pe
 - 1 tsp baking soda
 - 0.5 tsp baking powder
 - 1 tsp salt
-- 1 bag of Geffen real chocolat chips
+- 1 bag of Geffen real chocolate chips
 - microwave bowl & microwave
 - big mixing bowl
 - cookie sheets & oven
@@ -26,7 +26,7 @@ Here's a recipe that we've refined for several years now-- it's possible that pe
 1. preheat oven to 375F
 2. blend eggs with the salt & soda & powder (in mixing bowl)
 3. microwave butter until soft, but not clear liquid (or low heat on stove)
-4. stir flavoring #6 into soft butter
+4. stir flavoring into soft butter
 5. stir both sugars into eggs mix
 6. add flavored soft butter to mixing bowl
 7. mix, adding flour slowly to create dough
