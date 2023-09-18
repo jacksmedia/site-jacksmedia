@@ -3,14 +3,15 @@
  * and scoped locally.
  */
 
+/* refer to src/css/custom.css for <header> size ctrl */
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   
-  background: url(./city2069.jpg);
-  background-size: cover;
+  background: url(./unreal_architecture.png);
+  background-size: 100vw auto;
   background-repeat: no-repeat;
 
   animation: gradient 23s ease infinite;
