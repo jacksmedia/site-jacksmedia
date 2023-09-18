@@ -1,7 +1,7 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Taviraj:wght@200&display=swap');
 
-header {
+.reactive-height {
   min-height: calc(100vw * 2.31)!important;
 }
 
