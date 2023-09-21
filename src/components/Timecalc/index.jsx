@@ -56,17 +56,26 @@ export default function Timecalc() {
 
   const listWarmUps = warmUps.map((warmUp) => 
     <a href={`${warmUp.url} table-cell`}>
-      <div className={`spacing-class ${warmUp.bgc}`}><span className="responsive-text">{warmUp.title}&nbsp;</span><div>{warmUp.emojis}&nbsp;{warmUp.length}</div></div>
+      <div className={`spacing-class ${warmUp.bgc}`}>
+        <span className="responsive-text">{warmUp.emojis}&nbsp;</span>
+        <span>{warmUp.title}&nbsp;[{warmUp.length}]</span>
+      </div>
     </a>
   );
   const listExercises = exercises.map((exercise) => 
     <a href={`${exercise.url} table-cell`}>
-      <div className={`spacing-class ${exercise.bgc}`}><span className="responsive-text">{exercise.title}&nbsp;</span><div>{exercise.emojis}&nbsp;{exercise.length}</div></div>
+      <div className={`spacing-class ${exercise.bgc}`}>
+        <span className="responsive-text">{exercise.emojis}&nbsp;</span>
+        <span>{exercise.title}&nbsp;[{exercise.length}]</span>
+      </div>
     </a>
   );
   const listExtras = extras.map((extra) => 
     <a href={`${extra.url} table-cell`}>
-      <div className={`spacing-class ${extra.bgc}`}><span className="responsive-text">{extra.title}&nbsp;</span><div>{extra.emojis}&nbsp;{extra.length}</div></div>
+      <div className={`spacing-class ${extra.bgc}`}>
+        <span className="responsive-text">{extra.emojis}&nbsp;</span>
+        <span>{extra.title}&nbsp;[{extra.length}]</span>
+      </div>
     </a>
   );
   return(
@@ -86,7 +95,7 @@ export default function Timecalc() {
               target="_blank" rel="noreferrer noopener">
                 <h1>{warmUps[choice1].emojis}</h1>
                 <p className="unstyled-text responsive-text">{warmUps[choice1].title}</p>
-                <p className="unstyled-text responsive-text">{warmUps[choice1].length}</p>
+                <p className="unstyled-text responsive-text">[{warmUps[choice1].length}]</p>
               </a>
             </td>
             <td className={exercises[choice2].bgc}>
@@ -94,7 +103,7 @@ export default function Timecalc() {
               target="_blank" rel="noreferrer noopener">
                 <h1>{exercises[choice2].emojis}</h1>
                 <p className="unstyled-text responsive-text">{exercises[choice2].title}</p>
-                <p className="unstyled-text responsive-text">{exercises[choice2].length}</p>
+                <p className="unstyled-text responsive-text">[{exercises[choice2].length}]</p>
               </a>
             </td>
             <td className={extras[choice3].bgc}>
@@ -102,7 +111,7 @@ export default function Timecalc() {
               target="_blank" rel="noreferrer noopener">
                 <h1>{extras[choice3].emojis}</h1>
                 <p className="unstyled-text responsive-text">{extras[choice3].title}</p>
-                <p className="unstyled-text responsive-text">{extras[choice3].length}</p>
+                <p className="unstyled-text responsive-text">[{extras[choice3].length}]</p>
               </a>
             </td>
           </tr>

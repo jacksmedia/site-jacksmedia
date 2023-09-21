@@ -10,7 +10,7 @@
     padding: 0.3rem!important;
   }
   .responsive-text {
-    padding: 1rem 3rem;
+/*    padding: 1rem 3rem;*/
   }
   .table-row {
     display: flex;
@@ -20,8 +20,8 @@
   .table-cell {
     display: inline-flex;
     max-width: 15vw;
-    padding: 3vw;
-    margin: 3vw;
+    padding: 2vw;
+    margin: 1vw;
     padding-bottom: 20px;
     line-height: 3.5em;
   }
@@ -43,6 +43,8 @@
 }
 .spacing-class {
   padding: 0.7rem!important;
+  outline-style: solid;
+  outline-color: black;
 }
 .flexbox1 {
   /*flex-flow: row no wrap;
