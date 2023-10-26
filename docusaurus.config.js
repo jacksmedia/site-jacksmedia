@@ -9,7 +9,7 @@ const config = {
   title: 'Jacks Media',
   staticDirectories: ['public', 'static'],
   tagline: 'Enthusiasm, Not Financial Advice',
-  url: 'https://jacks.media',
+  url: 'https://j4cks.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
