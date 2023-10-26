@@ -1,84 +1,42 @@
 ---
-slug: who, whom, why
-title: J4cks of web3 - who, whom, why
-date: 02/13/2023
+slug: who, why, what
+title: who is xJ4cks? why? what?
+date: 10/25/2023
 authors: j4cks
-tags: [NFTs, EGLD, Elrond, DAO, LKMEX, CDO, MultiversX, XMEX]
+tags: [web3, DAO, MultiversX, freelancing, lore]
 ---
 
-Who is the guy behind j4cks? Sorry, I'm not comfortable fully doxxing in 2023Q1. I'll give you some background here so you'll know why I'm so passionate about building communities and projects on MultiversX, tho.
+Who is the guy behind xJ4cks? Sorry, I'm not comfortable fully doxxing in 2023Q4. I'll give you some background here so you'll know what I'm passionate about and what I'm working on, though. The 'why' will follow.
 
-![multi-pfp-tall](./multi-pfp-tall.png)
-# whom
+> ![multi-pfp-tall](./multi-pfp-tall.png)
+> #### a collage of NFTs + an un-issued Bank of Lannuvar note
 
-First off, which brands do I consider worth your time, in MultiversX, in 2023?
-Here's a quick list just in case you came here to find this out, too.
 
-0. SuperVictor 
-1. Combased / ComVerse
-2. MaiarGhost (MxGhost)
-3. MaiarWizards 
-4. New Degen Order
-5. Lannuvar (SubDAO of Realmx.io)
+# who & what
 
-Other people know more about other projects, and they can vouch for them, or not. I can vouch for these. I've ranked then in descending order of their estimated capital inflows, as of this quarter (2023Q1).
+First off, my professional background.
 
-You can [donate to SuperVictor](https://t.co/Jbf09LUtTw) with crypto or with fiat bank currency. He needs all the money he can get because it's a race to get him expensive medicine in time. I mention it first and foremost, it's a charity and not a typical capitalist venture yet community is everything so consider helping ours out.
+1. Some early jobs I worked: buffet runner in a fancy hotel, movie projectionist, bank teller.
+2. I enlisted in the U.S. military after 9/11, was trained to perform a Top Secret IT job, hence...
+3. I lived in both S.Korea and Japan & enjoyed exploring their cuisine and tourist spots.
+4. I freelanced in web development, from 2018 onwards;
+5. Began working in web3 (blockchain + Discord) in 2021;
+6. Created graphics & lore, from 2022 onwards;
+7. & Started freelancing in cloud software engineering in 2023.
 
-> ![stardiver, an astronaut Combey of ComVerse](./stardiver.png)
-> #### Stardiver, one of my rarest ComVerse Combeys
+I currently live in Oregon, in one of the most progressive cities in the USA. You may have heard about the racial justice protests that occurred here during the early COVID years, and you may know us for our homeless crisis more than for our incredible city parks and restaurants, but the same policies and public attitudes that created the latter have also precipitated the former. I grew up in the Pennsylvania mountains a few hours outside of New York, so despite the drawbacks of life in this Pacific Northwest city, I vastly prefer it to the cold, mercantile Northeast of my youth.
 
-# but why ser
+My 5.5 years in the US Air Force were a whirlwind of travel and learning (mostly on the job, but sometimes on the weekend), plus my first forays into tourism and blogging. Those archives are strewn across flickr and facebook, but maybe I'll collect them together again someday. 
 
-Why does the idea of a DAO (Decentralized, Autonomous (run by software) Organization) appeal to me? I believe strongly in a future in which humans can trust one another in a new type of capitalism. I also believe that the DAO concept, versus the current corporation concept, is what can take us as a ppl to this next level of civilization.
 
-So even wen I'm writing pithy posts abt absurd pop art jpgs, I'm also tapping in to a deep ethical drive to make this world a better place, by repping the idea of transacting business on chain; *by 'on chain', I mean in public, on a transparent record like a blockchain*.
+# why web3
 
-As to my thoughts about web3 & ElrondNetwork and what has transpired as we've transformed into MultiversX, read on. It's a WIP collecting all my documented ideas on this, going back over a year now. I will comb thru records and add details to each month as I go, filling in backwards.
+Why web3? Hope, of course. It's ideally built around a new economic model, not just hustling NFTs (unique picture metadata on a public database). The core of the new model is the idea of DAOs (Decentralized, Autonomous Organizations), and this appeals to me because it shows us a way towards community-oriented capitalism. I believe strongly that a new model which enables humans to better trust each other is the answer to the runaway profiteering and exploitation that we're now living with.
 
+The culture of my favorite blockchain, MultiversX, is exciting  because its DAO landscape is robust and entrepreneurial-- some of the vibes remind me of the late 90s Internet (early web1). I think this is mainly due to its tech, which is well suited to amateur projects (we have extremely cheap transactions versus Ethereum). MultiversX has a large, well-connected developer community, very active on Discord and The App Formerly Known As Twitter. The landscape feels a lot like the www before big corporations discovered it...
+
+I have enjoyed creating promotional graphics and writing some lore for DAOs and projects on MultiversX, especially in 2022 when it was called Elrond. Some links to that work can be found by exploring this site.
 
 > ![promotion for the Lost Pages](./promo-mind2.png)
 > #### Promotion I created for the Lost Pages NFT collection
 
-The facts of the matter are that I've had a hand in building 2 of the projects I've mentioned above, and I intend to help all 5 of them flourish. I've operated as a freelance promoter/brand agent for all of 2022, repping whatever I felt passionately abt at the time. I also wrote fiction (some call it Lore) and some smol amount of website code, and I discovered a passion for editing images and making brand posts. 
-
-Is web3 on MultiversX a typical capitalist landscape rn? Heck no! Only once last year did I receive a direct payment for work; all incomes were passive rewards (airdrops, as many DAOs call them) based upon holding certain NFTs in my MultiversX wallet. The foundational changes in our economy & society that this system makes possible are absolutely untapped, at this moment-- web3 enables a new type of capitalism, by leveraging a new type of membership in organizations and tying real-world currency to this membership. 
-
-Manifesto more or less complete! What follows is jumbled thoughts I'm gathering from my workflow (far too many notes & docs) & social media accounts from last year. It's an attempt to piece together what I've been doing in web3, but it will take some time.
-
-## July '22 Thoughts on NFTs
-> 
-> I haven't felt so driven to acquire a collection in months. Something about
-> the different color palettes all working together so well, plus the superb 
-> variety of layers... it's very addictive comparing them, you'll see.
-> 
-> \#hkz is the tag
-> - 5000 pieces
-> - minted on MATIC! Brought over bc Elrond rocks
-> - Fresh collection, size unknown, minting July 27th
-> - FP on these guys absolutely the healtiest thing I've ever witnessed, 260% gain in 3rd day
-> - top 10 volume since mint
-> - holders count growing steadily by the hour
->
-> - WTF, I won 1st prize in the Karitha lore contest?! Free bottle of ElrondEnergy rum, plus secret entry to the Kalu'ak Faction DAO meetings comes with it, I'm enthused & glad my story was so well received.
-
-## May '22 Thoughts on NFTs
-> - Holy Shibs I can't believe I actually traded those 2 GNOGONS for KROGAN ships! 3 Ships + 2 Drifter pilots for 2 dragons seems great to me!
-> - What if I'm getting pulled along by confidence games out here? Ppl I respect on Twitter are warning me about cult psychology used as tools by NFTProjects... I'm sure my background will help me stay safe from these kinds of projects, I can sense this kind of stuff early on.
-
-## Mar '22 Thoughts on NFTs
-> - Realm of Karitha is amazing, wish I'd minted this one wen I first saw it. At least I got a General Store (GS) so I am earning $REALM now!
-> - Holy cats, Combased is growing fast! There's a guy in Australia who bought 50 Combeys bc he believes in this project! Crazy how no one is taking this team seriously, but they'll keep trusting other teams with bad histories.
-> - I need more Shibas, I love this brand! I'm stoked even tho they don't wanna use my website, bc they paid me & didn't break the contract! Airdrops for these are super reliable, can see this compounding into a huge pile in a few years, defo repaying the NFTs' price.
-> - Glad I sold those K.Koalas, even tho they released a token; amazing feeling earning money from flipping "art"!
-
-## Jan '22 Thoughts on NFTs
-> - These Combeys are awesome! I can't believe I bought something on a blockchain, p2p, and it worked out! web3 is about trust for one another, awesome!
-> - These Elrond Shibas are amazing, they look goofy cute & their Discord community is super fun.
-> - These Krypto Koalas look rad, they might be amazing if their merge feature gets built.
-> - Glad I took the plunge and joined Discord, again, after the scam of last month. This blockchain is much easier to use than any of the Ethereum clones, much easier to see what's happening, too.
-
-## Dec '21 Thoughts on NFTs
-> - I'm enjoying the MaiarDex DeFi but I'm stoked AF to actually buy some NFTs on this chain at last! Here's [the day I bought the BRICK NFTs](https://explorer.multiversx.com/transactions/2b917c8c184bb93c6e60932cc3e9de3931fbe48b11b3c127592af4ecc087e9f8)!
-> - Holy smokes the \#BrickBoys gave me a bonus NFT for my birthday 🤯
-> - Can't believe I minted such nice Gnogons!

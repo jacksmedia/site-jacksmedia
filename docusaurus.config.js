@@ -59,7 +59,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/jacksmedia/j4cksdotcom',
-            label: 'Code on GH',
+            label: 'This Site\'s Codebase on GH',
             position: 'right',
           },
         ],
@@ -71,21 +71,21 @@ const config = {
             title: 'Guides',
             items: [
               {
-                label: 'Intro',
+                label: 'Intro to Guides',
                 to: '/docs/intro',
               },
               {
-                label: 'Qi~Chi Play',
+                label: 'Qi~Chi Calendar of YTs',
                 to: '/docs/tutorial-extras/qi',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Frens in web3',
             items: [
               {
-                label: 'ProjectX Discord - Learn web3!',
-                href: 'https://discord.gg/projectx-dao',
+                label: 'Multiconomy',
+                href: 'https://www.multiconomy.com/',
               },
               {
                 label: 'Lannuvar DAO in Realm of Karitha',
@@ -94,20 +94,20 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Socials',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'xJ4cks on Threads',
+                href: 'https://threads.net/xJ4cks',
               },
               {
-                label: 'J4cks\'s Twitter',
-                href: 'https://twitter.com/xJ4cks',
-              },
-              {
-                label: 'xJ4cks Insta',
+                label: 'xJ4cks on Insta',
                 href: 'https://www.instagram.com/xj4cks',
               },
+              {
+                label: 'Jacks.Media GitHub',
+                href: 'https://github.com/jacksmedia',
+              }
             ],
           },
         ],
