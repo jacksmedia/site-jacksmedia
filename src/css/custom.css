@@ -10,7 +10,7 @@
     padding: 0.3rem!important;
   }
   .responsive-text {
-/*    padding: 1rem 3rem;*/
+    display: inline-flex;
   }
   .table-row {
     display: flex;

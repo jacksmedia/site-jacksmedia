@@ -36,14 +36,15 @@ const exercises = [
 {"url":"https://youtu.be/_V29hE0_oBE?si=1hOSHW9iDzupCTiB&t=47","emojis":"🦉🌜","title":"Seated Tai Chi For Seniors with David-Dorian Ross","length":"11m15s","bgc":"indianred"}
 ]
 const extras = [
+  {"url":"https://youtu.be/M59aylBo3ZE?si=CPN1PCz25k-EiTZ9&t=57","emojis":"🐉🌀","title":"Swimming Dragon","length":"~10m","bgc":"mediumaquamarine"},
 {"url":"https://youtu.be/Yzm3fA2HhkQ?t=45","emojis":"🪢🪡","title":"Yoga For Flexibility","length":"16m26s","bgc":"cornflowerblue"},
 {"url":"https://www.youtube.com/watch?v=V1HbXt5ZRlg&t=39s","emojis":"🗼🪜","title":"Head Stand Yoga Pose","length":"17m59s","bgc":"cornflowerblue"},
-{"url":"https://youtu.be/ED3_i_xVd_s?t=54","emojis":"🎱🌈","title":"Qigong exercises to manage Stress and Anxiety","length":"10m14s","bgc":"lemonchiffon"},
+{"url":"https://youtu.be/ED3_i_xVd_s?t=54","emojis":"🎱🌈","title":"Qigong to manage Stress and Anxiety","length":"10m14s","bgc":"lemonchiffon"},
 {"url":"https://youtu.be/FgfT2fOv31E?t=40","emojis":"🪗🫧","title":"Yoga For Abs","length":"8m2s","bgc":"cornflowerblue"},
-{"url":"https://youtu.be/LZ2oHU-mMJI?t=443","emojis":"🕸🎡","title":"Qigong 5 Minutes a Day - Spinning the Silk Wheel","length":"12m29s","bgc":"lemonchiffon"},
+{"url":"https://youtu.be/LZ2oHU-mMJI?t=443","emojis":"🕸🎡","title":"Spinning the Silk Wheel","length":"12m29s","bgc":"lemonchiffon"},
 {"url":"https://youtu.be/Nnd5Slo02us?t=25","emojis":"🪑🏹","title":"Yoga For Focus & Productivity","length":"9m51s","bgc":"cornflowerblue"},
-{"url":"https://youtu.be/eBdfCX5XnX4","emojis":"4️⃣🦎","title":"6-Minute Yoga For Hips","length":"6m15s","bgc":"cornflowerblue"},
-{"url":"https://youtu.be/8T39OBNaNzU?t=26","emojis":"✂🧱","title":"12-Minute Core Conditioning","length":"12m6s","bgc":"cornflowerblue"}
+{"url":"https://youtu.be/eBdfCX5XnX4","emojis":"4️⃣🦎","title":"Yoga For Hips","length":"6m15s","bgc":"cornflowerblue"},
+{"url":"https://youtu.be/8T39OBNaNzU?t=26","emojis":"✂🧱","title":"Core Conditioning","length":"12m6s","bgc":"cornflowerblue"}
 ]
 const howManyWarmUps = warmUps.length
 const howManyExercises = exercises.length
@@ -57,24 +58,24 @@ export default function Timecalc() {
   const listWarmUps = warmUps.map((warmUp) => 
     <a href={`${warmUp.url} table-cell`}>
       <div className={`spacing-class ${warmUp.bgc}`}>
-        <span className="responsive-text">{warmUp.emojis}&nbsp;</span>
-        <span>{warmUp.title}&nbsp;[{warmUp.length}]</span>
+        <div className="responsive-text">{warmUp.emojis}&nbsp;</div>
+        <div>{warmUp.title}&nbsp;[{warmUp.length}]</div>
       </div>
     </a>
   );
   const listExercises = exercises.map((exercise) => 
     <a href={`${exercise.url} table-cell`}>
       <div className={`spacing-class ${exercise.bgc}`}>
-        <span className="responsive-text">{exercise.emojis}&nbsp;</span>
-        <span>{exercise.title}&nbsp;[{exercise.length}]</span>
+        <div className="responsive-text">{exercise.emojis}&nbsp;</div>
+        <div>{exercise.title}&nbsp;[{exercise.length}]</div>
       </div>
     </a>
   );
   const listExtras = extras.map((extra) => 
     <a href={`${extra.url} table-cell`}>
       <div className={`spacing-class ${extra.bgc}`}>
-        <span className="responsive-text">{extra.emojis}&nbsp;</span>
-        <span>{extra.title}&nbsp;[{extra.length}]</span>
+        <div className="responsive-text">{extra.emojis}&nbsp;</div>
+        <div>{extra.title}&nbsp;[{extra.length}]</div>
       </div>
     </a>
   );
