@@ -24,18 +24,7 @@ const FeatureList = [
         what you wish to see, and refine your mind's eye
       </>
     ),
-  },
-  {
-    title: 'Mine Crypto in 2023',
-    img: require('@site/static/img/raven.png').default,
-    linker: '/docs/tutorial-mining/intro',
-    description: (
-      <>
-        Ravencoin can be yours when you download and run free software
-        on your gaming PC or laptop. Hodl or swap and be your own banker!
-      </>
-    ),
-  },
+  }
 ];
 
 function Feature({img, title, description, linker}) {
