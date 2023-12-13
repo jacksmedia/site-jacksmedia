@@ -42,7 +42,7 @@ const Routines = [
       {"https://youtu.be/ED3_i_xVd_s?t=54":"🌈 8 Rainbows"},
       {"https://youtu.be/eBdfCX5XnX4":"🦎 Open Hips"},
       {"https://www.youtube.com/watch?v=8T39OBNaNzU":"✂️🧱 Abs Work"},
-      {"https://youtu.be/M59aylBo3ZE?si=CPN1PCz25k-EiTZ9&t=57":"🐉🌀 Swimming Dragon"}
+      {"https://youtu.be/M59aylBo3ZE?si=C-EQU2bBIMmTpfxC&t=126":"🐉🌀 Swimming Dragon"}
     ],
   },
 ];
