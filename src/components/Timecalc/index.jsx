@@ -24,9 +24,9 @@ const exercises = [
 {"url":"https://youtu.be/cEOS2zoyQw4?t=89","emojis":"🦆🌊","title":"Tai Chi 5 Minutes a Day Module 01","length":"11m","bgc":"lemonchiffon"},
 {"url":"https://youtu.be/HMbT-CPVl2k?t=49","emojis":"🍵🐵","title":"MOOD LIFTER","length":"15m40s","bgc":"mediumaquamarine"},
 {"url":"https://youtu.be/enk0bOv-gF8?t=16","emojis":"🦇☁️","title":"Tai Chi 5 min a day module 02","length":"6m20s","bgc":"lemonchiffon"},
-{"url":"https://youtu.be/IyINAjEoTIs?t=85","emojis":"🚪🦅","title":"Qigong for Beginners","length":"30m3s","bgc":"mediumaquamarine"},
-{"url":"https://www.youtube.com/watch?v=OPcZlXYcdMA?t=31","emojis":"🐎🌕","title":"Tai chi 5 Minutes a Day Module 03","length":"9m8s","bgc":"lemonchiffon"},
 {"url":"https://youtu.be/8wddPSIEpvE?t=61","emojis":"🐠🛸","title":"Qigong for Vitality: Opening the Door of Life","length":"13m12s","bgc":"mediumaquamarine"},
+{"url":"https://www.youtube.com/watch?v=OPcZlXYcdMA?t=31","emojis":"🐎🌕","title":"Tai chi 5 Minutes a Day Module 03","length":"9m8s","bgc":"lemonchiffon"},
+{"url":"https://youtu.be/IyINAjEoTIs?t=85","emojis":"🚪🦅","title":"Qigong for Beginners","length":"30m3s","bgc":"mediumaquamarine"},
 {"url":"https://youtu.be/RoIqYtiTLFI?t=18","emojis":"🐍🍂","title":"UPDATED: Module 04 beginners Tai Chi","length":"10m38s","bgc":"lemonchiffon"},
 {"url":"https://youtu.be/nmmNWj9YtAw?si=Q7Hj2zZY6bPrq2GN&t=52","emojis":"🐯🌋","title":"DAILY QIGONG ROUTINE","length":"17m8s","bgc":"mediumaquamarine"},
 {"url":"https://youtu.be/62a20CiIAlY?t=44","emojis":"🐉☂️","title":"Tai Chi Five Minutes a Day Module 05","length":"7m2s","bgc":"lemonchiffon"},
@@ -36,7 +36,7 @@ const exercises = [
 {"url":"https://youtu.be/_V29hE0_oBE?si=1hOSHW9iDzupCTiB&t=47","emojis":"🦉🌜","title":"Seated Tai Chi For Seniors with David-Dorian Ross","length":"11m15s","bgc":"indianred"}
 ]
 const extras = [
-  {"url":"https://youtu.be/M59aylBo3ZE?si=CPN1PCz25k-EiTZ9&t=57","emojis":"🐉🌀","title":"Swimming Dragon","length":"~10m","bgc":"mediumaquamarine"},
+  {"url":"https://youtu.be/M59aylBo3ZE?si=SS1cvjIUflqgCSCk&t=126","emojis":"🐉🌀","title":"Swimming Dragon","length":"~10m","bgc":"mediumaquamarine"},
 {"url":"https://youtu.be/Yzm3fA2HhkQ?t=45","emojis":"🪢🪡","title":"Yoga For Flexibility","length":"16m26s","bgc":"cornflowerblue"},
 {"url":"https://www.youtube.com/watch?v=V1HbXt5ZRlg&t=39s","emojis":"🗼🪜","title":"Head Stand Yoga Pose","length":"17m59s","bgc":"cornflowerblue"},
 {"url":"https://youtu.be/ED3_i_xVd_s?t=54","emojis":"🎱🌈","title":"Qigong to manage Stress and Anxiety","length":"10m14s","bgc":"lemonchiffon"},
