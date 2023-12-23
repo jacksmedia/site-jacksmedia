@@ -21,9 +21,9 @@ const Routines = [
       {"https://youtu.be/cEOS2zoyQw4?t=89":"🦆🌊 1️⃣ "},
       {"https://www.youtube.com/watch?v=HMbT-CPVl2k?t=33":"🐵 Mood Lifter"},
       {"https://www.youtube.com/watch?v=enk0bOv-gF8?t=17":"🦇☁️ 2️⃣ "},
-      {"https://www.youtube.com/watch?v=IyINAjEoTIs?t=80":"🦅 Expanding 6D"},
-      {"https://www.youtube.com/watch?v=OPcZlXYcdMA?t=31":"🐎🌕 3️⃣ "},
       {"https://www.youtube.com/watch?v=8wddPSIEpvE?t=54":"🐠 Door of Life"},
+      {"https://www.youtube.com/watch?v=OPcZlXYcdMA?t=31":"🐎🌕 3️⃣ "},
+      {"https://www.youtube.com/watch?v=IyINAjEoTIs?t=80":"🦅 Expanding 6D"},
       {"https://www.youtube.com/watch?v=RoIqYtiTLFI":"🐍🍂 4️⃣ "},
       {"https://www.youtube.com/watch?v=nmmNWj9YtAw?t=60":"🐯 Zip Up"},
       {"https://www.youtube.com/watch?v=62a20CiIAlY?t=25":"🐉☂️ 5️⃣"},
@@ -42,7 +42,7 @@ const Routines = [
       {"https://youtu.be/ED3_i_xVd_s?t=54":"🌈 8 Rainbows"},
       {"https://youtu.be/eBdfCX5XnX4":"🦎 Open Hips"},
       {"https://www.youtube.com/watch?v=8T39OBNaNzU":"✂️🧱 Abs Work"},
-      {"https://youtu.be/M59aylBo3ZE?si=C-EQU2bBIMmTpfxC&t=126":"🐉🌀 Swimming Dragon"}
+      {"https://youtu.be/M59aylBo3ZE?si=SS1cvjIUflqgCSCk&t=126:"🐉🌀 Swimming Dragon"}
     ],
   },
 ];
