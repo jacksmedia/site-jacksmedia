@@ -7,7 +7,6 @@
 
 /* @media screen and (max-width: 500px) { */
   .spacing-class {
-    /* padding: 0.3rem!important; */
   }
   .responsive-text {
     /* display: inline-flex; */
@@ -16,11 +15,11 @@
     display: flex;
     justify-content: start;
     align-items: start;
+    padding:0;
   }
   .table-cell {
-    /* display: inline-flex; */
-    padding: 2vw;
-    margin: 0vw;
+    display: inline-flex;
+    max-width: 15vw;
     padding-bottom: 20px;
     line-height: 2.5em;
   }
