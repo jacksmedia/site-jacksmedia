@@ -60,7 +60,7 @@ export default function Timecalc() {
     <a href={`${warmUp.url} table-cell`}>
       <div className={`spacing-class ${warmUp.bgc}`}>
         <div className="responsive-text">{warmUp.emojis}&nbsp;</div>
-        <div>{warmUp.title}&nbsp;[{warmUp.length}]</div>
+        <p>{warmUp.title}&nbsp;[{warmUp.length}]</p>
       </div>
     </a>
   );
@@ -68,7 +68,7 @@ export default function Timecalc() {
     <a href={`${exercise.url} table-cell`}>
       <div className={`spacing-class ${exercise.bgc}`}>
         <div className="responsive-text">{exercise.emojis}&nbsp;</div>
-        <div>{exercise.title}&nbsp;[{exercise.length}]</div>
+        <p>{exercise.title}&nbsp;[{exercise.length}]</p>
       </div>
     </a>
   );
@@ -76,7 +76,7 @@ export default function Timecalc() {
     <a href={`${extra.url} table-cell`}>
       <div className={`spacing-class ${extra.bgc}`}>
         <div className="responsive-text">{extra.emojis}&nbsp;</div>
-        <div>{extra.title}&nbsp;[{extra.length}]</div>
+        <p>{extra.title}&nbsp;[{extra.length}]</p>
       </div>
     </a>
   );
@@ -117,16 +117,11 @@ export default function Timecalc() {
               </a>
             </td>
           </tr>
+          
           <tr className="table-row">
-            <td>
-              <div className="smolTable">{listWarmUps}</div>
-            </td>
-            <td>
-              <div className="smolTable">{listExercises}</div>
-            </td>
-            <td>
-              <div className="smolTable">{listExtras}</div>
-            </td>
+            <td className="smolTable">{listWarmUps}</td>
+            <td className="smolTable">{listExercises}</td>
+            <td className="smolTable">{listExtras}</td>
           </tr>
         </table>
       </div>

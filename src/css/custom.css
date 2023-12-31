@@ -5,12 +5,12 @@
   min-height: calc(100vw * 2.31)!important;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) { */
   .spacing-class {
-    padding: 0.3rem!important;
+    /* padding: 0.3rem!important; */
   }
   .responsive-text {
-    display: inline-flex;
+    /* display: inline-flex; */
   }
   .table-row {
     display: flex;
@@ -18,25 +18,17 @@
     align-items: start;
   }
   .table-cell {
-    display: inline-flex;
-    max-width: 15vw;
+    /* display: inline-flex; */
     padding: 2vw;
-    margin: 1vw;
+    margin: 0vw;
     padding-bottom: 20px;
-    line-height: 3.5em;
+    line-height: 2.5em;
   }
-  .smolTable {
-    display: flex;
-    justify-items: flex-start;
-    justify-content: space-between;
-  }
-}
+/* } */
 /* end of media query */
 .smolTable {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
 }
 .unstyled-text {
   color: black !important;
@@ -45,6 +37,7 @@
   padding: 0.7rem!important;
   outline-style: solid;
   outline-color: black;
+  margin: 0px!important;
 }
 .flexbox1 {
   /*flex-flow: row no wrap;
