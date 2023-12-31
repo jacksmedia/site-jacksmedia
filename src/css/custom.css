@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 500px) {
   .spacing-class {
-    padding: 0.3rem!important;
+/*    padding: 0.3rem!important;*/
   }
   .responsive-text {
     display: inline-flex;
