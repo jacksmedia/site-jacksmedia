@@ -21,8 +21,8 @@
   .table-cell {
     display: inline-flex;
     max-width: 15vw;
-    padding: 2vw;
-    margin: 1vw;
+/*    padding: 2vw;*/
+/*    margin: 1vw;*/
     padding-bottom: 20px;
     line-height: 3.5em;
   }
@@ -43,7 +43,7 @@
   color: black !important;
 }
 .spacing-class {
-/*  padding: 0.7rem!important;*/
+  padding: 0.7rem!important;
   outline-style: solid;
   outline-color: black;
 }
