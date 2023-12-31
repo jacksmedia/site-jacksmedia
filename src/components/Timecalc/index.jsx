@@ -37,7 +37,7 @@ const exercises = [
   { "url":"https://youtu.be/_V29hE0_oBE?si=GiDMPoCu9RynHwNj&t=47","emojis":"🦉🌜","title":"Seated Tai Chi","length":"10m6s","bgc":"indianred"}
 ]
 const extras = [
-  { "url":"https://youtu.be/M59aylBo3ZE?si=1cAwU0MRX8nhWUTz&t=127","emojis":"🐉🌀","title":"Swimming Dragon","length":"8m28","bgc":"mediumaquamarine"},
+  { "url":"https://youtu.be/M59aylBo3ZE?si=1cAwU0MRX8nhWUTz&t=127","emojis":"🐉🌀","title":"Swimming Dragon","length":"8m28s","bgc":"mediumaquamarine"},
   { "url":"https://youtu.be/Yzm3fA2HhkQ?si=9U-udKw3-FJ9eVZ7&t=50","emojis":"🪢🪡","title":"Yoga For Flexibility","length":"15m4s","bgc":"cornflowerblue"},
   { "url":"https://www.youtube.com/watch?v=V1HbXt5ZRlg&t=39s","emojis":"🗼🪜","title":"Head Stand Yoga Pose","length":"17m59s","bgc":"cornflowerblue"},
   { "url":"https://youtu.be/ED3_i_xVd_s?si=PEn7R0kCBX905vKR&t=56","emojis":"🎱🌈","title":"Qigong to Manage Stress & Anxiety","length":"9m2s","bgc":"lemonchiffon"},
