@@ -32,6 +32,9 @@
   }
 }
 /* end of media query */
+.gutterless {
+  margin:0;
+}
 .smolTable {
   display: flex;
   justify-content: flex-start;

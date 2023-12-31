@@ -118,13 +118,13 @@ export default function Timecalc() {
             </td>
           </tr>
           <tr className="table-row">
-            <td>
+            <td className="gutterless">
               <div className="smolTable">{listWarmUps}</div>
             </td>
-            <td>
+            <td className="gutterless">
               <div className="smolTable">{listExercises}</div>
             </td>
-            <td>
+            <td className="gutterless">
               <div className="smolTable">{listExtras}</div>
             </td>
           </tr>
