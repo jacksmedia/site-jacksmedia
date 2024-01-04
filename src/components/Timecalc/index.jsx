@@ -1,5 +1,5 @@
-import React, {Link, useState} from "react"
-import { PieChart } from 'react-minimal-pie-chart'
+import React, {Link, PureComponent } from "react"
+import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
 
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 const Today = new Date().toLocaleDateString('en-US', options )
@@ -231,6 +231,8 @@ export default function Timecalc() {
   const summedLengthValues = warmUps[choice1].seconds + exercises[choice2].seconds + extras[choice3].seconds
   const practiceLength = formatTime(summedLengthValues)
 
+  const COLORS = [warmUps[choice1].bgc, exercises[choice2].bgc, extras[choice3].bgc];
+
   const listWarmUps = warmUps.map((warmUp) => 
     <a href={`${warmUp.url} table-cell`}>
       <div className={`spacing-class ${warmUp.bgc}`}>
@@ -255,6 +257,20 @@ export default function Timecalc() {
       </div>
     </a>
   );
+  const data =[
+      { title: warmUps[choice1].emojis,
+        value: warmUps[choice1].seconds,
+        color: warmUps[choice1].bgc, 
+      },
+      { title: exercises[choice2].emojis,
+        value: exercises[choice2].seconds,
+        color: exercises[choice2].bgc,
+      },
+      { title: extras[choice3].emojis,
+        value: extras[choice3].seconds,
+        color: extras[choice3].bgc,
+      }
+  ]
   return(
     <div>
       <div>⚓️ Today is
@@ -297,29 +313,24 @@ export default function Timecalc() {
               <h3>
                 Today's practice is {practiceLength} seconds long.
               </h3>
-              <PieChart
-                data={[
-                  { title: warmUps[choice1].emojis,
-                    value: warmUps[choice1].seconds,
-                    color: warmUps[choice1].bgc, 
-                  },
-                  { title: exercises[choice2].emojis,
-                    value: exercises[choice2].seconds,
-                    color: exercises[choice2].bgc,
-                  },
-                  { title: extras[choice3].emojis,
-                    value: extras[choice3].seconds,
-                    color: extras[choice3].bgc,
-                  },
-                ]}
-                label={(data) =>
-                  data.title
-                }
-                labelPosition={20}
-                radius={50}
-                lineWidth={100}
-                segmentsStyle={{ transition: 'stroke .3s', cursor: 'pointer' }}
-              />
+              <PieChart width={800} height={400}>
+                <Pie
+                  data={data}
+                  cx={420}
+                  cy={200}
+                  startAngle={360}
+                  endAngle={0}
+                  innerRadius={60}
+                  outerRadius={80}
+                  fill="#8884d8"
+                  paddingAngle={5}
+                  dataKey="value"
+                >
+                  {data.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                  ))}
+                </Pie>
+              </PieChart>
               <h3>(Pie Chart labels coming soon.)</h3>
             </td>
           </tr>
