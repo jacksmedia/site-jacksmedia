@@ -1,5 +1,5 @@
-import React, {Link, useState} from "react";
-import { PieChart } from 'react-minimal-pie-chart';
+import React, {Link, useState} from "react"
+import { PieChart } from 'react-minimal-pie-chart'
 
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 const Today = new Date().toLocaleDateString('en-US', options )
@@ -8,6 +8,13 @@ const nowDate = new Date(Today)
 const Difference_In_Time = nowDate.getTime() - dayOneDate.getTime()
 const Difference_In_Days = Difference_In_Time / (1000*60*60*24)
 const RoundedResult = Math.round(Difference_In_Days)
+
+function formatTime(seconds) {
+  const minutes = Math.floor(seconds / 60);
+  const remainingSeconds = seconds % 60;
+
+  return `${minutes}m ${remainingSeconds}s`;
+}
 
 const warmUps = [
   {
@@ -221,6 +228,8 @@ export default function Timecalc() {
   const choice1 = RoundedResult % howManyWarmUps
   const choice2 = RoundedResult % howManyExercises
   const choice3 = RoundedResult % howManyExtras
+  const summedLengthValues = warmUps[choice1].seconds + exercises[choice2].seconds + extras[choice3].seconds
+  const practiceLength = formatTime(summedLengthValues)
 
   const listWarmUps = warmUps.map((warmUp) => 
     <a href={`${warmUp.url} table-cell`}>
@@ -285,6 +294,9 @@ export default function Timecalc() {
           </tr>
           <tr>
             <td>
+              <h3>
+                Today's practice is {practiceLength} seconds long.
+              </h3>
               <PieChart
                 data={[
                   { title: warmUps[choice1].emojis,
@@ -308,6 +320,7 @@ export default function Timecalc() {
                 lineWidth={100}
                 segmentsStyle={{ transition: 'stroke .3s', cursor: 'pointer' }}
               />
+              <h3>(Pie Chart labels coming soon.)</h3>
             </td>
           </tr>
           
