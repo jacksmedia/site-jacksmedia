@@ -271,6 +271,18 @@ export default function Timecalc() {
         color: extras[choice3].bgc,
       }
   ]
+  const RADIAN = Math.PI / 180;
+  const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index, data }) => {
+    const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+    const x = cx + radius * Math.cos(-midAngle * RADIAN);
+    const y = cy + radius * Math.sin(-midAngle * RADIAN);
+
+    return (
+      <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
+        {`${(percent * 100).toFixed(0)}%`}
+      </text>
+    );
+  };
   return(
     <div>
       <div>⚓️ Today is
@@ -313,15 +325,17 @@ export default function Timecalc() {
               <h3>
                 Today's practice is {practiceLength} seconds long.
               </h3>
-              <PieChart width={800} height={400}>
+              <PieChart width={300} height={200}>
                 <Pie
                   data={data}
-                  cx={420}
-                  cy={200}
+                  cx={140}
+                  cy={80}
                   startAngle={360}
                   endAngle={0}
                   innerRadius={60}
                   outerRadius={80}
+                  labelLine={false}
+                  label={renderCustomizedLabel}
                   fill="#8884d8"
                   paddingAngle={5}
                   dataKey="value"
