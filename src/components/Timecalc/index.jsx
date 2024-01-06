@@ -272,14 +272,14 @@ export default function Timecalc() {
       }
   ]
   const RADIAN = Math.PI / 180;
-  const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index, data }) => {
+  const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index, payload }) => {
     const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
     const x = cx + radius * Math.cos(-midAngle * RADIAN);
     const y = cy + radius * Math.sin(-midAngle * RADIAN);
 
     return (
       <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
-        {`${(percent * 100).toFixed(0)}%`}
+        {payload.title}
       </text>
     );
   };
@@ -345,7 +345,6 @@ export default function Timecalc() {
                   ))}
                 </Pie>
               </PieChart>
-              <h3>(Pie Chart labels coming soon.)</h3>
             </td>
           </tr>
           
