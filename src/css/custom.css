@@ -49,20 +49,20 @@
   font-size: 1.3em;
 }
 /* qi page styling  */
-.color1{
-  background-color: LemonChiffon !important;
+.lemonchiffon{
+  background: linear-gradient(LemonChiffon, rgba(255,255,255,0.1)) !important;
   color: black;
 }
-.color2{
-  background-color: MediumAquamarine !important;
+.mediumaquamarine{
+  background: linear-gradient(MediumAquamarine, rgba(255,255,255,0.1)) !important;
   color: black;
 }
-.color3{
-  background-color: cornflowerblue !important;
+.cornflowerblue{
+  background: linear-gradient(cornflowerblue, rgba(255,255,255,0.1)) !important;
   color: black;
 }
-.color4{
-  background-color: palegreen !important;
+.palegreen{
+  background: linear-gradient(palegreen, rgba(255,255,255,0.1)) !important;
   color: black;
 }
 /* boilerplate Infinima defaults */
