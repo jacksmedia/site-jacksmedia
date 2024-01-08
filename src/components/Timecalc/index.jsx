@@ -201,8 +201,7 @@ const extras = [
     "url":"https://youtu.be/Nnd5Slo02us?si=9gwhxzB009KkaALo&t=26",
     "emojis":"🪑🏹","title":"Yoga For Focus & Productivity",
     "length":"9m10s",
-    "seconds": 550
-,
+    "seconds": 550,
     "bgc":"color3"
     },
   {

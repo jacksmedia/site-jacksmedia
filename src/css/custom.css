@@ -53,16 +53,16 @@
   background-color: LemonChiffon !important;
   color: black;
 }
-.color4{
-  background-color: palegreen !important;
-  color: black;
-}
 .color2{
-  background-color: MediumAquamarine;
+  background-color: MediumAquamarine !important;
   color: black;
 }
 .color3{
-  background-color: cornflowerblue;
+  background-color: cornflowerblue !important;
+  color: black;
+}
+.color4{
+  background-color: palegreen !important;
   color: black;
 }
 /* boilerplate Infinima defaults */
