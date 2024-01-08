@@ -49,19 +49,19 @@
   font-size: 1.3em;
 }
 /* qi page styling  */
-.lemonchiffon{
+.color1{
   background-color: LemonChiffon !important;
   color: black;
 }
-.indianred{
-  background-color: indianred !important;
+.color4{
+  background-color: palegreen !important;
   color: black;
 }
-.mediumaquamarine{
+.color2{
   background-color: MediumAquamarine;
   color: black;
 }
-.cornflowerblue{
+.color3{
   background-color: cornflowerblue;
   color: black;
 }
