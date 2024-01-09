@@ -236,7 +236,8 @@ export default function Timecalc() {
     <a href={`${warmUp.url} table-cell`}>
       <div className={`spacing-class ${warmUp.bgc}`}>
         <div className="responsive-text">{warmUp.emojis}&nbsp;</div>
-        <p>{warmUp.title}&nbsp;[{warmUp.length}]</p>
+        <p className="unstyled-text responsive-text">{warmUp.title}</p>
+        <p className="unstyled-text responsive-text">[{warmUp.length}]</p>
       </div>
     </a>
   );
@@ -244,7 +245,8 @@ export default function Timecalc() {
     <a href={`${exercise.url} table-cell`}>
       <div className={`spacing-class ${exercise.bgc}`}>
         <div className="responsive-text">{exercise.emojis}&nbsp;</div>
-        <p>{exercise.title}&nbsp;[{exercise.length}]</p>
+        <p className="unstyled-text responsive-text">{exercise.title}</p>
+        <p className="unstyled-text responsive-text">[{exercise.length}]</p>
       </div>
     </a>
   );
@@ -252,7 +254,8 @@ export default function Timecalc() {
     <a href={`${extra.url} table-cell`}>
       <div className={`spacing-class ${extra.bgc}`}>
         <div className="responsive-text">{extra.emojis}&nbsp;</div>
-        <p>{extra.title}&nbsp;[{extra.length}]</p>
+        <p className="unstyled-text responsive-text">{extra.title}</p>
+        <p className="unstyled-text responsive-text">[{extra.length}]</p>
       </div>
     </a>
   );
@@ -283,77 +286,73 @@ export default function Timecalc() {
     );
   };
   return(
-    <div>
-      <div>⚓️ Today is
+    <div className="app-layout">
+      <h3>⚓️ Today is
         <span> {Today}</span>
-      </div>
-      <div>🤯 It's been
+      </h3>
+      <h3>🤯 It's been
         <span> {RoundedResult} days since this practice began.</span>
+      </h3>
+      <h3>🥠 Today's Suggested Videos:</h3>
+
+      <div className="table-row">
+        <a href={warmUps[choice1].url} 
+        target="_blank" rel="noreferrer noopener" 
+        className={`table-cell special-cell spacing-class ${warmUps[choice1].bgc}`}>
+          <div className="bigger-font">{warmUps[choice1].emojis}</div>
+          <p className="unstyled-text responsive-text">{warmUps[choice1].title}</p>
+          <p className="unstyled-text responsive-text">[{warmUps[choice1].length}]</p>
+        </a>
+
+        <a href={exercises[choice2].url} 
+        target="_blank" rel="noreferrer noopener" 
+        className={`table-cell special-cell spacing-class ${exercises[choice2].bgc}`}>
+          <div className="bigger-font">{exercises[choice2].emojis}</div>
+          <p className="unstyled-text responsive-text">{exercises[choice2].title}</p>
+          <p className="unstyled-text responsive-text">[{exercises[choice2].length}]</p>
+        </a>
+
+        <a href={extras[choice3].url} 
+        target="_blank" rel="noreferrer noopener" 
+        className={`table-cell special-cell spacing-class ${extras[choice3].bgc}`}>
+          <div className="bigger-font">{extras[choice3].emojis}</div>
+          <p className="unstyled-text responsive-text">{extras[choice3].title}</p>
+          <p className="unstyled-text responsive-text">[{extras[choice3].length}]</p>
+        </a>
       </div>
 
-      <div>🥠 Today's Suggested Videos:
-        <table>
-          <tr className="table-row">
-            <td className={warmUps[choice1].bgc}>
-              <a href={warmUps[choice1].url}
-              target="_blank" rel="noreferrer noopener">
-                <h1>{warmUps[choice1].emojis}</h1>
-                <p className="unstyled-text responsive-text">{warmUps[choice1].title}</p>
-                <p className="unstyled-text responsive-text">[{warmUps[choice1].length}]</p>
-              </a>
-            </td>
-            <td className={exercises[choice2].bgc}>
-              <a href={exercises[choice2].url}
-              target="_blank" rel="noreferrer noopener">
-                <h1>{exercises[choice2].emojis}</h1>
-                <p className="unstyled-text responsive-text">{exercises[choice2].title}</p>
-                <p className="unstyled-text responsive-text">[{exercises[choice2].length}]</p>
-              </a>
-            </td>
-            <td className={extras[choice3].bgc}>
-              <a href={extras[choice3].url}
-              target="_blank" rel="noreferrer noopener">
-                <h1>{extras[choice3].emojis}</h1>
-                <p className="unstyled-text responsive-text">{extras[choice3].title}</p>
-                <p className="unstyled-text responsive-text">[{extras[choice3].length}]</p>
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h3>
-                Today's practice is {practiceLength} seconds long.
-              </h3>
-              <PieChart width={300} height={200}>
-                <Pie
-                  data={data}
-                  cx={140}
-                  cy={80}
-                  startAngle={360}
-                  endAngle={0}
-                  innerRadius={60}
-                  outerRadius={80}
-                  labelLine={false}
-                  label={renderCustomizedLabel}
-                  fill="#8884d8"
-                  paddingAngle={5}
-                  dataKey="value"
-                >
-                  {data.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                  ))}
-                </Pie>
-              </PieChart>
-            </td>
-          </tr>
-          
-          <tr className="table-row">
-            <td className="smolTable">{listWarmUps}</td>
-            <td className="smolTable">{listExercises}</td>
-            <td className="smolTable">{listExtras}</td>
-          </tr>
-        </table>
+      <div className="table-row">
+        <h3>
+          Today's practice is {practiceLength} seconds long.
+        </h3>
+        <PieChart width={300} height={200}>
+          <Pie
+            data={data}
+            cx={140}
+            cy={80}
+            startAngle={360}
+            endAngle={0}
+            innerRadius={60}
+            outerRadius={80}
+            labelLine={false}
+            label={renderCustomizedLabel}
+            fill="#8884d8"
+            paddingAngle={5}
+            dataKey="value"
+          >
+            {data.map((entry, index) => (
+              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+            ))}
+          </Pie>
+        </PieChart>
       </div>
+        
+      <div className="table-row">
+        <div className="smolTable">{listWarmUps}</div>
+        <div className="smolTable">{listExercises}</div>
+        <div className="smolTable">{listExtras}</div>
+      </div>
+
     </div>
   )
 }

@@ -5,24 +5,37 @@
   min-height: calc(100vw * 2.31)!important;
 }
 
+.app-layout {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+}
+
 /* @media screen and (max-width: 500px) { */
-  .spacing-class {
-  }
-  .responsive-text {
-    /* display: inline-flex; */
-  }
-  .table-row {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    padding:0;
-  }
-  .table-cell {
-    display: inline-flex;
-    max-width: 15vw;
-    padding-bottom: 20px;
-    line-height: 2.5em;
-  }
+
+.responsive-text {
+  display: flex;
+  /* display: inline-flex; */
+}
+.table-row {
+  display: flex;
+  justify-content: start;
+  padding:0;
+  flex-grow: 1;
+}
+.table-cell {
+  display: inline-flex;
+  padding-bottom: 20px;
+  line-height: 2.5em;
+  width: 120px;
+}
+.special-cell {
+  width: 120px;
+  flex-direction: column;
+}
+.bigger-font {
+  font-size: 2.5rem;
+}
 /* } */
 /* end of media query */
 .smolTable {
@@ -33,21 +46,12 @@
   color: black !important;
 }
 .spacing-class {
+  margin: 0px!important;
   padding: 0.7rem!important;
   outline-style: solid;
   outline-color: black;
-  margin: 0px!important;
 }
-.flexbox1 {
-  /*flex-flow: row no wrap;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: stretch;
-  gap: 10px;*/
-}
-.flexbox1 > * {
-  font-size: 1.3em;
-}
+
 /* qi page styling  */
 .lemonchiffon{
   background: linear-gradient(LemonChiffon, rgba(255,255,255,0.1)) !important;
