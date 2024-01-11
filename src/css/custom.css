@@ -29,6 +29,9 @@
   line-height: 2.5em;
   width: 120px;
 }
+.space-around{
+  justify-content: space-around;
+}
 .special-cell {
   width: 120px;
   flex-direction: column;

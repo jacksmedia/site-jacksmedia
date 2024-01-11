@@ -294,8 +294,12 @@ export default function Timecalc() {
         <span> {RoundedResult} days since this practice began.</span>
       </h3>
       <h3>🥠 Today's Suggested Videos:</h3>
-
-      <div className="table-row">
+      <div className="table-row space-around">
+        <p>Warm Up</p>
+        <p>Exercise</p>
+        <p>Extra</p>
+      </div>
+      <div className="table-row space-around">
         <a href={warmUps[choice1].url} 
         target="_blank" rel="noreferrer noopener" 
         className={`table-cell special-cell spacing-class ${warmUps[choice1].bgc}`}>
@@ -346,7 +350,11 @@ export default function Timecalc() {
           </Pie>
         </PieChart>
       </div>
-        
+      <div className="table-row space-around">
+        <p>Warm Ups</p>
+        <p>Exercises</p>
+        <p>Extras</p>
+      </div>
       <div className="table-row">
         <div className="smolTable">{listWarmUps}</div>
         <div className="smolTable">{listExercises}</div>
