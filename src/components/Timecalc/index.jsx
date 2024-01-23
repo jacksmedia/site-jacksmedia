@@ -99,7 +99,7 @@ const exercises = [
     },
   {
     "url":"https://youtu.be/IyINAjEoTIs?si=nF8uPnAU6t0WVe4w&t=103",
-    "emojis":"🚪🦅","title":"Qigong for Beginners",
+    "emojis":"🦅🎲","title":"Qigong for Beginners",
     "length":"28m4s",
     "seconds": 1684,
     "bgc":"mediumaquamarine"
