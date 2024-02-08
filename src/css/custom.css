@@ -1,5 +1,9 @@
 /* Fonts */
+/* old */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Taviraj:wght@200&display=swap');
+/* new */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
 .reactive-height {
   min-height: calc(100vw * 2.31)!important;
@@ -85,11 +89,11 @@
 }
 
 *, .footer__title {
-  font-family:  "Taviraj";
+  font-family:  "Balsamiq Sans";
 }
 
 h1, h2, h3, button {
-  font-family:  "Abril Fatface";
+  font-family:  "Orbitron";
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
