@@ -19,7 +19,7 @@ function formatTime(seconds) {
 const warmUps = [
   {
     "url":"https://youtu.be/X3-gKPNyrTA?si=w8DChKHffPS-O1Yv&t=24",
-    "emojis":"🛣🎒",
+    "emojis":"🛣🧘‍♀️",
     "title":"Yoga For Neck, Shoulders, Upper Back",
     "length":"10m",
     "seconds":600,
