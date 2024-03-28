@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const config = {
   title: 'Jacks Media',
   staticDirectories: ['public', 'static'],
-  tagline: 'Enthusiasm, Not Financial Advice',
+  tagline: 'Enthusiastic Guides to Creating Digital Media',
   url: 'https://j4cks.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -47,7 +47,7 @@ const config = {
         title: 'Jacks.Media',
         logo: {
           alt: 'Jacks Media',
-          src: 'img/Rock98.png',
+          src: 'img/cat-pfp.png',
         },
         items: [
           {
@@ -81,15 +81,15 @@ const config = {
             ],
           },
           {
-            title: 'Frens in web3',
+            title: 'Creator Communities',
             items: [
               {
-                label: 'Multiconomy',
-                href: 'https://www.multiconomy.com/',
+                label: 'Cafe Dot (pixel art, game dev)',
+                href: 'https://discord.gg/cafedot',
               },
               {
-                label: 'Lannuvar DAO in Realm of Karitha',
-                href: 'https://lannuvar.super.site',
+                label: 'FF4 Ultima (romhacking)',
+                href: 'https://discord.gg/PGMASbSnD9',
               },
             ],
           },
@@ -97,12 +97,16 @@ const config = {
             title: 'Socials',
             items: [
               {
-                label: 'xJ4cks on Threads',
-                href: 'https://threads.net/xJ4cks',
+                label: 'my Tumblr',
+                href: 'https://tumblr.com/xJ4cks',
               },
               {
-                label: 'xJ4cks on Insta',
+                label: 'my Insta',
                 href: 'https://www.instagram.com/xj4cks',
+              },
+              {
+                label: 'my Threads',
+                href: 'https://threads.net/xJ4cks',
               },
               {
                 label: 'Jacks.Media GitHub',
