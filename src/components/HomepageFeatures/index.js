@@ -16,8 +16,8 @@ const FeatureList = [
   },
   {
     title: 'Illustrate with AI',
-    img: require('@site/static/img/city2069.jpg').default,
-    linker: '/docs/tutorial-ai-art/midjourney1',
+    img: require('@site/static/img/tundra0.png').default,
+    linker: '/docs/tutorial-ai-art/DALLE1',
     description: (
       <>
         Current "AI Art" tools let you write 
@@ -37,7 +37,7 @@ function Feature({img, title, description, linker}) {
         <h3>{title}</h3>
         <p>{description}</p>
         <a href={linker}>
-          <button>More...</button>
+          <button>Read More...</button>
         </a>
       </div>
     </div>
