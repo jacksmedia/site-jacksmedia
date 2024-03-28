@@ -84,11 +84,11 @@ const config = {
             title: 'Creator Communities',
             items: [
               {
-                label: 'Cafe Dot (pixel art, game dev)',
-                href: 'https://discord.gg/cafedot',
+                label: 'NightCafe (free AI illustrator)',
+                href: 'https://discord.gg/nightcafestudio',
               },
               {
-                label: 'FF4 Ultima (romhacking)',
+                label: 'FF4 Ultima (romhacking & retro game modding)',
                 href: 'https://discord.gg/PGMASbSnD9',
               },
             ],

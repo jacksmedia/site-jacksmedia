@@ -10,16 +10,16 @@
   position: relative;
   overflow: visible;
   
-  background: url(./unreal_architecture.png);
+  background: url(./arco2.png);
   background-size: 100vw auto;
   background-repeat: no-repeat;
 
-  animation: gradient 23s ease infinite;
+  animation: gradient 13s ease infinite;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 

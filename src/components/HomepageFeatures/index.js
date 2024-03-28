@@ -4,23 +4,23 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Use EGLD',
+    title: 'Publish with Notion',
     img: require('@site/static/img/magic-egld.png').default,
     linker: 'https://xport.al/referral/o6q0in3yh6/',
     description: (
       <>
-        EGLD is the crypto with the world's best wallet &
-        you can send/use/stake it for fractions of a penny on the MultiversX blockchain
+        Notion helps organize and publish
+        lists, notes or content, for free!
       </>
     ),
   },
   {
-    title: 'Wield Synthography',
-    img: require('@site/static/img/book02.png').default,
+    title: 'Illustrate with AI',
+    img: require('@site/static/img/city2069.jpg').default,
     linker: '/docs/tutorial-ai-art/midjourney1',
     description: (
       <>
-        Synthographic aka "AI Art" tools let you write 
+        Current "AI Art" tools let you write 
         what you wish to see, and refine your mind's eye
       </>
     ),
