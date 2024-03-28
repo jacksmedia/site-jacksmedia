@@ -13,9 +13,10 @@
   background: url(./arco2.png);
   background-size: 100vw auto;
   background-repeat: no-repeat;
-
-  animation: gradient 13s ease infinite;
 }
+
+.gradient1 {animation: gradient1 13s ease infinite;}
+.gradient2 {animation: gradient2 15s ease infinite;}
 
 @media screen and (max-width: 996px) {
   .heroBanner {
@@ -32,14 +33,14 @@ ul a li {
   list-style-type: none;
   padding: 0.2em;
 }
-@keyframes gradient {
-  0% {
-    color: #23F7DD;
-  }
-  50% {
-    color: blue;
-  }
-  100% {
-    color: #23F7DD;
-  }
+@keyframes gradient1 {
+  0% { color: black; }
+  50% { color: blue; }
+  100% { color: black; }
+}
+
+@keyframes gradient2 {
+  0% { color: #FF2D95; }
+  50% { color: white; }
+  100% { color: #FF2D95; }
 }
