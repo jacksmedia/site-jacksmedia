@@ -133,19 +133,26 @@ const exercises = [
     "bgc":"mediumaquamarine"
     },
   {
+    "url":"https://youtu.be/Ba0fweKUwIc?si=LljtiMSWdmXoi54_&t=37",
+    "emojis":"🌬🦮","title":"Pranayama",
+    "length":"13m20s",
+    "seconds": 800,
+    "bgc":"cornflowerblue"
+  },
+  {
     "url":"https://youtu.be/tbwbL1pg0HY?si=7XtAtjl2eZaBEf3g&t=30",
     "emojis":"🐒🦜","title":"Seated Tai Chi for Home Practice",
     "length":"18m",
     "seconds": 1080,
     "bgc":"palegreen"
-    },
+  },
   {
-    "url":"https://youtu.be/Ba0fweKUwIc?si=LljtiMSWdmXoi54_&t=37",
-    "emojis":"🌬🦮","title":"Yoga to Calm Your Nerves",
-    "length":"23m35s",
-    "seconds": 1415,
+    "url":"https://youtu.be/Ba0fweKUwIc?si=sLZpA36tY4HvTrju&t=809",
+    "emojis":"🏔️🌁","title":"Full Body Stretch",
+    "length":"10m6s",
+    "seconds": 606,
     "bgc":"cornflowerblue"
-    },
+  },
   {
     "url":"https://youtu.be/_V29hE0_oBE?si=GiDMPoCu9RynHwNj&t=47",
     "emojis":"🦉🌜","title":"Seated Tai Chi",
