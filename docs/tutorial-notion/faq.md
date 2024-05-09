@@ -2,14 +2,14 @@
 sidebar_position: 1
 ---
 
-# EGLD, digital gold
+# What is Notion?
 
-## What is eGold?
+## Notes Living Online
 
-The currency EGLD exists as a robust, multi-sharded metadata record on the MultiversX blockchain. (You may have heard of the Elrond blockchain, which is the older branding-- the currency has remained eGold.) $EGLD excels as a store of value, a financial utility, and a programmatic resource, due to unusually good blockchain design.
+Notion is a powerful cloud platform for jotting down thoughts and content, and it's avaiable to be used bt antone for mrree.  It's always obline, so you can see you changes in real time, on the actual public internet.
 
 ![multiversX](./multiversX.png)
-> Author's synthography of MultiversX
+> You can document and share anything with Notion, for free
 
 ## How to get some EGLD?
 

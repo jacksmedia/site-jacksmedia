@@ -6,7 +6,7 @@ const FeatureList = [
   {
     title: 'Publish with Notion',
     img: require('@site/static/img/magic-egld.png').default,
-    linker: 'https://xport.al/referral/o6q0in3yh6/',
+    linker: '/docs/tutorial-notion/faq',
     description: (
       <>
         Notion helps organize and publish
@@ -17,7 +17,7 @@ const FeatureList = [
   {
     title: 'Illustrate with AI',
     img: require('@site/static/img/tundra0.png').default,
-    linker: '/docs/tutorial-ai-art/DALLE1',
+    linker: '',
     description: (
       <>
         Current "AI Art" tools let you write 
