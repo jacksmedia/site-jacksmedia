@@ -6,23 +6,27 @@ sidebar_position: 1
 
 ## Notes Living Online
 
-Notion is a powerful cloud platform for jotting down thoughts and content, and it's avaiable to be used bt antone for mrree.  It's always obline, so you can see you changes in real time, on the actual public internet.
+Notion is a powerful cloud platform for jotting down thoughts and content, and it's avaiable to be used by anyone for free.  It's always online, so you can see your changes *in real time*, on the actual public internet! And it's very easy to work with, compared to other website builders
 
-![multiversX](./multiversX.png)
-> You can document and share anything with Notion, for free
+> You can document and share anything with Notion, for free. My main site is about one of my hobbies, Super Nintendo romhacking ([xJ4cks Notion](https://www.notion.so/xj4cks/Absolute-Intro-to-FFV-SNES-Romhacking-b1eb9b57f3224683b191614c7b4825fc))
 
-## How to get some EGLD?
+## How to Get Started
 
-You can buy it from [multiversx.com](https://multiversx.com) site or directly from the xPortal wallet. Once you have $EGLD you can of course see it in your wallet, which is a unique address, like an email account. You can interact with it from the [wallet.multiversx.com](https://wallet.multiversx.com) website and or the [xPortal Wallet](https://xport.al/referral/o6q0in3yh6/) (formerly Maiar app).
+Just go to [notion.so](https://notion.so) 
+![notionso.png](./notionso.png)
 
-Individual wallets send and receive blockchain data, and there is a financial system built around using EGLD. The decentralised [xExchange](https://xexchange.com) uses EGLD to provide lending services (liquidity) for EGLD and other cryptos. Other exchanges exist to provide extra features, currencies, and tools, such as [QuantumX](https://www.quantumx.network/), [arda.run](https://arda.run), [jexchange.io](https://jexchange.io), [ashswap](https://ashswap.io/).
+Select the New User "Get Notion free" button, and log in with your email.
 
-## Why EGLD, Why MvX?
+![notionstart.png](./notionstart.png)
 
-+ easy earnings from staking with validators
-+ best in class blockchain architecture
-+ best in class ecosystem of wallet + dapps
 
-You can stake EGLD at ~10% APY right in the xPortal app, and you can swap it into many other cryptos with interesting projects and utilities implemented (or planned) in the exchanges. MultiversX boasts the *largest number of nodes (physical computing centers, enabling transactions and providing redundancy) of any current blockchain*. The ease of the wallet app combined with the security and speed of its web3 dapps is what makes MvX (Elrond) stand out from other ecosystems like Cosmos, Cardano, Solana, and Ethereum.
+Then choose the Personal option, and you're all set to start building!
 
-Security comes from easy & frequent multi-factor authentication (just zap the QR code on your laptop screen with your phone camera) at every step of the contract signing or purchase process. The MultiversX shards record every transaction and the state (values, amounts, etc) data in multiple places using a custom blend of the best existing blockchain technologies (consensus models, rollups).
+![notionpersonal.png](./notionpersonal.png)
+
+You'll see a new site that's now tied to your email. There is a sidebar of demo sub-pages and widgets, like a calendar and more.
+
+![notionsidebar.png](./notionsidebar.png)
+
+We'll ignore that for now, and just edit your landing page!
+

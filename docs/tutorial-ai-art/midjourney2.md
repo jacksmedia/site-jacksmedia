@@ -24,13 +24,6 @@ In this example I chose a pommes frites & a diamond NewDegenOrder pyramid.
 
 Behold their ineffable blended result! This was after I pushed **V** a few times on the blend output, and then **Upscaled** my favorite one.
 
-Enjoy and remember to share this new art movement with your frens. Maybe invite the Midjourney bot to your home Discord server, too...
+Enjoy and remember to share this new art movement with your friends.
 
 Read on to learn how to fuse these two modes together and become an advanced Midjourney user!
-
-## My donation links:
-
-- EGLD: [j4cks.multiversx](https://explorer.multiversx.com/accounts/erd159mypt4myss3mqrs89ft0hjeacffks2690gq9u3mlh73m9sh0w5s09eqhh)
-- TeriTORI: [tori15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6ss5urh](https://www.mintscan.io/teritori/account/tori15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6ss5urh)
-- KUJIra: [kujira15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6rvpd4d](https://www.mintscan.io/kujira/account/kujira15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6rvpd4d)
-- ETHereum: [j4cks.eth](https://etherscan.io/enslookup-search?search=j4cks.eth)

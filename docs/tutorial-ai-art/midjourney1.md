@@ -3,13 +3,13 @@ sidebar_position: 8
 ---
 # AI Art: Midjourney Basics
 
-Midjourney is a copyrighted, closed-source tool that's available via Discord chat app. Many Discord servers are offering it as a new party game, but how to start capturing your imagination into visuals? This guide will get you moving forward, and then you can learn more as you go.
+Midjourney is a copyrighted, closed-source tool that's available via Discord chat app. Are you interested in capturing your imagination into visuals? This guide will get you moving forward, and then you can learn more as you go.
 
 ![demolitions expert mermaid troop](./demolisher.png)
 > There are many paramilitary merfolk, but plz draw w/e you wish.
 
 ## How to Imagine
-- 1️⃣ Go to the Midjourney chat in your server. You can also DM with the MJ bot instead of doing the prompts in a public room, yet you'll learn more working in public.
+- 1️⃣ Go to the Midjourney server in Discord. You can also DM with the MJ bot instead of doing the prompts in a public room, yet you'll learn more working in public.
 - 2️⃣ type in **/imagine**
 - ![prompt is what triggers the art engine](./prompt.png)
 - 3️⃣ the space to *prompt:* will show up, and you can describe what you wanna see it synthesize in there & then press return
@@ -44,7 +44,7 @@ You can always access everything you've ever made at the [main Midjourney site](
 
 ![demolitions expert mermaid troop](./demolisher-prompt.png)
 
-The prompt above is what created the tactical mermaid troop. Feel free to adapt it for your own use. Short and vivid prompts work best, especially in the latest version 5. (You can change your settings and fine tune your workflow with the **/settings** menu. Perhaps MJ v4 will work better for what you're envisioning. 🤷‍♂️ Experimentation is the essence of this craft, so try and find out!)
+The prompt above is what created the tactical mermaid troop. Feel free to adapt it for your own use. Short and vivid prompts work best. (You can change your settings and fine tune your workflow with the **/settings** menu. Perhaps MJ v4 or v5 will work better for what you're envisioning. 🤷‍♂️ Experimentation is the essence of this craft, so try and find out!)
 
 ![settings menu](./settings.png)
 
@@ -56,13 +56,6 @@ The prompt above is what created the tactical mermaid troop. Feel free to adapt 
 ![pommes frites aka french fries in a sanctified basket](./prompt8.png)
 > basket of potato fries in their coffin of hot fry grease in a downbeat McD kitchen at 9:15am. octane render, Global Illumination, Screen Space Global Illumination, Ray Tracing Global Illumination, Optics, Scattering, Glowing, Shadows, Rough, Shimmering, Ray Tracing Reflections, Lumen Reflections, Screen Space Reflections, Diffraction Grading, insane details, realistic, Shaders, OpenGL-Shaders, GLSL-Shaders, Post Processing, Post-Production, Cell Shading, Tone Mapping, CGI, VFX, SFX, insanely detailed and intricate, hyper maximalist, elegant, super detailed, dynamic pose, photography, volumetric, ultra-detailed, intricate details, 8K, super detailed, ambient occlusion, volumetric lighting, high contrast, soft tones --v 4
 
-Enjoy and remember to share this new art movement with your frens. Maybe invite the Midjourney bot to your home Discord server, too...
+Enjoy and remember to share this new art movement with your friends.
 
 Here's the official docs to Midjourney with [all the current commands](https://docs.midjourney.com/docs/command-list). Keep reading here to learn about the next mode, **/blend**.
-
-## My donation links:
-
-- EGLD: [j4cks.multiversx](https://explorer.multiversx.com/accounts/erd159mypt4myss3mqrs89ft0hjeacffks2690gq9u3mlh73m9sh0w5s09eqhh)
-- TeriTORI: [tori15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6ss5urh](https://www.mintscan.io/teritori/account/tori15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6ss5urh)
-- KUJIra: [kujira15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6rvpd4d](https://www.mintscan.io/kujira/account/kujira15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6rvpd4d)
-- ETHereum: [j4cks.eth](https://etherscan.io/enslookup-search?search=j4cks.eth)

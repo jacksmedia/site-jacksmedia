@@ -5,12 +5,24 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Publish with Notion',
-    img: require('@site/static/img/magic-egld.png').default,
+    img: require('@site/static/img/kitten-blogger.png').default,
     linker: '/docs/tutorial-notion/faq',
     description: (
       <>
         Notion helps organize and publish
         lists, notes or content, for free!
+      </>
+    ),
+  },
+  {
+    title: 'Socialize with Discord',
+    img: require('@site/static/img/top-emoji.png').default,
+    linker: '/docs/tutorial-discord/discord-intro',
+    description: (
+      <>
+        Discord offers dynamic community
+        and useful features for keeping
+        things archived & available
       </>
     ),
   },

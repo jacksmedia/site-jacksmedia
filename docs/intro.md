@@ -1,12 +1,8 @@
 ---
 sidebar_position: 1
 ---
+# What is on this site?
 
-# Get Into Crypto, Wallets 101
+Guides to learning the basics of new tools, mainly. Discord and Notion are both incredibly powerful communication and community apps, so I use them daily and want to share some onramps so that you can start using them, too.
 
-The [xPortal Wallet](https://xport.al/referral/o6q0in3yh6/) (formerly Maiar app) will unlock the MultiversX blockchain, the best place to start learning about & enjoying cryptocurrency! The currency here is called eGold, versus Bitcoin or Ethereum on other chains. Because it's cheaper and safer than Ethereum, and because it can run apps unlike Bitcoin, eGold on MultiversX is the most interesting current crypto.
-
-![crypto wallets of the 1990s](./crypto-wallets.png)
-> Author's synthography of crypto wallets, 1990s style
-
-MetaMask and [Trust Wallet app](https://trustwallet.com) are the same overall approach to interacting with a blockchain, but they're not needed in MultiversX. Here it's the same idea, but on a safer, smarter tech layer: you control a single "wallet" that's an address like an email or a phone number. These wallets are usually very long, but there's new ways to alias them with vanity names, or even make them into URLs.
+[Notion](https://notion.so) is a webpage builder and [Discord](https://discord.com) is a messaging platform. With Discord you can connect with like-minded people and with Notion you can promote anything you wish, products or ideas or media or whatever. They are both completely free to use, and they both are powered by famously small teams so they are useful, innovative, and responsive to user feedback.

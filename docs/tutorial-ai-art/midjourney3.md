@@ -39,11 +39,4 @@ Here is the prompt w the exact image links I used in this example. IDK if the MJ
 https://cdn.discordapp.com/attachments/1021494022986006538/1103473926341931009/001.png https://cdn.discordapp.com/attachments/1021494022986006538/1103473962220003498/002.png cartoon knightess with red hair and emerald green eyes. shield held high, sword drawn back, poised to attack. in the style of emotive brushwork, vray, charming character illustration, hyper-realistic oil, light teal and dark brown, cartoon realism, daz3d --ar 14:23 --v 5.1 --style raw
 ```
 
-Enjoy and remember to share this new art movement with your frens. Maybe invite the Midjourney bot to your home Discord server, too...
-
-## My donation links:
-
-- EGLD: [j4cks.multiversx](https://explorer.multiversx.com/accounts/erd159mypt4myss3mqrs89ft0hjeacffks2690gq9u3mlh73m9sh0w5s09eqhh)
-- TeriTORI: [tori15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6ss5urh](https://www.mintscan.io/teritori/account/tori15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6ss5urh)
-- KUJIra: [kujira15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6rvpd4d](https://www.mintscan.io/kujira/account/kujira15q6kvcs5r5sutn8s5nvk5tpq7ztgxre6rvpd4d)
-- ETHereum: [j4cks.eth](https://etherscan.io/enslookup-search?search=j4cks.eth)
+Enjoy and remember to share this new art movement with your friends.
