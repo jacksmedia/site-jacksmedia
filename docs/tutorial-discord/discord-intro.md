@@ -10,7 +10,7 @@ In the 2020s, social media is increasingly organized by communities, and [Discor
 
 Once you join and start talking to people that share your interests, there are a few helpful things to learn to help maximize your experience.
 
-- Replying directly to specific messages
+- [Replying directly to specific messages](/docs/tutorial-discord/discord-reply)
 
 - Inviting others to the server
 
