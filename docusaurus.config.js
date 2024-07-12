@@ -98,7 +98,7 @@ const config = {
             items: [
               {
                 label: 'my Tumblr',
-                href: 'https://tumblr.com/xJ4cks',
+                href: 'https://xj4cks.blog',
               },
               {
                 label: 'my Insta',
