@@ -88,8 +88,8 @@ const config = {
                 href: 'https://discord.gg/nightcafestudio',
               },
               {
-                label: 'FF4 Ultima (romhacking & retro game modding)',
-                href: 'https://discord.gg/PGMASbSnD9',
+                label: 'FF5 Den wiki (romhacking resources)',
+                href: 'https://www.ff6hacking.com/ff5wiki/index.php/Main_Page#Utility',
               },
             ],
           },

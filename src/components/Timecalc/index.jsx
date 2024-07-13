@@ -240,7 +240,7 @@ export default function Timecalc() {
   const COLORS = [warmUps[choice1].bgc, exercises[choice2].bgc, extras[choice3].bgc];
 
   const listWarmUps = warmUps.map((warmUp) => 
-    <a href={`${warmUp.url} table-cell`}>
+    <a href={`${warmUp.url}`} className={`${table-cell}`}>
       <div className={`spacing-class ${warmUp.bgc}`}>
         <div className="responsive-text">{warmUp.emojis}&nbsp;</div>
         <p className="unstyled-text responsive-text">{warmUp.title}</p>
@@ -249,7 +249,7 @@ export default function Timecalc() {
     </a>
   );
   const listExercises = exercises.map((exercise) => 
-    <a href={`${exercise.url} table-cell`}>
+    <a href={`${exercise.url}`} className={`${table-cell}`}>
       <div className={`spacing-class ${exercise.bgc}`}>
         <div className="responsive-text">{exercise.emojis}&nbsp;</div>
         <p className="unstyled-text responsive-text">{exercise.title}</p>
@@ -258,7 +258,7 @@ export default function Timecalc() {
     </a>
   );
   const listExtras = extras.map((extra) => 
-    <a href={`${extra.url} table-cell`}>
+    <a href={`${extra.url}`} className={`${table-cell}`}>
       <div className={`spacing-class ${extra.bgc}`}>
         <div className="responsive-text">{extra.emojis}&nbsp;</div>
         <p className="unstyled-text responsive-text">{extra.title}</p>
