@@ -52,6 +52,13 @@ const warmUps = [
     "length":"4m44s",
     "seconds": 284,
     "bgc":"cornflowerblue"
+  },
+  {
+    "url":"https://youtu.be/JOilkvadChg?si=T2iQU201w7YuZDz2&t=34",
+    "emojis":"🆙🕊️","title":"Yoga to get the Juices Flowing",
+    "length":"7m52s",
+    "seconds": 472,
+    "bgc":"cornflowerblue"
   }
 ]
 const exercises = [
