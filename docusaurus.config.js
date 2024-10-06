@@ -4,6 +4,8 @@
 const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
+
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Jacks Media',
@@ -122,18 +124,8 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
-configureWebpack: (config, isServer) => {
-  return {
-    module: {
-      rules: [
-        {
-          test: /pdf\.worker(\.min)?\.js$/,
-          use: { loader: 'url-loader' },
-        },
-      ],
-    },
+    plugins: [
+      require.resolve('./plugins/webpack-plugin'),  // Add the Webpack plugin here
+    ],
   };
-},
-};
 module.exports = config;

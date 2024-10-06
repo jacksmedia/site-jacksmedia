@@ -2,10 +2,17 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import mammoth from 'mammoth'; // Does .docx parsing
-import { pdfjs } from 'pdfjs-dist/legacy/build/pdf'; // Does .pdf parsing
-import pdfWorker from 'pdfjs-dist/build/pdf.worker.entry'; // Imports pdf worker directly
+import { pdfjs } from 'pdfjs-dist';
 
-pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker;
+// Dynamically import the GD worker
+(async () => {
+    try {
+        const workerSrc = await import('pdfjs-dist/build/pdf.worker.min.js');
+        pdfjs.GlobalWorkerOptions.workerSrc = workerSrc;
+    } catch (error) {
+        console.error("Error loading PDF worker:", error);
+    }
+})();
 
 const legalClauses = [
     { clause: "Confidentiality", keywords: ["confidentiality", "non-disclosure", "proprietary information"] },
