@@ -123,5 +123,17 @@ const config = {
       },
     }),
 };
-
+configureWebpack: (config, isServer) => {
+  return {
+    module: {
+      rules: [
+        {
+          test: /pdf\.worker(\.min)?\.js$/,
+          use: { loader: 'url-loader' },
+        },
+      ],
+    },
+  };
+},
+};
 module.exports = config;

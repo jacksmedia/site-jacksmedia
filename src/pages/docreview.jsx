@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import mammoth from 'mammoth'; // Does .docx parsing
+import { pdfjs } from 'pdfjs-dist/legacy/build/pdf'; // Does .pdf parsing
+import pdfWorker from 'pdfjs-dist/build/pdf.worker.entry'; // Imports pdf worker directly
+
+pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker;
 
 const legalClauses = [
     { clause: "Confidentiality", keywords: ["confidentiality", "non-disclosure", "proprietary information"] },
@@ -28,10 +33,45 @@ const DocumentReview = () => {
     const handleFileUpload = (e) => {
         const file = e.target.files[0];
         const reader = new FileReader();
-        reader.onload = (event) => {
-            setDocumentText(event.target.result);
+
+        reader.onload = async (event) => {
+            const fileBuffer = event.target.result;
+            
+            if (file.name.endsWith('.docx')) {
+                try {
+                    const result = await mammoth.extractRawText({ arrayBuffer: fileBuffer });
+                    setDocumentText(result.value); // Extracted plain text from .docx
+                } catch (error) {
+                    setError('Error reading .docx file');
+                }
+            } else if (file.name.endsWith('.pdf')) {
+                try {
+                    const pdfText = await extractTextFromPDF(fileBuffer);
+                    setDocumentText(pdfText);  // Extracted plain text from .pdf
+                } catch (error) {
+                    setError('Error reading PDF file');
+                }
+            } else {
+                setError('Unsupported file type. Please upload a .docx or .pdf file.');
+            }
         };
-        reader.readAsText(file);
+
+        reader.readAsArrayBuffer(file);
+    };
+
+    const extractTextFromPDF = async (pdfBuffer) => {
+        const pdf = await getDocument({ data: pdfBuffer }).promise;
+        let extractedText = '';
+
+        // Extract text from each page
+        for (let i = 1; i <= pdf.numPages; i++) {
+            const page = await pdf.getPage(i);
+            const textContent = await page.getTextContent();
+            const pageText = textContent.items.map((item) => item.str).join(' ');
+            extractedText += pageText + '\n';
+        }
+
+        return extractedText;
     };
 
     const scanDocument = () => {
