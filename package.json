@@ -23,7 +23,7 @@
     "clsx": "^2.0.0",
     "file-loader": "^6.2.0",
     "mammoth": "^1.8.0",
-    "node": "^21.2.0",
+    "node": "^22.9.0",
     "pdfjs-dist": "^4.6.82",
     "prism-react-renderer": "^2.4.0",
     "react": "^18.3.1",
