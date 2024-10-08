@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import mammoth from 'mammoth'; // Does .docx parsing
-import { pdfjs } from 'pdfjs-dist';
+import { pdfjs, getDocument } from 'pdfjs-dist';
 
-// Dynamically import the GD worker
-(async () => {
+(async () => { 
+    // Dynamically import the PDF worker
     try {
-        const workerSrc = await import('pdfjs-dist/build/pdf.worker.min.js');
+        const workerSrc = await import('/pdf.worker.min.js');
         pdfjs.GlobalWorkerOptions.workerSrc = workerSrc;
     } catch (error) {
         console.error("Error loading PDF worker:", error);
