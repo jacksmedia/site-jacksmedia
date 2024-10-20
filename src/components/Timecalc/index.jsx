@@ -68,7 +68,14 @@ const exercises = [
     "length":"18m37s",
     "seconds": 1117,
     "bgc":"mediumaquamarine"
-    },
+  },
+  {
+    "url":" https://youtu.be/KQahvKSDOoY?si=1FYjLZS4Otku2Imr&t=87",
+    "emojis":"👸🌏","title":"Seated Tai Chi for Back Pain",
+    "length":"13m13s",
+    "seconds": 813,
+    "bgc":"palegreen"
+  },
   {
     "url":"https://youtu.be/cEOS2zoyQw4?si=EApSfyPYr5WgxM9y&t=91",
     "emojis":"🦆🌊","title":"Tai Chi 5 Min a Day Module 01",
@@ -82,69 +89,62 @@ const exercises = [
     "length":"14m37s",
     "seconds": 877,
     "bgc":"mediumaquamarine"
-    },
+  },
   {
     "url":"https://youtu.be/enk0bOv-gF8?si=kooRHEd1XzdpAfr_&t=18",
     "emojis":"🦇☁️","title":"Tai Chi 5 Min a Day Module 02",
     "length":"5m42s",
     "seconds": 342,
     "bgc":"lemonchiffon"
-    },
+  },
   {
     "url":"https://youtu.be/8wddPSIEpvE?si=5M0u1_wcRtYs6uaV&t=77",
     "emojis":"🐠🛸","title":"Qigong: Opening the Door of Life",
     "length":"11m43s",
     "seconds": 703,
     "bgc":"mediumaquamarine"
-    },
+  },
   {
     "url":"https://youtu.be/OPcZlXYcdMA?si=Q0S5rRdkRcNaLkGy&t=31",
     "emojis":"🐎🌕","title":"Tai Chi 5 Min a Day Module 03",
     "length":"5m16s",
     "seconds": 316,
     "bgc":"lemonchiffon"
-    },
+  },
   {
     "url":"https://youtu.be/IyINAjEoTIs?si=nF8uPnAU6t0WVe4w&t=103",
     "emojis":"🦅🎲","title":"Qigong for Beginners",
     "length":"28m4s",
     "seconds": 1684,
     "bgc":"mediumaquamarine"
-    },
+  },
   {
     "url":"https://youtu.be/RoIqYtiTLFI?si=fX__f4j_ygWQ4ByO&t=18",
     "emojis":"🐍🍂","title":"Tai Chi 5 Min a Day Module 04",
     "length":"9m39s",
     "seconds": 579,
     "bgc":"lemonchiffon"
-    },
+  },
   {
     "url":"https://youtu.be/nmmNWj9YtAw?si=ZIxziO8gm3vx8ffQ&t=62",
     "emojis":"🐯🌋","title":"Daily Qiqong Routine",
     "length":"15m50s",
     "seconds": 950,
     "bgc":"mediumaquamarine"
-    },
+  },
   {
     "url":"https://youtu.be/62a20CiIAlY?si=bV2k3YkLIjfHTcWe&t=45",
     "emojis":"🐉☂️","title":"Tai Chi 5 Min a Day Module 05",
     "length":"6m4s",
     "seconds": 364,
     "bgc":"lemonchiffon"
-    },
+  },
   {
     "url":"https://youtu.be/EZT8RC0wRbA?si=1u4ZkyICs-RFCiAh&t=113",
     "emojis":"🐻🔥","title":"Qigong: Circulate Your Energy",
     "length":"13m24s",
     "seconds": 804,
     "bgc":"mediumaquamarine"
-    },
-  {
-    "url":"https://youtu.be/Ba0fweKUwIc?si=LljtiMSWdmXoi54_&t=37",
-    "emojis":"🌬🦮","title":"Pranayama",
-    "length":"13m20s",
-    "seconds": 800,
-    "bgc":"cornflowerblue"
   },
   {
     "url":"https://youtu.be/tbwbL1pg0HY?si=7XtAtjl2eZaBEf3g&t=30",
