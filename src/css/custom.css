@@ -5,6 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
+
+.teal-text {
+  color:#308080;
+}
+
 .reactive-height {
   min-height: calc(100vw * 1.6)!important;
 }
@@ -135,7 +140,7 @@ h1, h2, h3, button {
 .hero__title {
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFF 0px 0px 20px, #FFF 0px 0px 30px, #FFF 0px 0px 40px, #FFF 0px 0px 50px, #FFF 0px 0px 75px;
 }
-/* 
-a:hover {
-  color: #FF2D95;
-} */
+
+a, .footer__link-item, .navbar__title, .navbar__link, .button {
+  text-decoration: none;
+}
