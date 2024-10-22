@@ -16,8 +16,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/tutorial-extras/qi">
-            Calendar of Qi Exercises
+            to="/chat">
+            Chat with GPT-4
           </Link>
         </div>
       </div>
