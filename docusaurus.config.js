@@ -4,6 +4,8 @@
 const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
+
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Jacks Media',
@@ -115,13 +117,15 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media<br/>Fonts by Google, Images by xJ4cks`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media<br/>Fonts by Google, Images by xJ4cks, Chat by OpenAI`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
-};
-
+    plugins: [
+      require.resolve('./plugins/webpack-plugin'),  // Add the Webpack plugin here
+    ],
+  };
 module.exports = config;
