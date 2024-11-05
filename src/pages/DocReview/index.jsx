@@ -69,9 +69,15 @@ const DocumentReview = () => {
         <div className="container mt-5">
             <div className="card">
                 <div className="card-header bg-primary text-white">
-                    Document Review Tool
+                    <h1 className='hero__subtitle'>
+                        &nbsp;Document Review Tool
+                    </h1>
                 </div>
                 <div className="card-body">
+                    <div className=''>
+                        Paste plain text or upload a DOCX file.
+                        This app will scan it for common legal clauses!
+                    </div>
                     <textarea
                         value={documentText}
                         onChange={(e) => setDocumentText(e.target.value)}
@@ -79,8 +85,8 @@ const DocumentReview = () => {
                         rows="10"
                         style={{ width: "100%" }}
                     />
-                    <input type="file" onChange={handleFileUpload} />
-                    <button className="btn btn-primary mt-3" onClick={handleSubmit}>Analyze Document</button>
+                    <input type="file" onChange={handleFileUpload} text="Choose DOCX File" />
+                    <button className="btn btn-primary" onClick={handleSubmit}>Analyze Document</button>
 
                     {error && <p style={{ color: 'red' }}>{error}</p>}
 
@@ -99,6 +105,10 @@ const DocumentReview = () => {
                         <p>No common legal clauses were found in the document.</p>
                     )}
                 </div>
+            </div>
+            <div className="container my-5">
+                <h3>&nbsp;</h3>
+                <h3>This app is powered by ChatGPT, using a custom API on Vercel.</h3>
             </div>
         </div>
     );
