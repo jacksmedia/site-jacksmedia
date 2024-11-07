@@ -92,7 +92,7 @@ const DocumentReview = () => {
             <div className="card">
                 <div className="card-header bg-primary text-white">
                     <h1 className='hero__subtitle'>
-                        &nbsp;Document Review Tool
+                        &nbsp;Contract Document Review Tool
                     </h1>
                 </div>
                 <div className="card-body">
@@ -113,12 +113,14 @@ const DocumentReview = () => {
                     {error && <p style={{ color: 'red' }}>{error}</p>}
 
                     {foundClauses.length > 0 && (
-                        <div className="card-body">
-                            <h3 className="text-success">Found Clauses:</h3>
+                        <div>
+                            <h3>Found Clauses:</h3>
                             <ul className="list-group">
                                 {foundClauses.map((clause, index) => (
-                                    <li key={index} className="list-group-item list-group-item-success">
+                                    <li key={index}>
+                                        <div style={{ color: 'green' }}>
                                         {clause.clause}
+                                        </div>
                                     </li>
                                 ))}
                             </ul>
@@ -126,12 +128,14 @@ const DocumentReview = () => {
                     )}
 
                     {foundAmbiguities.length > 0 && (
-                        <div className="card-body">
-                            <h3 className="text-warning">Ambiguous Terms Found:</h3>
+                        <div>
+                            <h3>Ambiguous Terms Found:</h3>
                             <ul className="list-group">
                                 {foundAmbiguities.map((term, index) => (
-                                    <li key={index} className="list-group-item list-group-item-warning">
+                                    <li key={index}>
+                                        <div style={{ color: 'orange' }}>
                                         {term}
+                                        </div>
                                     </li>
                                 ))}
                             </ul>
@@ -139,12 +143,14 @@ const DocumentReview = () => {
                     )}
 
                     {missingMandatories.length > 0 && (
-                        <div className="card-body">
-                            <h3 className="text-danger">Missing Mandatory Clauses:</h3>
+                        <div>
+                            <h3>Missing Mandatory Clauses:</h3>
                             <ul className="list-group">
                                 {missingMandatories.map((clause, index) => (
-                                    <li key={index} className="list-group-item list-group-item-danger">
+                                    <li key={index}>
+                                        <div style={{ color: 'red' }}>
                                         {clause}
+                                        </div>
                                     </li>
                                 ))}
                             </ul>
