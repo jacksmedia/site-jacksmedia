@@ -4,6 +4,8 @@ import mammoth from 'mammoth'; // DOCX parsing library
 const DocumentReview = () => {
     const [documentText, setDocumentText] = useState('');
     const [foundClauses, setFoundClauses] = useState([]);
+    const [foundAmbiguities, setFoundAmbiguities] = useState([]);
+    const [missingMandatories, setMissingMandatories] = useState([]);
     const [error, setError] = useState(null);
 
     const legalClauses = [
@@ -23,6 +25,25 @@ const DocumentReview = () => {
         { clause: "Warranties and Representations", keywords: ["warranties", "representations", "guarantees"] },
         { clause: "Notice", keywords: ["notice", "communication", "notification"] }
     ];
+
+    const ambiguousTerms = ["reasonable efforts", "promptly", "as soon as possible", "significant", "substantial"];
+    const mandatoryClauses = ["confidentiality", "non-disclosure", "indemnity", "governing law", "severability"];
+
+    // Modified extractKeywords function
+    function extractKeywords(text) {
+        const foundClauses = legalClauses.filter(clause =>
+            clause.keywords.some(keyword => text.toLowerCase().includes(keyword.toLowerCase()))
+        );
+        const foundAmbiguities = ambiguousTerms.filter(term =>
+            text.toLowerCase().includes(term.toLowerCase())
+        );
+        const missingMandatories = mandatoryClauses.filter(mandatory =>
+            !text.toLowerCase().includes(mandatory.toLowerCase())
+        );
+
+        return { foundClauses, foundAmbiguities, missingMandatories };
+    }
+
 
     const handleFileUpload = (e) => {
         const file = e.target.files[0];
@@ -51,14 +72,15 @@ const DocumentReview = () => {
             setError("No document provided");
             return;
         }
-
-        const found = legalClauses.filter(clause => {
-            return clause.keywords.some(keyword => documentText.toLowerCase().includes(keyword.toLowerCase()));
-        });
-
-        setFoundClauses(found);
+                
+        const { foundClauses, foundAmbiguities, missingMandatories } = extractKeywords(documentText);
+        
+        setFoundClauses(foundClauses);
+        setFoundAmbiguities(foundAmbiguities);
+        setMissingMandatories(missingMandatories);
         setError(null);
     };
+        
 
     const handleSubmit = async () => {
         scanDocument();
@@ -91,19 +113,44 @@ const DocumentReview = () => {
                     {error && <p style={{ color: 'red' }}>{error}</p>}
 
                     {foundClauses.length > 0 && (
-                        <div>
-                            <h3>Found Clauses:</h3>
-                            <ul>
+                        <div className="card-body">
+                            <h3 className="text-success">Found Clauses:</h3>
+                            <ul className="list-group">
                                 {foundClauses.map((clause, index) => (
-                                    <li key={index}>{clause.clause}</li>
+                                    <li key={index} className="list-group-item list-group-item-success">
+                                        {clause.clause}
+                                    </li>
                                 ))}
                             </ul>
                         </div>
                     )}
 
-                    {foundClauses.length === 0 && documentText && !error && (
-                        <p>No common legal clauses were found in the document.</p>
+                    {foundAmbiguities.length > 0 && (
+                        <div className="card-body">
+                            <h3 className="text-warning">Ambiguous Terms Found:</h3>
+                            <ul className="list-group">
+                                {foundAmbiguities.map((term, index) => (
+                                    <li key={index} className="list-group-item list-group-item-warning">
+                                        {term}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
                     )}
+
+                    {missingMandatories.length > 0 && (
+                        <div className="card-body">
+                            <h3 className="text-danger">Missing Mandatory Clauses:</h3>
+                            <ul className="list-group">
+                                {missingMandatories.map((clause, index) => (
+                                    <li key={index} className="list-group-item list-group-item-danger">
+                                        {clause}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+
                 </div>
             </div>
             <div className="container my-5">
