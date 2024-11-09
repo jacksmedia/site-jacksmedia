@@ -47,6 +47,18 @@ const FeatureList = [
         check out this guide to making videos
       </>
     ),
+  },
+  {
+    title: 'Practice Moving Qi Daily',
+    img: require('@site/static/img/qi-videos.png').default,
+    linker: '',
+    description: (
+      <>
+        Healthy body generates healthy mind. 
+        Use a rotating, curated selection of YTs,
+        and practice daily for health!
+      </>
+    ),
   }
 ];
 
