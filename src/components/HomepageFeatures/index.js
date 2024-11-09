@@ -36,6 +36,17 @@ const FeatureList = [
         what you wish to see, and refine your mind's eye
       </>
     ),
+  },
+  {
+    title: 'Create Video with AI',
+    img: require('@site/static/img/invideo-preview.png').default,
+    linker: '',
+    description: (
+      <>
+        Once you know how to prompt images, 
+        check out this guide to making videos
+      </>
+    ),
   }
 ];
 
