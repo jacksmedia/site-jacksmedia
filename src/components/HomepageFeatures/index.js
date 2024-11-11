@@ -29,7 +29,7 @@ const FeatureList = [
   {
     title: 'Illustrate with AI',
     img: require('@site/static/img/tundra0.png').default,
-    linker: '',
+    linker: '/docs/tutorial-ai-art/DALLE1',
     description: (
       <>
         Current "AI Art" tools let you write 
@@ -40,7 +40,7 @@ const FeatureList = [
   {
     title: 'Create Video with AI',
     img: require('@site/static/img/invideo-preview.png').default,
-    linker: '',
+    linker: '/docs/tutorial-invideo/basics',
     description: (
       <>
         Once you know how to prompt images, 
@@ -51,7 +51,7 @@ const FeatureList = [
   {
     title: 'Practice Moving Qi Daily',
     img: require('@site/static/img/qi-videos.png').default,
-    linker: '',
+    linker: '/docs/tutorial-extras/qi',
     description: (
       <>
         Healthy body generates healthy mind. 
