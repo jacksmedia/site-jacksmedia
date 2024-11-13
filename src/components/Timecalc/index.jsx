@@ -1,6 +1,6 @@
-import React, {useState, Link, PureComponent } from "react";
+import React, {useState} from "react";
 import VideoCard from "./VideoCard.jsx";
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
+import PieChart from "./PieChartComponent.jsx";
 import data from "./data.json";
 
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
@@ -117,26 +117,7 @@ export default function Timecalc() {
           </h3>
             <RandomizerButton warmUps={warmUps} exercises={exercises} extras={extras} />
         </div>
-        <PieChart width={300} height={200}>
-          <Pie
-            data={data}
-            cx={140}
-            cy={80}
-            startAngle={360}
-            endAngle={0}
-            innerRadius={60}
-            outerRadius={80}
-            labelLine={false}
-            label={data.title}
-            fill="#8884d8"
-            paddingAngle={5}
-            dataKey="value"
-          >
-            {data.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={entry.color} />
-            ))}
-          </Pie>
-        </PieChart>
+        <PieChart data={data} />
       </div>
 
       <div className="table-row space-around">
