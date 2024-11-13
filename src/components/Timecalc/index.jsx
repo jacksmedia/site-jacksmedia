@@ -1,4 +1,5 @@
-import React, {useState, Link, PureComponent } from "react"
+import React, {useState, Link, PureComponent } from "react";
+import VideoCard from "./VideoCard.jsx";
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
 import data from "./data.json";
 
@@ -135,23 +136,9 @@ export default function Timecalc() {
         <p>Extra</p>
       </div>
       <div className="table-row space-around">
-        <a href={choice1.url} target="_blank" rel="noreferrer noopener" className={`table-cell special-cell spacing-class ${choice1.bgc}`}>
-          <div className="bigger-font">{choice1.emojis}</div>
-          <p className="unstyled-text responsive-text">{choice1.title}</p>
-          <p className="unstyled-text responsive-text">[{choice1.length}]</p>
-        </a>
-
-        <a href={choice2.url} target="_blank" rel="noreferrer noopener" className={`table-cell special-cell spacing-class ${choice2.bgc}`}>
-          <div className="bigger-font">{choice2.emojis}</div>
-          <p className="unstyled-text responsive-text">{choice2.title}</p>
-          <p className="unstyled-text responsive-text">[{choice2.length}]</p>
-        </a>
-
-        <a href={choice3.url} target="_blank" rel="noreferrer noopener" className={`table-cell special-cell spacing-class ${choice3.bgc}`}>
-          <div className="bigger-font">{choice3.emojis}</div>
-          <p className="unstyled-text responsive-text">{choice3.title}</p>
-          <p className="unstyled-text responsive-text">[{choice3.length}]</p>
-        </a>
+        <VideoCard video={choice1} />
+        <VideoCard video={choice2} />
+        <VideoCard video={choice3} />
       </div>
 
       <div className="table-row">
