@@ -26,9 +26,9 @@ const howManyWarmUps = warmUps.length
 const howManyExercises = exercises.length
 const howManyExtras = extras.length
 
-const choice1 = RoundedResult % howManyWarmUps
-const choice2 = RoundedResult % howManyExercises
-const choice3 = RoundedResult % howManyExtras
+const todays1 = RoundedResult % howManyWarmUps
+const todays2 = RoundedResult % howManyExercises
+const todays3 = RoundedResult % howManyExtras
 
 const RandomizerButton = ({ warmUps, exercises, extras }) => {
 const [randomChoice1, setRandomChoice1] = useState(null);
@@ -62,9 +62,9 @@ const handleRandomize = () => {
 
 
 export default function Timecalc() {
-  const [choice1, setChoice1] = useState(warmUps[0]);
-  const [choice2, setChoice2] = useState(exercises[0]);
-  const [choice3, setChoice3] = useState(extras[0]);
+  const [choice1, setChoice1] = useState(warmUps[todays1]);
+  const [choice2, setChoice2] = useState(exercises[todays2]);
+  const [choice3, setChoice3] = useState(extras[todays3]);
 
   const summedLengthValues = choice1.seconds + choice2.seconds + choice3.seconds;
   const practiceLength = formatTime(summedLengthValues);
