@@ -81,37 +81,6 @@ export default function Timecalc() {
     setChoice3(randomExtra);
   };
 
-  // Regenerate the lists after randomizing choices
-  const listWarmUps = warmUps.map((warmUp) => (
-    <a href={warmUp.url} className="table-cell">
-      <div className={`spacing-class ${warmUp.bgc}`}>
-        <div className="responsive-text">{warmUp.emojis}&nbsp;</div>
-        <p className="unstyled-text responsive-text">{warmUp.title}</p>
-        <p className="unstyled-text responsive-text">[{warmUp.length}]</p>
-      </div>
-    </a>
-  ));
-
-  const listExercises = exercises.map((exercise) => (
-    <a href={exercise.url} className="table-cell">
-      <div className={`spacing-class ${exercise.bgc}`}>
-        <div className="responsive-text">{exercise.emojis}&nbsp;</div>
-        <p className="unstyled-text responsive-text">{exercise.title}</p>
-        <p className="unstyled-text responsive-text">[{exercise.length}]</p>
-      </div>
-    </a>
-  ));
-
-  const listExtras = extras.map((extra) => (
-    <a href={extra.url} className="table-cell">
-      <div className={`spacing-class ${extra.bgc}`}>
-        <div className="responsive-text">{extra.emojis}&nbsp;</div>
-        <p className="unstyled-text responsive-text">{extra.title}</p>
-        <p className="unstyled-text responsive-text">[{extra.length}]</p>
-      </div>
-    </a>
-  ));
-
   // Pie chart data updated with the randomized choices
   const data = [
     { title: choice1.emojis, value: choice1.seconds, color: choice1.bgc },
@@ -175,10 +144,11 @@ export default function Timecalc() {
         <p>Exercises</p>
         <p>Extras</p>
       </div>
-      <div className="table-row">
-        <div className="smolTable">{listWarmUps}</div>
-        <div className="smolTable">{listExercises}</div>
-        <div className="smolTable">{listExtras}</div>
+      {/* Regenerate the lists after randomizing choices */}
+      <div className="table-row space-around">
+        <div className="smolTable">{warmUps.map((vid) => <VideoCard video={vid} />)}</div>
+        <div className="smolTable">{exercises.map((vid) => <VideoCard video={vid} />)}</div>
+        <div className="smolTable">{extras.map((vid) => <VideoCard video={vid} />)}</div>
       </div>
     </div>
   );
