@@ -18,13 +18,12 @@
 /* @media screen and (max-width: 500px) { */
 
 .responsive-text {
-  display: flex;
-  /* display: inline-flex; */
+  font-size: 1.1rem;
 }
 .table-row {
   display: flex;
-  justify-content: start;
-  padding:0;
+  justify-content: center;
+  padding: 0;
   flex-grow: 1;
 }
 .table-cell {
@@ -36,11 +35,25 @@
 .space-around{
   justify-content: space-around;
 }
-.special-cell {
-  width: 12rem;
-  flex-direction: column;
+
+/* VideoCard.css */
+.video-card {
+  display: flex;
+  justify-content: center;   /* Centers child divs horizontally */
+  align-items: center;       /* Centers child divs vertically (optional) */
+  flex-direction: column;    /* Stacks child divs vertically */
+  width: 11rem;
   border-radius: 30px;
+  overflow: hidden;
 }
+
+.inner-content-div {
+  padding: 1rem;
+  margin: 3px;
+  background-color: inherit;  /* Inherit the background color from parent */
+  border-radius: 30px;        /* Ensure the inner content also has rounded corners */
+}
+
 .bigger-font {
   font-size: 2.5rem;
 }
@@ -136,7 +149,3 @@ h1, h2, h3, button {
 .hero__title {
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFF 0px 0px 20px, #FFF 0px 0px 30px, #FFF 0px 0px 40px, #FFF 0px 0px 50px, #FFF 0px 0px 75px;
 }
-/* 
-a:hover {
-  color: #FF2D95;
-} */

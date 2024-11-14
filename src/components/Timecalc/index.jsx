@@ -73,9 +73,10 @@ const Timecalc = () => {
       </div>
 
       <div className="table-row">
-        <div>
+        <div className=''>
           <h3>Today's practice is {practiceLength} long.</h3>
           <RandomizerButton handleRandomize={handleRandomize} />
+          <p>(Please refresh for original recommendations.)</p>
         </div>
         <PieChartComponent data={dataForPieChart} />
       </div>
