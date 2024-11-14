@@ -61,35 +61,55 @@ const Timecalc = () => {
       <h3>🤯 It's been <span> {RoundedResult} days since this practice began.</span></h3>
       <h3>🥠 Today's Suggested Videos:</h3>
 
-      <div className="table-row space-around">
+      <div className="row">
         <p>Warm Up</p>
         <p>Exercise</p>
         <p>Extra</p>
       </div>
-      <div className="table-row space-around">
-        <VideoCard video={choice1} />
-        <VideoCard video={choice2} />
-        <VideoCard video={choice3} />
+      <div className="row">
+        <div className='column p-3'>
+          <VideoCard video={choice1} />
+        </div>
+        <div className='column'>
+          <VideoCard video={choice2} />
+        </div>
+        <div className='column'>
+          <VideoCard video={choice3} />
+        </div>
       </div>
 
-      <div className="table-row">
-        <div className=''>
+      <div className="row">
+        <div className='column p-3'>
           <h3>Today's practice is {practiceLength} long.</h3>
           <RandomizerButton handleRandomize={handleRandomize} />
           <p>(Please refresh for original recommendations.)</p>
         </div>
-        <PieChartComponent data={dataForPieChart} />
+        <div className='column'>
+          <PieChartComponent data={dataForPieChart} />
+        </div>
       </div>
 
-      <div className="table-row space-around">
-        <p>Warm Ups</p>
-        <p>Exercises</p>
-        <p>Extras</p>
+      <div className="row">
+        <div className='column'>
+          <p>Warm Ups</p>
+        </div>
+        <div className='column'>
+          <p>Exercises</p>
+        </div>
+        <div className='column'>
+          <p>Extras</p>
+        </div>
       </div>
-      <div className="table-row">
-        <div className="smolTable">{warmUps.map((item) => <VideoCard video={item} />)}</div>
-        <div className="smolTable">{exercises.map((item) => <VideoCard video={item} />)}</div>
-        <div className="smolTable">{extras.map((item) => <VideoCard video={item} />)}</div>
+      <div className="row">
+        <div className="column">
+          <div className="video-card-wrapper">{warmUps.map((item) => <VideoCard video={item} />)}</div>
+        </div>
+        <div className="column">
+          <div className="video-card-wrapper">{exercises.map((item) => <VideoCard video={item} />)}</div>
+        </div>
+        <div className="column">
+          <div className="video-card-wrapper">{extras.map((item) => <VideoCard video={item} />)}</div>
+        </div>
       </div>
     </div>
   );

@@ -15,54 +15,85 @@
   align-items: stretch;
 }
 
-/* @media screen and (max-width: 500px) { */
-
 .responsive-text {
   font-size: 1.1rem;
 }
-.table-row {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  flex-grow: 1;
-}
-.table-cell {
-  display: inline-flex;
-  padding-bottom: 20px;
-  line-height: 2.5em;
-  width: 120px;
-}
-.space-around{
+
+/* Basic responsive row layout */
+.row {
+  display: flex; /* Make the container a flex container */
+  flex-wrap: wrap; /* Allow the columns to wrap onto new lines if needed */
+  gap: 1px; /* Space between the columns */
   justify-content: space-around;
 }
 
+.column {
+  flex: 1 1 32%; /* Allow each column to take up 30% of the width */
+  max-width: 32%; /* Prevent columns from getting too wide */
+  box-sizing: border-box; /* Include padding and borders in width calculation */
+  margin-bottom: 3px; /* Add some space below the columns */
+}
+
+.p-3 {
+  padding-left: 0.3rem;
+}
+
 /* VideoCard.css */
+.video-card-wrapper {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1px;
+}
+
 .video-card {
   display: flex;
-  justify-content: center;   /* Centers child divs horizontally */
-  align-items: center;       /* Centers child divs vertically (optional) */
+  flex: 1 1 32%;      /* Flexibly take up to 32% */
+  max-width: 100%;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;        /* Centers child divs vertically (optional) */
   flex-direction: column;    /* Stacks child divs vertically */
   width: 11rem;
-  border-radius: 30px;
+  border-radius: 20px;
   overflow: hidden;
+  box-sizing: border-box; /* Includes padding & border in width */
 }
 
 .inner-content-div {
   padding: 1rem;
-  margin: 3px;
+  margin: 1px;
   background-color: inherit;  /* Inherit the background color from parent */
-  border-radius: 30px;        /* Ensure the inner content also has rounded corners */
+  border-radius: 20px;        /* Ensure the inner content also has rounded corners */
 }
+
+/* Make adjustments with viewport width (vw) for scaling */
+@media screen and (max-width: 1024px) {
+  .video-card .responsive-text {
+    font-size: 1.5rem; /* Slightly larger text for tablets */
+  }
+}
+
+/* Make sure the text inside video card is not too big on smaller screens */
+@media screen and (max-width: 768px) {
+  .video-card .responsive-text {
+    font-size: 1.1rem;  /* Adjust font size based on screen size */
+  }
+}
+
+/* Use a smaller text size for very small screens */
+@media screen and (max-width: 375px) {
+  .video-card .responsive-text {
+    font-size: 1rem;  /* Scale down text size on small screens */
+  }
+}
+
+
+
 
 .bigger-font {
   font-size: 2.5rem;
 }
-/* } */
-/* end of media query */
-.smolTable {
-  margin: 1rem;
-  padding: 0px;
-}
+
 .unstyled-text {
   color: black !important;
 }
@@ -135,9 +166,7 @@ h1, h2, h3, button {
 .no-bullet {
   list-style-type: none;
 }
-.widest-column {
-  min-width: 18vw;
-}
+
 /* to make the default footer colors into a slight gradient */ 
 .footer {
   background: linear-gradient(-14deg, rgba(10,0,0,0.8), rgba(0,172,138,0.4));
