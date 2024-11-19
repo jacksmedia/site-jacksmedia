@@ -79,7 +79,7 @@ const Timecalc = () => {
       </div>
 
       <div className="row">
-        <div className='col-4 pl-2'>
+        <div className='col-4 p-3'>
           <h3>Today's practice is {practiceLength} long.</h3>
           <RandomizerButton handleRandomize={handleRandomize} />
           <p>(Please refresh for original recommendations.)</p>

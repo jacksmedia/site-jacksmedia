@@ -2,15 +2,19 @@ import React from 'react';
 
 const VideoCard = ({ video }) => {
   return (
-    <a href={video.url} target="_blank" rel="noreferrer noopener">
-      <div className="video-card">
+    <div className="video-card">
+      <a href={video.url}
+        target="_blank" 
+        rel="noreferrer noopener"
+        className="footer__link-item">  
         <div className={`inner-content-div ${video.bgc}`}>
           <div className="bigger-font">{video.emojis}</div>
-          <div className="unstyled-text responsive-text">{video.title}</div>
-          <div className="unstyled-text responsive-text">[{video.length}]</div>
+          <div className="unstyled-text responsive-text footer__link-item">{video.title}
+          <h5>{[video.length]}</h5>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
+    </div>
   );
 };
 
