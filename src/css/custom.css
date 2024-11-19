@@ -1,7 +1,6 @@
 /* Fonts */
 /* new */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Pixelify+Sans:wght@400;600&display=swap');
 
 .reactive-height {
@@ -15,7 +14,8 @@
 }
 
 .responsive-text {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  padding-left: 3px;
 }
 
 /* Basic responsive row layout */
@@ -38,7 +38,7 @@
 }
 
 /* VideoCard.css */
-.video-card-wrapper {
+.video-card-wrapper { /* for vertical layouts at bottom */
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 1px;
@@ -133,8 +133,6 @@
 }
 
 *, .footer__title {
-  /* font-family:  "Balsamiq Sans"; */
-  font-family:  "Balsamiq Sans";
   font-family: "Geist Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 200;

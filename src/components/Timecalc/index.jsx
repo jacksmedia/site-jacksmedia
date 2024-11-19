@@ -63,8 +63,8 @@ const Timecalc = () => {
 
       <div className="row">
         <p>Warm Up</p>
-        <p>Exercise</p>
-        <p>Extra</p>
+        <p>Exercises</p>
+        <p>Extras</p>
       </div>
       <div className="row">
         <div className='column p-3'>
@@ -79,26 +79,20 @@ const Timecalc = () => {
       </div>
 
       <div className="row">
-        <div className='column p-3'>
+        <div className='col-4 pl-2'>
           <h3>Today's practice is {practiceLength} long.</h3>
           <RandomizerButton handleRandomize={handleRandomize} />
           <p>(Please refresh for original recommendations.)</p>
         </div>
-        <div className='column'>
+        <div className='col-8'>
           <PieChartComponent data={dataForPieChart} />
         </div>
       </div>
-
+      <h2>All Videos</h2>
       <div className="row">
-        <div className='column'>
-          <p>Warm Ups</p>
-        </div>
-        <div className='column'>
-          <p>Exercises</p>
-        </div>
-        <div className='column'>
-          <p>Extras</p>
-        </div>
+        <p>Warm Up</p>
+        <p>Exercises</p>
+        <p>Extras</p>
       </div>
       <div className="row">
         <div className="column">
