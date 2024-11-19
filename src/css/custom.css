@@ -1,9 +1,8 @@
 /* Fonts */
-/* old */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Taviraj:wght@200&display=swap');
 /* new */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Pixelify+Sans:wght@400;600&display=swap');
 
 .reactive-height {
   min-height: calc(100vw * 1.6)!important;
@@ -134,7 +133,12 @@
 }
 
 *, .footer__title {
+  /* font-family:  "Balsamiq Sans"; */
   font-family:  "Balsamiq Sans";
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 h1, h2, h3, button {
