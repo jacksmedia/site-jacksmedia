@@ -67,13 +67,20 @@
       "length":"4m23s",
       "seconds": 263,
       "bgc":"lemonchiffon"
-      },
+    },
     {
       "url":"https://youtu.be/HMbT-CPVl2k?si=RvLYoxjStRVeaYUO&t=48",
       "emojis":"🍵🐵","title":"Mood Lifter",
       "length":"14m37s",
       "seconds": 877,
       "bgc":"mediumaquamarine"
+    },
+    {
+      "url":"https://youtu.be/tbwbL1pg0HY?si=7XtAtjl2eZaBEf3g&t=30",
+      "emojis":"🐒🦜","title":"Seated Tai Chi for Home Practice",
+      "length":"18m",
+      "seconds": 1080,
+      "bgc":"palegreen"
     },
     {
       "url":"https://youtu.be/enk0bOv-gF8?si=kooRHEd1XzdpAfr_&t=18",
@@ -90,6 +97,13 @@
       "bgc":"mediumaquamarine"
     },
     {
+      "url":"https://youtu.be/NHIXxKlELiE?si=zyfaiEBmrMsymoBv&t=132",
+      "emojis":"🪽✨","title":"10m Tai Chi - with Names",
+      "length":"9m17s",
+      "seconds": 557,
+      "bgc":"palegreen"
+    },
+    {
       "url":"https://youtu.be/OPcZlXYcdMA?si=Q0S5rRdkRcNaLkGy&t=31",
       "emojis":"🐎🌕","title":"Tai Chi 5 Min a Day Module 03",
       "length":"5m16s",
@@ -102,6 +116,13 @@
       "length":"28m4s",
       "seconds": 1684,
       "bgc":"mediumaquamarine"
+    },
+    {
+      "url":"https://youtu.be/_V29hE0_oBE?si=GiDMPoCu9RynHwNj&t=47",
+      "emojis":"🦉🌜","title":"Seated Tai Chi",
+      "length":"10m6s",
+      "seconds": 606,
+      "bgc":"palegreen"
     },
     {
       "url":"https://youtu.be/RoIqYtiTLFI?si=fX__f4j_ygWQ4ByO&t=18",
@@ -130,27 +151,6 @@
       "length":"13m24s",
       "seconds": 804,
       "bgc":"mediumaquamarine"
-    },
-    {
-      "url":"https://youtu.be/tbwbL1pg0HY?si=7XtAtjl2eZaBEf3g&t=30",
-      "emojis":"🐒🦜","title":"Seated Tai Chi for Home Practice",
-      "length":"18m",
-      "seconds": 1080,
-      "bgc":"palegreen"
-    },
-    {
-      "url":"https://youtu.be/NHIXxKlELiE?si=zyfaiEBmrMsymoBv&t=132",
-      "emojis":"🪽✨","title":"10m Tai Chi - with Names",
-      "length":"9m17s",
-      "seconds": 557,
-      "bgc":"palegreen"
-    },
-    {
-      "url":"https://youtu.be/_V29hE0_oBE?si=GiDMPoCu9RynHwNj&t=47",
-      "emojis":"🦉🌜","title":"Seated Tai Chi",
-      "length":"10m6s",
-      "seconds": 606,
-      "bgc":"palegreen"
     }
   ],
   "extras": [
@@ -162,18 +162,18 @@
       "bgc":"mediumaquamarine"
       },
     {
-      "url":"https://youtu.be/Yzm3fA2HhkQ?si=9U-udKw3-FJ9eVZ7&t=50",
-      "emojis":"🪢🪡","title":"Yoga For Flexibility",
-      "length":"15m4s",
-      "seconds": 904,
-      "bgc":"cornflowerblue"
+      "url":"https://youtu.be/Y10JTTsN31w?si=aE_SGwoxh-6QmSZa&t=51",
+      "emojis":"🟢✳️","title":"Manage Stress & Anxiety",
+      "length":"5m31s",
+      "seconds": 331,
+      "bgc":"lemonchiffon"
       },
     {
-      "url":"https://www.youtube.com/watch?v=V1HbXt5ZRlg&t=39s",
-      "emojis":"🗼🪜","title":"Head Stand Yoga Pose",
-      "length":"17m59s",
-      "seconds": 1079,
-      "bgc":"cornflowerblue"
+      "url":"https://youtu.be/8NT6RRlcAy0?si=tstae-ySSzjYhStp&t=18",
+      "emojis":"👊❤️","title":"Heart Centered Qigong",
+      "length":"2m21s",
+      "seconds": 141,
+      "bgc":"lemonchiffon"
       },
     {
       "url":"https://youtu.be/ED3_i_xVd_s?si=PEn7R0kCBX905vKR&t=56",
@@ -197,11 +197,11 @@
       "bgc":"lemonchiffon"
       },
     {
-      "url":"https://youtu.be/Nnd5Slo02us?si=9gwhxzB009KkaALo&t=26",
-      "emojis":"🪑🏹","title":"Yoga For Focus & Productivity",
-      "length":"9m10s",
-      "seconds": 550,
-      "bgc":"cornflowerblue"
+      "url":"https://youtu.be/NMDzoafUAyw?si=PEsyj1AVCOQ0tMd0&t=45",
+      "emojis":"🪑","title":"Buddha Holds up the Heavens",
+      "length":"5m20s",
+      "seconds": 320,
+      "bgc":"mediumaquamarine"
       },
     {
       "url":"https://youtu.be/eBdfCX5XnX4?si=-0EK8KmKW8tXCkul&t=5",
