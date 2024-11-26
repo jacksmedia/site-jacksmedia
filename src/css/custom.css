@@ -36,6 +36,14 @@
 .p-3 {
   padding-left: 0.3rem;
 }
+.space-between {
+  justify-content: space-between;
+}
+
+.active {
+  /* display: none; */
+  color: red;
+}
 
 /* VideoCard.css */
 .video-card-wrapper { /* for vertical layouts at bottom */
