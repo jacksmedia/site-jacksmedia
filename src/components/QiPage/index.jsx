@@ -11,7 +11,7 @@ function formatTime(seconds) {
   return `${minutes}m ${remainingSeconds}s`;
 }
 
-const Timecalc = () => {
+const QiPage = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState(null);
 
@@ -160,4 +160,4 @@ const Timecalc = () => {
   );
 };
 
-export default Timecalc;
+export default QiPage;
