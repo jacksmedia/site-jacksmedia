@@ -34,13 +34,13 @@
     {
       "url":"https://youtu.be/XL8s-7qg2Ag?si=InC75EXBtNo6Lfhh&t=373",
       "emojis":"☁️🪡","title":"Energy with Qigong",
-      "length":"7m40s",
+      "length":"1m10s",
       "seconds": 70,
       "bgc":"palegreen"
     },
     {
       "url":"https://youtu.be/qiKJRoX_2uo?si=_EjTbXrk_24cSC7W&t=27",
-      "emojis":"🥁🌳","title":"Yoga for Stress Relief",
+      "emojis":"🥁🌳","title":"Yoga for Stress",
       "length":"5m55s",
       "seconds": 333,
       "bgc":"cornflowerblue"
@@ -49,7 +49,7 @@
   "exercises": [
     {
       "url":"https://youtu.be/3GtFp6sz5zM?si=MO5mZbvu5babuvX5&t=85",
-      "emojis":"💨🍯","title":"Qigong to Purge & Tonify",
+      "emojis":"💨🍯","title":"Qigong to Purge",
       "length":"18m37s",
       "seconds": 1117,
       "bgc":"mediumaquamarine"
@@ -163,7 +163,7 @@
       },
      {
       "url":"https://youtu.be/Y10JTTsN31w?si=aE_SGwoxh-6QmSZa&t=51",
-      "emojis":"🎈✳️","title":"Manage Stress & Anxiety",
+      "emojis":"🎈✳️","title":"Qigong for Stress",
       "length":"5m31s",
       "seconds": 331,
       "bgc":"lemonchiffon"
@@ -205,7 +205,7 @@
       },
     {
       "url":"https://youtu.be/ED3_i_xVd_s?si=PEn7R0kCBX905vKR&t=56",
-      "emojis":"🎱🌈","title":"Qigong to Manage Anxiety",
+      "emojis":"🎱🌈","title":"Qigong for Anxiety",
       "length":"9m2s",
       "seconds": 542,
       "bgc":"lemonchiffon"
