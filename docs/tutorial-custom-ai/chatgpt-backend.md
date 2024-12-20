@@ -8,7 +8,7 @@ sidebar_position: 6
 
 As I explained briefly in the previous post, Generative AI can handle sophisticated data transformations, making it a cutting-edge choice as the backend for applications. I am learning to leverage OpenAI's ChatGPT to craft custom app logic with a low-code template approach.
 
-Once you have a basic website set up to communicate with your backend (see previous article), here is what a supporting API that uses ChatGPT might look like. I'm hosting mine on [vercel](www.vercel.com) as I like their quick deployment and clean UX, yet any cloud provider can work as an API once you install the ChatGPT modules and define what you expect it to do for you.
+Once you have a basic website set up to communicate with your backend (see previous article), here is what a supporting API that uses ChatGPT might look like. I'm hosting mine on [vercel](https://www.vercel.com) as I like their quick deployment and clean UX, yet any cloud provider can work as an API once you install the ChatGPT modules and define what you expect it to do for you.
 
 ## Baseline ChatGPT API
 
