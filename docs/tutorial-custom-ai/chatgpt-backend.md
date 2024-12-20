@@ -1,18 +1,20 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # ChatGPT Backend Scaffold
 
 ## What and why
 
-Generative AI can provide data transformations and act as the backend for applications. OpenAI's ChatGPT is the current market leader and a good place to start learning how to build apps around Gen AI.
+As I explained briefly in the previous post, Generative AI can handle sophisticated data transformations, making it a cutting-edge choice as the backend for applications. I am learning to leverage OpenAI's ChatGPT to craft custom app logic with a low-code template approach.
 
-Meta's [ReactJS](https://react.dev/) provides an industry standard way of designing websites and webapps, so I'll offer this frontend code in React-- you can of course adapt it to Angular, Vue, Svelte, or any other library or framework that is built around JavaScript.
+Once you have a basic website set up to communicate with your backend (see previous article), here is what a supporting API that uses ChatGPT might look like. I'm hosting mine on [vercel](www.vercel.com) as I like their quick deployment and clean UX, yet any cloud provider can work as an API once you install the ChatGPT modules and define what you expect it to do for you.
 
-![API-key-demo-1](./key-demo1.png)
+## Baseline ChatGPT API
 
-![API-key-demo-2](./key-demo2.png)
+First off, set up a basic node project and store the code on GitHub or a similar service.
+
+An example of the essential backend code is shown below. Save it in a file named ```server.js``` 
 
 ## Baseline Template
 
@@ -47,12 +49,28 @@ app.post('/chat', async (req, res) => {
 module.exports = app;
 ```
 
+## Get your Key
+
+Next, generate an API key using your OpenAI account. Copy this somewhere safe, and create an .env file for it at your project root, to allow this project to run and to test it on your local machine. 
+
+
+> Ensure you add the ```.env``` to your gitignore, so this file and your key are never exposed on GitHub.
+
+![API-key-demo-1](./key-demo1.png)
+
+Then give your cloud host (vercel shown here) the same key and value, in the project's Environment Variables.
+
+![API-key-demo-2](./key-demo2.png)
+
+Once the API key is copied securely to your host, then the API server code can work as intended with your remote deployment, not just on your local machine.
+
+
 ## Things to Note:
 
 - you will need to [create a free account with ChatGPT](https://platform.openai.com/signup) to enable this level of custom utility
 
 - the code above simply queries the ChatGPT service for a chat connection; it is extensible for many features, to include reviewing documents as seen in our demo [Paralegal Document Review app](https://jacks.media/docreview)
 
-- this is the first half of a 2-part project: the backend code is described in the next guide
+- this is the first half of a 2-part project: the fronted code is offered in the previous guide
 
-### Check back here soon for the backend code!
+## Stay tuned for more AI integration content
