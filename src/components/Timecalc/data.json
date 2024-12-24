@@ -32,18 +32,18 @@
       "bgc":"mediumaquamarine"
       },
     {
-      "url":"https://youtu.be/XL8s-7qg2Ag?si=InC75EXBtNo6Lfhh&t=373",
-      "emojis":"☁️🪡","title":"Energy with Qigong",
-      "length":"1m10s",
-      "seconds": 70,
-      "bgc":"palegreen"
-    },
-    {
       "url":"https://youtu.be/qiKJRoX_2uo?si=_EjTbXrk_24cSC7W&t=27",
       "emojis":"🥁🌳","title":"Yoga for Stress",
       "length":"5m55s",
       "seconds": 333,
       "bgc":"cornflowerblue"
+    },
+    {
+      "url":"https://youtu.be/XL8s-7qg2Ag?si=InC75EXBtNo6Lfhh&t=373",
+      "emojis":"☁️🪡","title":"Energy with Qigong",
+      "length":"1m10s",
+      "seconds": 70,
+      "bgc":"palegreen"
     }
   ],
   "exercises": [
