@@ -53,8 +53,6 @@
   align-items: center;        /* Centers child divs vertically (optional) */
   flex-direction: column;    /* Stacks child divs vertically */
   width: 11rem;
-  /* border-radius: 20px;
-  overflow: hidden; */
   box-sizing: border-box; /* Includes padding & border in width */
 }
 
@@ -113,19 +111,23 @@ a:hover {
 
 /* qi page styling  */
 .lemonchiffon{
-  background: linear-gradient(LemonChiffon, rgba(255,255,255,0.3)) !important;
+  background: linear-gradient(LemonChiffon, rgba(128,128,128,0.3)) !important;
+  outline-color: LemonChiffon;
   color: black;
 }
 .mediumaquamarine{
-  background: linear-gradient(MediumAquamarine, rgba(255,255,255,0.3)) !important;
+  background: linear-gradient(MediumAquamarine, rgba(128,128,128,0.3)) !important;
+  outline-color: MediumAquamarine;
   color: black;
 }
 .cornflowerblue{
-  background: linear-gradient(cornflowerblue, rgba(255,255,255,0.3)) !important;
+  background: linear-gradient(cornflowerblue, rgba(128,128,128,0.3)) !important;
+  outline-color: cornflowerblue;
   color: black;
 }
 .palegreen{
-  background: linear-gradient(palegreen, rgba(255,255,255,0.3)) !important;
+  background: linear-gradient(palegreen, rgba(128,128,128,0.3)) !important;
+  outline-color: palegreen;
   color: black;
 }
 /* boilerplate Infinima defaults */
