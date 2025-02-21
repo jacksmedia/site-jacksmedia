@@ -205,7 +205,7 @@ h1, h2, h3, button {
 /* adapted from https://stackoverflow.com/questions/23441060/how-to-animate-gradients-using-css */
 body
 {
-    background: linear-gradient(90deg, orchid, rgb(4, 227, 227), orchid);
+    background: linear-gradient(180deg, orchid, lightblue, cadetblue, lightblue, orchid);
     background-size: 200% 200%;
 
     -webkit-animation: Animation 37s ease infinite;
