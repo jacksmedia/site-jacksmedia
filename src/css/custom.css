@@ -128,7 +128,7 @@ a:hover {
 }
 /* boilerplate Infinima defaults */
 :root {
-  --ifm-color-primary: #1728AB;
+  --ifm-color-primary: #e70ca9;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -180,6 +180,9 @@ h1, h2, h3, button {
   background: linear-gradient(0deg, rgba(10,0,0,0.7), rgba(0,172,138,0.4));
   border-radius: 130px;
 }
+.feature-card-style a {
+  color: white;
+}
 
 /* makes the default footer colors into a slight gradient */ 
 .footer {
@@ -191,4 +194,33 @@ h1, h2, h3, button {
 }
 .hero__title {
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFF 0px 0px 20px, #FFF 0px 0px 30px, #FFF 0px 0px 40px, #FFF 0px 0px 50px, #FFF 0px 0px 75px;
+}
+
+
+
+/* adapted from https://stackoverflow.com/questions/23441060/how-to-animate-gradients-using-css */
+body
+{
+    background: linear-gradient(90deg, orchid, rgb(4, 227, 227), orchid);
+    background-size: 200% 200%;
+
+    -webkit-animation: Animation 37s ease infinite;
+    -moz-animation: Animation 37s ease infinite;
+    animation: Animation 37s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
 }

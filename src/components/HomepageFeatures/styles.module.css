@@ -9,3 +9,7 @@
   max-height: 200px;
   max-width: 200px;
 }
+
+.feature-card-style a div p {
+  color: black;
+}

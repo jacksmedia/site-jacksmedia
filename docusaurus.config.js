@@ -88,6 +88,10 @@ const config = {
                 href: 'https://discord.gg/nightcafestudio',
               },
               {
+                label: 'FF4 Ultima Discord (sprite art & romhacking)',
+                href: 'https://discord.gg/PGMASbSnD9',
+              },
+              {
                 label: 'FF5 Den wiki (romhacking resources)',
                 href: 'https://www.ff6hacking.com/ff5wiki/index.php/Main_Page#Utility',
               },
@@ -101,12 +105,8 @@ const config = {
                 href: 'https://xj4cks.blog',
               },
               {
-                label: 'my Insta',
-                href: 'https://www.instagram.com/xj4cks',
-              },
-              {
-                label: 'my Threads',
-                href: 'https://threads.net/xJ4cks',
+                label: 'my BlueSky',
+                href: 'https://bsky.app/profile/xj4cks.bsky.social',
               },
               {
                 label: 'Jacks.Media GitHub',
