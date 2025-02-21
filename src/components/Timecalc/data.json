@@ -32,24 +32,24 @@
       "bgc":"mediumaquamarine"
       },
     {
-      "url":"https://youtu.be/XL8s-7qg2Ag?si=elaKyRKWYn_Sxs5R&t=110",
-      "emojis":"☁️🪡","title":"Energy with Qigong",
-      "length":"7m40s",
-      "seconds": 460,
-      "bgc":"palegreen"
-    },
-    {
       "url":"https://youtu.be/qiKJRoX_2uo?si=_EjTbXrk_24cSC7W&t=27",
-      "emojis":"🥁🌳","title":"Yoga for Stress Relief",
+      "emojis":"🥁🌳","title":"Yoga for Stress",
       "length":"5m55s",
       "seconds": 333,
       "bgc":"cornflowerblue"
+    },
+    {
+      "url":"https://youtu.be/XL8s-7qg2Ag?si=InC75EXBtNo6Lfhh&t=373",
+      "emojis":"☁️🪡","title":"Energy with Qigong",
+      "length":"1m10s",
+      "seconds": 70,
+      "bgc":"palegreen"
     }
   ],
   "exercises": [
     {
       "url":"https://youtu.be/3GtFp6sz5zM?si=MO5mZbvu5babuvX5&t=85",
-      "emojis":"💨🍯","title":"Qigong to Purge & Tonify",
+      "emojis":"💨🍯","title":"Qigong to Purge",
       "length":"18m37s",
       "seconds": 1117,
       "bgc":"mediumaquamarine"
@@ -63,7 +63,7 @@
     },
     {
       "url":"https://youtu.be/cEOS2zoyQw4?si=EApSfyPYr5WgxM9y&t=91",
-      "emojis":"🦆🌊","title":"Tai Chi Module 01",
+      "emojis":"🦆🌊","title":"Tai Chi Unit 01",
       "length":"4m23s",
       "seconds": 263,
       "bgc":"lemonchiffon"
@@ -84,7 +84,7 @@
     },
     {
       "url":"https://youtu.be/enk0bOv-gF8?si=kooRHEd1XzdpAfr_&t=18",
-      "emojis":"🦇☁️","title":"Tai Chi Module 02",
+      "emojis":"🦇☁️","title":"Tai Chi Unit 02",
       "length":"5m42s",
       "seconds": 342,
       "bgc":"lemonchiffon"
@@ -105,14 +105,14 @@
     },
     {
       "url":"https://youtu.be/OPcZlXYcdMA?si=Q0S5rRdkRcNaLkGy&t=31",
-      "emojis":"🐎🌕","title":"Tai Chi Module 03",
+      "emojis":"🐎🌕","title":"Tai Chi Unit 03",
       "length":"5m16s",
       "seconds": 316,
       "bgc":"lemonchiffon"
     },
     {
       "url":"https://youtu.be/EZT8RC0wRbA?si=1u4ZkyICs-RFCiAh&t=113",
-      "emojis":"🐻🔥","title":"Qigong to Circulate Energy",
+      "emojis":"🐻🔥","title":"Qigong for Energy",
       "length":"13m24s",
       "seconds": 804,
       "bgc":"mediumaquamarine"
@@ -126,28 +126,28 @@
     },
     {
       "url":"https://youtu.be/RoIqYtiTLFI?si=fX__f4j_ygWQ4ByO&t=18",
-      "emojis":"🐍🍂","title":"Tai Chi Module 04",
+      "emojis":"🐍🍂","title":"Tai Chi Unit 04",
       "length":"9m39s",
       "seconds": 579,
       "bgc":"lemonchiffon"
     },
     {
       "url":"https://youtu.be/nmmNWj9YtAw?si=ZIxziO8gm3vx8ffQ&t=62",
-      "emojis":"🐯🌋","title":"Daily Qiqong Routine",
+      "emojis":"🐯🌋","title":"Daily Qiqong",
       "length":"15m50s",
       "seconds": 950,
       "bgc":"mediumaquamarine"
     },
     {
       "url":"https://youtu.be/1DeihMgXLDk?si=5I0THQVL1ab2END-&t=81",
-      "emojis":"🦌🌅","title":"15 min Sunrise Tai Chi",
+      "emojis":"🦌🌅","title":"Sunrise Tai Chi",
       "length":"18m16s",
       "seconds": 1096,
       "bgc":"palegreen"
     },
     {
       "url":"https://youtu.be/62a20CiIAlY?si=bV2k3YkLIjfHTcWe&t=45",
-      "emojis":"🌀☂️","title":"Tai Chi Module 05",
+      "emojis":"🌀☂️","title":"Tai Chi Unit 05",
       "length":"6m4s",
       "seconds": 364,
       "bgc":"lemonchiffon"
@@ -163,7 +163,7 @@
       },
      {
       "url":"https://youtu.be/Y10JTTsN31w?si=aE_SGwoxh-6QmSZa&t=51",
-      "emojis":"🎈✳️","title":"Manage Stress & Anxiety",
+      "emojis":"🎈✳️","title":"Qigong for Stress",
       "length":"5m31s",
       "seconds": 331,
       "bgc":"lemonchiffon"
@@ -191,7 +191,7 @@
       },
     {
       "url":"https://youtu.be/8NT6RRlcAy0?si=tstae-ySSzjYhStp&t=18",
-      "emojis":"👊❤️","title":"Heart Centered Qigong",
+      "emojis":"👊❤️","title":"Qigong for Heart",
       "length":"4m20s",
       "seconds": 260,
       "bgc":"lemonchiffon"
@@ -205,7 +205,7 @@
       },
     {
       "url":"https://youtu.be/ED3_i_xVd_s?si=PEn7R0kCBX905vKR&t=56",
-      "emojis":"🎱🌈","title":"Qigong to Manage Anxiety",
+      "emojis":"🎱🌈","title":"Qigong for Anxiety",
       "length":"9m2s",
       "seconds": 542,
       "bgc":"lemonchiffon"
