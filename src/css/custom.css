@@ -208,9 +208,9 @@ body
     background: linear-gradient(180deg, orchid, lightblue, cadetblue, lightblue, orchid);
     background-size: 200% 200%;
 
-    -webkit-animation: Animation 37s ease infinite;
-    -moz-animation: Animation 37s ease infinite;
-    animation: Animation 37s ease infinite;
+    -webkit-animation: Animation 57s ease infinite;
+    -moz-animation: Animation 57s ease infinite;
+    animation: Animation 57s ease infinite;
 }
 
 @-webkit-keyframes Animation {
