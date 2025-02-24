@@ -130,6 +130,12 @@ a:hover {
   outline-color: palegreen;
   color: black;
 }
+.orchid{
+  background: linear-gradient(orchid, rgba(128,128,128,0.3)) !important;
+  outline-color: orchid;
+  color: black;
+}
+
 /* boilerplate Infinima defaults */
 :root {
   --ifm-color-primary: #e70ca9;
