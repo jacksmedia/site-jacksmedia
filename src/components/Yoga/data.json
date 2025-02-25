@@ -10,26 +10,24 @@
       "bgc":"cornflowerblue"
     },
     {
-      "url":"https://youtu.be/50txkOrJn9o?si=LWi3_8yKID6I523K&t=88",
-      "emojis":"🦩🪃",
-      "title":"Tai Chi Warm Up",
-      "length":"8m24s",
-      "seconds":504,
-      "bgc":"lemonchiffon"
+      "url":"https://youtu.be/jOfshreyu4w?si=Aq06Cg3LYrvCDT19&t=39",
+      "emojis":"🫂🏅","title":"Quick Stress Fix 5 Min Sequence",
+      "length":"4m44s",
+      "seconds": 284,
+      "bgc":"cornflowerblue"
       },
     {
-      "url":"https://youtu.be/FR7-XiyV4rM?si=0liGVMuXVLPwkqIo&t=8",
-      "emojis":"🌲🔃","title":"Qigong Warm Up",
-      "length":"5m56s",
-      "seconds":348,
-      "bgc":"orchid"
+      "url":"https://youtu.be/JOilkvadChg?si=T2iQU201w7YuZDz2&t=34",
+      "emojis":"🆙🕊️","title":"Yoga to get the Juices Flowing",
+      "length":"7m52s",
+      "seconds": 472,
       },
     {
-      "url":"https://youtu.be/d-PTjUgMrig?si=-0yAPMV8tY_WJqDd&t=78",
-      "emojis":"☀️🌐","title":"Sun & Earth Qigong",
-      "length":"7m57s",
-      "seconds": 477,
-      "bgc":"mediumaquamarine"
+      "url":"https://youtu.be/Ba0fweKUwIc?si=sLZpA36tY4HvTrju&t=809",
+      "emojis":"🏔️🌁","title":"Full Body Stretch",
+      "length":"10m6s",
+      "seconds": 606,
+      "bgc":"cornflowerblue
       },
     {
       "url":"https://youtu.be/qiKJRoX_2uo?si=_EjTbXrk_24cSC7W&t=27",
@@ -39,11 +37,53 @@
       "bgc":"cornflowerblue"
     },
     {
-      "url":"https://youtu.be/XL8s-7qg2Ag?si=InC75EXBtNo6Lfhh&t=373",
-      "emojis":"☁️🪡","title":"Energy with Qigong",
-      "length":"1m10s",
-      "seconds": 70,
-      "bgc":"palegreen"
+       "url":"https://youtu.be/Yzm3fA2HhkQ?si=9U-udKw3-FJ9eVZ7&t=50",
+      "emojis":"🪢🪡","title":"Yoga For Flexibility",
+      "length":"15m4s",
+      "seconds": 904,
+      "bgc":"cornflowerblue"
+    },
+    {
+      "url":"https://www.youtube.com/watch?v=V1HbXt5ZRlg&t=39s",
+      "emojis":"🗼🪜","title":"Head Stand Yoga Pose",
+      "length":"17m59s",
+      "seconds": 1079,
+      "bgc":"cornflowerblue"
+    },
+    {
+      "url":"https://youtu.be/Nnd5Slo02us?si=9gwhxzB009KkaALo&t=26",
+      "emojis":"🪑🏹","title":"Yoga For Focus & Productivity",
+      "length":"9m10s",
+      "seconds": 550,
+      "bgc":"cornflowerblue"
+    },
+    {
+      "url":"https://youtu.be/eBdfCX5XnX4?si=-0EK8KmKW8tXCkul&t=5",
+      "emojis":"🪢🦎","title":"Yoga For Hips",
+      "length":"5m57s",
+      "seconds": 357,
+      "bgc":"cornflowerblue"
+      },
+    {
+      "url":"https://youtu.be/FgfT2fOv31E?si=WO9tE46rSLPDiuQr&t=40",
+      "emojis":"🪗🫧","title":"Yoga For Abs",
+      "length":"6m21s",
+      "seconds": 381,
+      "bgc":"cornflowerblue"
+      },
+    {
+      "url":"https://youtu.be/8T39OBNaNzU?si=tks83fkkQcGWN02p&t=27",
+      "emojis":"✂🧱","title":"Yoga for Core",
+      "length":"11m11s",
+      "seconds": 671,
+      "bgc":"cornflowerblue"
+    },
+    {
+      "url":"https://youtu.be/SedzswEwpPw?si=W12HalSuXWHUrjlE&t=52",
+      "emojis":"🧣🎒","title":"Yoga for Neck & Shoulder",
+      "length":"16m6s",
+      "seconds":966,
+      "bgc":"cornflowerblue"
     }
   ]
 }
