@@ -1,0 +1,49 @@
+
+{
+  "yoga": [
+    {
+      "url":"https://youtu.be/X3-gKPNyrTA?si=w8DChKHffPS-O1Yv&t=24",
+      "emojis":"🧘‍♀️🧵",
+      "title":"Yoga For Neck, Shoulders, Back",
+      "length":"10m",
+      "seconds":600,
+      "bgc":"cornflowerblue"
+    },
+    {
+      "url":"https://youtu.be/50txkOrJn9o?si=LWi3_8yKID6I523K&t=88",
+      "emojis":"🦩🪃",
+      "title":"Tai Chi Warm Up",
+      "length":"8m24s",
+      "seconds":504,
+      "bgc":"lemonchiffon"
+      },
+    {
+      "url":"https://youtu.be/FR7-XiyV4rM?si=0liGVMuXVLPwkqIo&t=8",
+      "emojis":"🌲🔃","title":"Qigong Warm Up",
+      "length":"5m56s",
+      "seconds":348,
+      "bgc":"orchid"
+      },
+    {
+      "url":"https://youtu.be/d-PTjUgMrig?si=-0yAPMV8tY_WJqDd&t=78",
+      "emojis":"☀️🌐","title":"Sun & Earth Qigong",
+      "length":"7m57s",
+      "seconds": 477,
+      "bgc":"mediumaquamarine"
+      },
+    {
+      "url":"https://youtu.be/qiKJRoX_2uo?si=_EjTbXrk_24cSC7W&t=27",
+      "emojis":"🥁🌳","title":"Yoga for Stress",
+      "length":"5m55s",
+      "seconds": 333,
+      "bgc":"cornflowerblue"
+    },
+    {
+      "url":"https://youtu.be/XL8s-7qg2Ag?si=InC75EXBtNo6Lfhh&t=373",
+      "emojis":"☁️🪡","title":"Energy with Qigong",
+      "length":"1m10s",
+      "seconds": 70,
+      "bgc":"palegreen"
+    }
+  ]
+}
