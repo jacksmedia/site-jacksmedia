@@ -39,6 +39,13 @@
       "bgc":"cornflowerblue"
     },
     {
+      "url":"https://youtu.be/jMuHgj3FF_k?si=GGV8xUg_JczI543B&t=25",
+      "emojis":"🍜🏐","title":"Invigorate the Qi",
+      "length":"7m30s",
+      "seconds": 450,
+      "bgc":"orchid"
+    },
+    {
       "url":"https://youtu.be/XL8s-7qg2Ag?si=InC75EXBtNo6Lfhh&t=373",
       "emojis":"☁️🪡","title":"Energy with Qigong",
       "length":"1m10s",
@@ -216,6 +223,13 @@
       "length":"11m11s",
       "seconds": 671,
       "bgc":"cornflowerblue"
+    },
+    {
+      "url":"https://youtu.be/nJXyTpKH-mo?si=N9t5DsFrhLonB3B2&t=89",
+      "emojis":"🐥🏗","title":"Flying Crane",
+      "length":"8m29s",
+      "seconds": 509,
+      "bgc":"orchid"
     }
   ]
 }
