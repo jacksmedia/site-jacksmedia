@@ -48,11 +48,11 @@
   display: flex;
   flex: 1 1 29%;      /* Flexibly take up to 29% */
   max-width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
   justify-content: center;
   align-items: center;        /* Centers child divs vertically (optional) */
   flex-direction: column;    /* Stacks child divs vertically */
-  width: 11rem;
+  /* width: 11rem; */
   box-sizing: border-box; /* Includes padding & border in width */
 }
 
