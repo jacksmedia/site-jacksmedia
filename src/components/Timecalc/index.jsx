@@ -91,9 +91,9 @@ const Timecalc = () => {
       <h2>All Videos</h2>
       {/* titles for the columns */}
       <div className="row">
-        <p>Total Warm Ups</p>
-        <p>Total Exercises</p>
-        <p>Total Extras</p>
+        <p>Warm Ups</p>
+        <p>Exercises</p>
+        <p>Extras</p>
       </div>
 
       
@@ -114,9 +114,14 @@ const Timecalc = () => {
 
       {/* Count of the column items */}
       <div className="row">
-        <p>Warm Up = {howManyWarmUps}</p>
-        <p>Exercises = {howManyExercises}</p>
-        <p>Extras = {howManyExtras}</p>
+        <p>Total Warm Up = <em>{howManyWarmUps}</em></p>
+        <p>Total Exercises = <em>{howManyExercises}</em></p>
+        <p>Total Extras = <em>{howManyExtras}</em></p>
+      </div>
+
+      {/* Count of the column items */}
+      <div className="row">
+        <p>Unique combinations of practices: <em>{howManyWarmUps * howManyExercises * howManyExtras}</em></p>
       </div>
 
     </div>
