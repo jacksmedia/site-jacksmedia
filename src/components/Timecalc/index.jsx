@@ -23,13 +23,13 @@ const warmUps = data.warmUps;
 const exercises = data.exercises;
 const extras = data.extras;
 
-const howManyWarmUps = warmUps.length
-const howManyExercises = exercises.length
-const howManyExtras = extras.length
+const howManyWarmUps = warmUps.length; // number of items in the column
+const howManyExercises = exercises.length; // ^
+const howManyExtras = extras.length; // ^
 
-const todays1 = RoundedResult % howManyWarmUps
-const todays2 = RoundedResult % howManyExercises
-const todays3 = RoundedResult % howManyExtras
+const todays1 = RoundedResult % howManyWarmUps;
+const todays2 = RoundedResult % howManyExercises;
+const todays3 = RoundedResult % howManyExtras;
 
 const Timecalc = () => {
   const [choice1, setChoice1] = useState(warmUps[todays1]);
@@ -89,14 +89,20 @@ const Timecalc = () => {
         </div>
       </div>
       <h2>All Videos</h2>
+      {/* titles for the columns */}
       <div className="row">
-        <p>Warm Up</p>
-        <p>Exercises</p>
-        <p>Extras</p>
+        <p>Total Warm Ups</p>
+        <p>Total Exercises</p>
+        <p>Total Extras</p>
       </div>
+
+      
+      {/* mapped from the JSON, every object in the ./data.json */}
       <div className="row">
         <div className="column">
-          <div className="video-card-wrapper">{warmUps.map((item) => <VideoCard video={item} />)}</div>
+          <div className="video-card-wrapper">
+            {warmUps.map((item) => <VideoCard video={item} />)}
+          </div>
         </div>
         <div className="column">
           <div className="video-card-wrapper">{exercises.map((item) => <VideoCard video={item} />)}</div>
@@ -105,6 +111,14 @@ const Timecalc = () => {
           <div className="video-card-wrapper">{extras.map((item) => <VideoCard video={item} />)}</div>
         </div>
       </div>
+
+      {/* Count of the column items */}
+      <div className="row">
+        <p>Warm Up = {howManyWarmUps}</p>
+        <p>Exercises = {howManyExercises}</p>
+        <p>Extras = {howManyExtras}</p>
+      </div>
+
     </div>
   );
 };
