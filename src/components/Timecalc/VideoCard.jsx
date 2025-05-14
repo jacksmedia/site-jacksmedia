@@ -7,7 +7,7 @@ const VideoCard = ({ video }) => {
         className="footer__link-item">  
         <div className={`inner-content-div ${video.bgc}`}>
           <div className="bigger-font">{video.emojis}</div>
-          <div className="unstyled-text responsive-text footer__link-item">{video.title}
+          <div className="black-text responsive-text footer__link-item">{video.title}
           <h5>{[video.length]}</h5>
           </div>
         </div>

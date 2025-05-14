@@ -52,7 +52,6 @@
   justify-content: center;
   align-items: center;        /* Centers child divs vertically (optional) */
   flex-direction: column;    /* Stacks child divs vertically */
-  /* width: 11rem; */
   box-sizing: border-box; /* Includes padding & border in width */
 }
 
@@ -72,34 +71,11 @@ a:hover {
   text-decoration: none;
 }
 
-
-/* Make adjustments with viewport width (vw) for scaling */
-@media screen and (max-width: 1024px) {
-  .video-card .responsive-text {
-    font-size: 1.5rem; /* Slightly larger text for tablets */
-  }
-}
-
-/* Make sure the text inside video card is not too big on smaller screens */
-@media screen and (max-width: 768px) {
-  .video-card .responsive-text {
-    font-size: 1.1rem;  /* Adjust font size based on screen size */
-  }
-}
-
-/* Use a smaller text size for very small screens */
-@media screen and (max-width: 375px) {
-  .video-card .responsive-text {
-    font-size: 1rem;  /* Scale down text size on small screens */
-  }
-}
-
-
 .bigger-font {
   font-size: 1.8rem;
 }
 
-.unstyled-text {
+.black-text {
   color: black;
 }
 .spacing-class {
@@ -238,4 +214,27 @@ body
 /* custom bespoke styling */
 em {
   font-weight: bold;
+}
+
+
+
+/* Make adjustments with viewport width (vw) for scaling */
+@media screen and (max-width: 1024px) {
+  .video-card > .inner-content-div > .responsive-text {
+    font-size: 1.5rem; /* Slightly larger text for tablets */
+  }
+}
+
+/* Make sure the text inside video card is not too big on smaller screens */
+@media screen and (max-width: 768px) {
+  .video-card > .inner-content-div > .responsive-text {
+    font-size: 1.1rem;  /* Adjust font size based on screen size */
+  }
+}
+
+/* Use a smaller text size for very small screens */
+@media screen and (max-width: 375px) {
+  .video-card > .inner-content-div > .responsive-text {
+    font-size: 1rem;  /* Scale down text size on small screens */
+  }
 }
