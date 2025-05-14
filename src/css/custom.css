@@ -46,7 +46,7 @@
 
 .video-card {
   display: flex;
-  flex: 1 1 32%;      /* Flexibly take up to 32% */
+  flex: 1 1 29%;      /* Flexibly take up to 29% */
   max-width: 100%;
   margin-bottom: 2rem;
   justify-content: center;

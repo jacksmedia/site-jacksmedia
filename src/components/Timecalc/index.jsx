@@ -10,7 +10,7 @@ const dayOneDate = new Date('5/12/2021');
 const nowDate = new Date(Today);
 const Difference_In_Time = nowDate.getTime() - dayOneDate.getTime();
 const Difference_In_Days = Difference_In_Time / (1000 * 60 * 60 * 24);
-const RoundedResult = Math.round(Difference_In_Days);
+const DaysCountedSinceStart = Math.round(Difference_In_Days);
 
 function formatTime(seconds) {
   const minutes = Math.floor(seconds / 60);
@@ -27,9 +27,9 @@ const howManyWarmUps = warmUps.length; // number of items in the column
 const howManyExercises = exercises.length; // ^
 const howManyExtras = extras.length; // ^
 
-const todays1 = RoundedResult % howManyWarmUps;
-const todays2 = RoundedResult % howManyExercises;
-const todays3 = RoundedResult % howManyExtras;
+const todays1 = DaysCountedSinceStart % howManyWarmUps;
+const todays2 = DaysCountedSinceStart % howManyExercises;
+const todays3 = DaysCountedSinceStart % howManyExtras;
 
 const tomorrows1 = todays1 + 1;
 const tomorrows2 = todays2 + 1;
@@ -73,7 +73,7 @@ const Timecalc = () => {
   return (
     <div className="app-layout">
       <h3>⚓️ Today is <span> {Today}</span></h3>
-      <h3>🤯 It's been <span> {RoundedResult} days since this practice began.</span></h3>
+      <h3>🤯 It's been <span> {DaysCountedSinceStart} days since this practice began.</span></h3>
       <h3>🥠 Today's Suggested Videos:</h3>
 
       {/* daily practice, 1 from each column in JSON */}
