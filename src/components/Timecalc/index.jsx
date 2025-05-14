@@ -31,10 +31,25 @@ const todays1 = RoundedResult % howManyWarmUps;
 const todays2 = RoundedResult % howManyExercises;
 const todays3 = RoundedResult % howManyExtras;
 
+const tomorrows1 = todays1 + 1;
+const tomorrows2 = todays2 + 1;
+const tomorrows3 = todays3 + 1;
+
+
+
+
+
 const Timecalc = () => {
+  // choices for today's videos
   const [choice1, setChoice1] = useState(warmUps[todays1]);
   const [choice2, setChoice2] = useState(exercises[todays2]);
   const [choice3, setChoice3] = useState(extras[todays3]);
+
+  // choices for tomorrow's videos
+  const [choiceA, setChoiceA] = useState(warmUps[tomorrows1]);
+  const [choiceB, setChoiceB] = useState(exercises[tomorrows2]);
+  const [choiceC, setChoiceC] = useState(extras[tomorrows3]);
+
 
   const summedLengthValues = choice1.seconds + choice2.seconds + choice3.seconds;
   const practiceLength = formatTime(summedLengthValues);
@@ -61,6 +76,7 @@ const Timecalc = () => {
       <h3>🤯 It's been <span> {RoundedResult} days since this practice began.</span></h3>
       <h3>🥠 Today's Suggested Videos:</h3>
 
+      {/* daily practice, 1 from each column in JSON */}
       <div className="row">
         <p>Warm Up</p>
         <p>Exercises</p>
@@ -78,6 +94,7 @@ const Timecalc = () => {
         </div>
       </div>
 
+      {/* data on today's practice */}
       <div className="row">
         <div className='col-4 p-3'>
           <h3>Today's practice is {practiceLength} long.</h3>
@@ -88,8 +105,24 @@ const Timecalc = () => {
           <PieChartComponent data={dataForPieChart} />
         </div>
       </div>
-      <h2>All Videos</h2>
+
+      {/* OPTIONAL: Tomorrow's practice videos, vs today's */}
+      <h2>Tomorrow's Videos</h2>
+      <div className="row">
+        <div className='column p-3'>
+          <VideoCard video={choiceA} />
+        </div>
+        <div className='column'>
+          <VideoCard video={choiceB} />
+        </div>
+        <div className='column'>
+          <VideoCard video={choiceC} />
+        </div>
+      </div>
+
+      
       {/* titles for the columns */}
+      <h2>All Videos</h2>
       <div className="row">
         <p>Warm Ups</p>
         <p>Exercises</p>
