@@ -76,7 +76,7 @@ const config = {
               },
               {
                 label: 'Qi~Chi Calendar of YTs',
-                to: '/docs/tutorial-extras/qi',
+                to: '/docs/tutorial-extras/chi',
               },
             ],
           },
