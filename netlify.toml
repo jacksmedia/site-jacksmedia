@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/qi"
-  to = "/chi"
+  from = "/docs/tutorial-extras/qi"
+  to = "/docs/tutorial-extras/chi"
   status = 301
   force = false
