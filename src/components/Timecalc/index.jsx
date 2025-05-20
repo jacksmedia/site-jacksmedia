@@ -31,9 +31,9 @@ const todays1 = DaysCountedSinceStart % howManyWarmUps;
 const todays2 = DaysCountedSinceStart % howManyExercises;
 const todays3 = DaysCountedSinceStart % howManyExtras;
 
-const tomorrows1 = todays1 + 1;
-const tomorrows2 = todays2 + 1;
-const tomorrows3 = todays3 + 1;
+const tomorrows1 = (todays1 + 1) % howManyWarmUps;
+const tomorrows2 = (todays2 + 1) % howManyExercises;
+const tomorrows3 = (todays3 + 1) % howManyExtras;
 
 
 
@@ -106,7 +106,7 @@ const Timecalc = () => {
         </div>
       </div>
  
-       {/* OPTIONAL: Tomorrow's practice videos, vs today's 
+       {/* OPTIONAL: Tomorrow's practice videos, vs today's */}
       <h2>Tomorrow's Videos</h2>
       <div className="row">
         <div className='column p-3'>
@@ -119,7 +119,7 @@ const Timecalc = () => {
           <VideoCard video={choiceC} />
         </div>
       </div> 
-*/}
+
       
       {/* titles for the columns */}
       <h2>All Videos</h2>
@@ -134,14 +134,18 @@ const Timecalc = () => {
       <div className="row">
         <div className="column">
           <div className="video-card-wrapper">
-            {warmUps.map((item) => <VideoCard video={item} />)}
+            {warmUps.map((item, index) => <VideoCard key={`warmup-${index}`} video={item} />)}
           </div>
         </div>
         <div className="column">
-          <div className="video-card-wrapper">{exercises.map((item) => <VideoCard video={item} />)}</div>
+          <div className="video-card-wrapper">
+            {exercises.map((item, index) => <VideoCard key={`exercise-${index}`} video={item} />)}
+            </div>
         </div>
         <div className="column">
-          <div className="video-card-wrapper">{extras.map((item) => <VideoCard video={item} />)}</div>
+          <div className="video-card-wrapper">
+            {extras.map((item, index) => <VideoCard key={`extra-${index}`} video={item} />)}
+            </div>
         </div>
       </div>
 
