@@ -105,8 +105,8 @@ const Timecalc = () => {
           <PieChartComponent data={dataForPieChart} />
         </div>
       </div>
-
-      {/* OPTIONAL: Tomorrow's practice videos, vs today's */}
+ 
+       {/* OPTIONAL: Tomorrow's practice videos, vs today's 
       <h2>Tomorrow's Videos</h2>
       <div className="row">
         <div className='column p-3'>
@@ -118,8 +118,8 @@ const Timecalc = () => {
         <div className='column'>
           <VideoCard video={choiceC} />
         </div>
-      </div>
-
+      </div> 
+*/}
       
       {/* titles for the columns */}
       <h2>All Videos</h2>
