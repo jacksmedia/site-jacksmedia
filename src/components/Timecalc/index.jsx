@@ -1,29 +1,27 @@
 import { useState } from 'react';
-import { formatDistance, subDays, intervalToDuration, formatDuration } from 'date-fns';
+import { intervalToDuration, formatDuration } from 'date-fns';
 import VideoCard from './VideoCard';
 import PieChartComponent from './PieChartComponent';
 import RandomizerButton from './RandomizerButton';
 import data from './data.json';
 
 // original Date count calculation
-const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-const Today = new Date().toLocaleDateString('en-US', options);
+const nowDate = new Date();
 const dayOneDate = new Date('5/12/2021');
-const nowDate = new Date(Today);
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const Today = nowDate.toLocaleDateString('en-US', options);
+
 const Difference_In_Time = nowDate.getTime() - dayOneDate.getTime();
 const Difference_In_Days = Difference_In_Time / (1000 * 60 * 60 * 24);
 const DaysCountedSinceStart = Math.round(Difference_In_Days);
 
 // date-fns special sauce
-const numberOfDays = formatDistance(subDays(new Date(), DaysCountedSinceStart), new Date(), { addSuffix: true });
-
 function getDetailedDistance(startDate) {
-  const now = new Date()
   
   // 1. Get raw duration (up to days)
   const duration = intervalToDuration({
     start: startDate,
-    end: now
+    end: nowDate
   })
 
   // 2. Convert days to weeks + days
@@ -62,10 +60,12 @@ const howManyWarmUps = warmUps.length; // number of items in the column
 const howManyExercises = exercises.length; // ^
 const howManyExtras = extras.length; // ^
 
+// iteration counters per list, uses division remainder (% aka modulo)
 const todays1 = DaysCountedSinceStart % howManyWarmUps;
 const todays2 = DaysCountedSinceStart % howManyExercises;
 const todays3 = DaysCountedSinceStart % howManyExtras;
 
+// looks 1 day ahead, similar to above
 const tomorrows1 = (todays1 + 1) % howManyWarmUps;
 const tomorrows2 = (todays2 + 1) % howManyExercises;
 const tomorrows3 = (todays3 + 1) % howManyExtras;
@@ -107,10 +107,9 @@ const Timecalc = () => {
 
   return (
     <div className="app-layout">
-      <h3>⚓️ Today is <span> {Today}</span></h3>
+      <h3>⚓️ Today is <span>{Today}</span></h3>
       <h3>🤯 It's been <span> {DaysCountedSinceStart} days since this practice began.</span></h3>
       <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... in other words,<span> it's been {howLong}.</span></h3>
-      <h3>Again, that value is: {rawDist}</h3>
       <h3>🥠 Today's Suggested Videos:</h3>
 
       {/* daily practice, 1 from each column in JSON */}
@@ -131,7 +130,7 @@ const Timecalc = () => {
         </div>
       </div>
 
-      {/* data on today's practice */}
+      {/* Data on today's practice */}
       <div className="row">
         <div className='col-4 p-3'>
           <h3>Today's practice is {practiceLength} long.</h3>
@@ -143,7 +142,7 @@ const Timecalc = () => {
         </div>
       </div>
  
-       {/* OPTIONAL: Tomorrow's practice videos, vs today's */}
+       {/* Tomorrow's practice videos, vs today's */}
       <h2>Tomorrow's Videos</h2>
       <div className="row">
         <div className='column p-3'>
@@ -158,7 +157,7 @@ const Timecalc = () => {
       </div> 
 
       
-      {/* titles for the columns */}
+      {/* Titles for the set columns */}
       <h2>All Videos</h2>
       <div className="row">
         <p>Warm Ups</p>
@@ -167,7 +166,7 @@ const Timecalc = () => {
       </div>
 
       
-      {/* mapped from the JSON, every object in the ./data.json */}
+      {/* Mapping of every object in ./data.json */}
       <div className="row">
         <div className="column">
           <div className="video-card-wrapper">
@@ -193,7 +192,7 @@ const Timecalc = () => {
         <p>Total Extras = <em>{howManyExtras}</em></p>
       </div>
 
-      {/* Count of the column items */}
+      {/* Total permutations of all objects in ./data.json */}
       <div className="row">
         <p>Unique combinations of practices: <em>{howManyWarmUps * howManyExercises * howManyExtras}</em></p>
       </div>
