@@ -1,10 +1,11 @@
 import { useState } from 'react';
-import { intervalToDuration, formatDuration } from 'date-fns';
+import { formatDistance, subDays, intervalToDuration, formatDuration } from 'date-fns';
 import VideoCard from './VideoCard';
 import PieChartComponent from './PieChartComponent';
 import RandomizerButton from './RandomizerButton';
 import data from './data.json';
 
+// original Date count calculation
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 const Today = new Date().toLocaleDateString('en-US', options);
 const dayOneDate = new Date('5/12/2021');
@@ -13,6 +14,8 @@ const Difference_In_Time = nowDate.getTime() - dayOneDate.getTime();
 const Difference_In_Days = Difference_In_Time / (1000 * 60 * 60 * 24);
 const DaysCountedSinceStart = Math.round(Difference_In_Days);
 
+// date-fns special sauce
+const numberOfDays = formatDistance(subDays(new Date(), DaysCountedSinceStart), new Date(), { addSuffix: true });
 
 function getDetailedDistance(startDate) {
   const now = new Date()
@@ -39,9 +42,10 @@ function getDetailedDistance(startDate) {
 
   return `${formatted} ago`
 }
-
 const howLong = getDetailedDistance(dayOneDate);
 
+
+// displays minutes & seconds of YT video
 function formatTime(seconds) {
   const minutes = Math.floor(seconds / 60);
   const remainingSeconds = seconds % 60;
@@ -49,6 +53,7 @@ function formatTime(seconds) {
   return `${minutes}m ${remainingSeconds}s`;
 }
 
+// measures and iterates thru video sets
 const warmUps = data.warmUps;
 const exercises = data.exercises;
 const extras = data.extras;
@@ -66,8 +71,7 @@ const tomorrows2 = (todays2 + 1) % howManyExercises;
 const tomorrows3 = (todays3 + 1) % howManyExtras;
 
 
-
-
+// main component logic
 
 const Timecalc = () => {
   // choices for today's videos
@@ -76,14 +80,15 @@ const Timecalc = () => {
   const [choice3, setChoice3] = useState(extras[todays3]);
 
   // choices for tomorrow's videos
-  const [choiceA, setChoiceA] = useState(warmUps[tomorrows1]);
-  const [choiceB, setChoiceB] = useState(exercises[tomorrows2]);
-  const [choiceC, setChoiceC] = useState(extras[tomorrows3]);
+  const [choiceA, setChoiceA] = useState(warmUps[tomorrows1]); // useState requires matched pair
+  const [choiceB, setChoiceB] = useState(exercises[tomorrows2]); // ^
+  const [choiceC, setChoiceC] = useState(extras[tomorrows3]); // ^
 
-
+  // total time from set of 3 videos
   const summedLengthValues = choice1.seconds + choice2.seconds + choice3.seconds;
   const practiceLength = formatTime(summedLengthValues);
 
+  // dynamic reassignement of 3 video set
   const handleRandomize = () => {
     const randomWarmUp = warmUps[Math.floor(Math.random() * warmUps.length)];
     const randomExercise = exercises[Math.floor(Math.random() * exercises.length)];
@@ -105,6 +110,7 @@ const Timecalc = () => {
       <h3>⚓️ Today is <span> {Today}</span></h3>
       <h3>🤯 It's been <span> {DaysCountedSinceStart} days since this practice began.</span></h3>
       <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... in other words,<span> it's been {howLong}.</span></h3>
+      <h3>Again, that value is: {rawDist}</h3>
       <h3>🥠 Today's Suggested Videos:</h3>
 
       {/* daily practice, 1 from each column in JSON */}
