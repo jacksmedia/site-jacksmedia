@@ -3,6 +3,7 @@ import VideoCard from './VideoCard';
 import PieChartComponent from './PieChartComponent';
 import RandomizerButton from './RandomizerButton';
 import data from './data.json';
+import { formatDistance, subDays } from "date-fns";
 
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 const Today = new Date().toLocaleDateString('en-US', options);
@@ -11,6 +12,9 @@ const nowDate = new Date(Today);
 const Difference_In_Time = nowDate.getTime() - dayOneDate.getTime();
 const Difference_In_Days = Difference_In_Time / (1000 * 60 * 60 * 24);
 const DaysCountedSinceStart = Math.round(Difference_In_Days);
+
+const numberOfDays = formatDistance(subDays(new Date(), DaysCountedSinceStart), new Date(), { addSuffix: true });
+
 
 function formatTime(seconds) {
   const minutes = Math.floor(seconds / 60);
@@ -74,6 +78,7 @@ const Timecalc = () => {
     <div className="app-layout">
       <h3>⚓️ Today is <span> {Today}</span></h3>
       <h3>🤯 It's been <span> {DaysCountedSinceStart} days since this practice began.</span></h3>
+      <h3>date-fns module says it's been {numberOfDays}</h3>
       <h3>🥠 Today's Suggested Videos:</h3>
 
       {/* daily practice, 1 from each column in JSON */}
