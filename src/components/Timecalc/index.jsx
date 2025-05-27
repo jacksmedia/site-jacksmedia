@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { intervalToDuration, formatDuration } from 'date-fns';
 import VideoCard from './VideoCard';
 import PieChartComponent from './PieChartComponent';
 import RandomizerButton from './RandomizerButton';
 import data from './data.json';
-import { formatDistance, subDays } from "date-fns";
 
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 const Today = new Date().toLocaleDateString('en-US', options);
@@ -13,8 +13,34 @@ const Difference_In_Time = nowDate.getTime() - dayOneDate.getTime();
 const Difference_In_Days = Difference_In_Time / (1000 * 60 * 60 * 24);
 const DaysCountedSinceStart = Math.round(Difference_In_Days);
 
-const numberOfDays = formatDistance(subDays(new Date(), DaysCountedSinceStart), new Date(), { addSuffix: true });
 
+function getDetailedDistance(startDate) {
+  const now = new Date()
+  
+  // 1. Get raw duration (up to days)
+  const duration = intervalToDuration({
+    start: startDate,
+    end: now
+  })
+
+  // 2. Convert days to weeks + days
+  const weeks = Math.floor((duration.days ?? 0) / 7)
+  const days = (duration.days ?? 0) % 7
+
+  // 3. Format duration including weeks
+  const formatted = formatDuration({
+    years: duration.years,
+    months: duration.months,
+    weeks,
+    days
+  }, {
+    format: ['years', 'months', 'weeks', 'days']
+  })
+
+  return `${formatted} ago`
+}
+
+const howLong = getDetailedDistance(dayOneDate);
 
 function formatTime(seconds) {
   const minutes = Math.floor(seconds / 60);
@@ -78,7 +104,7 @@ const Timecalc = () => {
     <div className="app-layout">
       <h3>⚓️ Today is <span> {Today}</span></h3>
       <h3>🤯 It's been <span> {DaysCountedSinceStart} days since this practice began.</span></h3>
-      <h3>date-fns module says it's been {numberOfDays}</h3>
+      <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... in other words,<span> it's been {howLong}.</span></h3>
       <h3>🥠 Today's Suggested Videos:</h3>
 
       {/* daily practice, 1 from each column in JSON */}
