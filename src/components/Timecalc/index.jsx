@@ -38,7 +38,7 @@ function getDetailedDistance(startDate) {
     format: ['years', 'months', 'weeks', 'days']
   })
 
-  return `${formatted} ago`
+  return `${formatted}`
 }
 const howLong = getDetailedDistance(dayOneDate);
 

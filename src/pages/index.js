@@ -1,4 +1,3 @@
-import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -13,7 +12,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className={clsx('hero__title', styles.gradient1 )}>{siteConfig.title}</h1>
         <h6 className={clsx('hero__subtitle', styles.gradient2 )}>{siteConfig.tagline}</h6>
-        <h6 className={clsx('hero__title', styles.gradient1 )}>Check out our ChatGPT-powered Prototype Paralegal App</h6>
+        <h6 className={clsx('hero__title', styles.gradient1 )}>Check out our vibe-coded Prototype Paralegal App</h6>
         
         <div className={styles.buttons}>
           <Link
