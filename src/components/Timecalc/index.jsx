@@ -6,10 +6,10 @@ import RandomizerButton from './RandomizerButton';
 import data from './data.json';
 
 // original Date count calculation
-const nowDate = new Date();
-const dayOneDate = new Date('5/12/2021');
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-const Today = nowDate.toLocaleDateString('en-US', options);
+const Today = new Date().toLocaleDateString('en-US', options);
+const dayOneDate = new Date('5/12/2021');
+const nowDate = new Date();
 
 const Difference_In_Time = nowDate.getTime() - dayOneDate.getTime();
 const Difference_In_Days = Difference_In_Time / (1000 * 60 * 60 * 24);
