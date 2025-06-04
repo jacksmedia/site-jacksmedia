@@ -216,6 +216,14 @@ em {
   font-weight: bold;
 }
 
+.chat-text {
+  text-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 1rem;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
 
 
 /* Make adjustments with viewport width (vw) for scaling */
