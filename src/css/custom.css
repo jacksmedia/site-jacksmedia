@@ -114,7 +114,7 @@ a:hover {
 
 /* boilerplate Infinima defaults */
 :root {
-  --ifm-color-primary: #e70ca9;
+  --ifm-color-primary: firebrick;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -127,7 +127,7 @@ a:hover {
 *, .footer__title {
   font-family: "Geist Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -137,13 +137,14 @@ h1, h2, h3, button {
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #FF2D95;
+  --ifm-color-primary: LemonChiffon;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  color: #333;
 }
 
 .docusaurus-highlight-code-line {
@@ -185,8 +186,7 @@ h1, h2, h3, button {
 
 
 /* adapted from https://stackoverflow.com/questions/23441060/how-to-animate-gradients-using-css */
-body
-{
+main {
     background: linear-gradient(180deg, orchid, lightblue, cadetblue, lightblue, orchid);
     background-size: 200% 200%;
 
@@ -194,6 +194,8 @@ body
     -moz-animation: Animation 57s ease infinite;
     animation: Animation 57s ease infinite;
 }
+
+
 
 @-webkit-keyframes Animation {
     0%{background-position:10% 0%}
