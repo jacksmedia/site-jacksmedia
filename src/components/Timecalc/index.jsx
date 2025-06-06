@@ -6,14 +6,15 @@ import RandomizerButton from './RandomizerButton';
 import data from './data.json';
 
 // original Date count calculation
-const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-const Today = new Date().toLocaleDateString('en-US', options);
+const Today = new Date().toLocaleDateString('en-US', { 
+  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' 
+});
 const dayOneDate = new Date('5/12/2021');
 const nowDate = new Date();
 
 const Difference_In_Time = nowDate.getTime() - dayOneDate.getTime();
 const Difference_In_Days = Difference_In_Time / (1000 * 60 * 60 * 24);
-const DaysCountedSinceStart = Math.round(Difference_In_Days);
+const DaysCountedSinceStart = Math.floor(Difference_In_Days);
 
 // date-fns special sauce
 function getDetailedDistance(startDate) {
