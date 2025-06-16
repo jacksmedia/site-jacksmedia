@@ -227,8 +227,10 @@ em {
   margin-bottom: 1rem;
 }
 
-div.warning::before {
-  content:url("warning.png")
+div.warning {
+  content:url("warning.png");
+  aspect-ratio: 6.17;
+  max-width: 85vw;
 }
 
 /* Make adjustments with viewport width (vw) for scaling */
