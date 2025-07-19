@@ -102,8 +102,8 @@ a:hover {
   color: black;
 }
 .palegreen{
-  background: linear-gradient(palegreen, rgba(128,128,128,0.3)) !important;
-  outline-color: palegreen;
+  background: linear-gradient(darkgrey, rgba(128,128,128,0.3)) !important;
+  outline-color: darkgrey;
   color: black;
 }
 .orchid{
