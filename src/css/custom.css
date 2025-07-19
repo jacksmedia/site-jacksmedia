@@ -218,19 +218,26 @@ em {
   font-weight: bold;
 }
 
-.chat-text {
+.chat-text { /* only used for vibing-w-LLMs content*/
   text-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 1rem;
   padding: 1rem;
   color: whitesmoke;
   margin-bottom: 1rem;
 }
 
-div.warning {
+div.warning { /* only used for vibing-w-LLMs content*/
   content:url("warning.png");
   aspect-ratio: 6.17;
   max-width: 85vw;
+}
+
+.chat-post { /* only used for vibing-w-LLMs content*/
+  background: rgba(0,0,0,0.8);
+  color: rgb(249, 67, 182);
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 /* Make adjustments with viewport width (vw) for scaling */
