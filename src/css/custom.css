@@ -240,6 +240,11 @@ div.warning { /* only used for vibing-w-LLMs content*/
   padding: 1rem;
 }
 
+blockquote p { /* mardown styling; meant to be used for vibing-w-LLMs content*/
+  color: #29d5b0;
+}
+
+
 /* Make adjustments with viewport width (vw) for scaling */
 @media screen and (max-width: 1024px) {
   .video-card > .inner-content-div > .responsive-text {
