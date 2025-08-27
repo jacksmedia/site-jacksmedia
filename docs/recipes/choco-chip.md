@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Chocolate Chip Cookies, Dairy Free & Gluten Free
+# Chocolate Chip Cookies, DF & GF
 
 Here's a recipe that we've refined for several years now-- it's possible that people won't know they're dairy free & gluten free if you don't tell them! 
 
