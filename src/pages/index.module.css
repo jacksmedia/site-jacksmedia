@@ -10,7 +10,7 @@
   position: relative;
   overflow: visible;
   
-  background: url(./arco2.png);
+  background: url(./cyber-angel.png);
   background-size: 100vw auto;
   background-repeat: no-repeat;
 }
@@ -41,6 +41,6 @@ ul a li {
 
 @keyframes gradient2 {
   0% { color: #FF2D95; }
-  50% { color: white; }
+  50% { color: rgb(199, 69, 5); }
   100% { color: #FF2D95; }
 }
