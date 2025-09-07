@@ -115,7 +115,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media<br/>Fonts by Google, Images by xJ4cks`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media<br/>Fonts by Google, Images by xJ4cks<br/>8BhHgt8JWHide48mVCysvoXk4TdX6v86EbgBSkTnrLsK`,
       },
       prism: {
         theme: lightCodeTheme,
