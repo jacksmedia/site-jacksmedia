@@ -102,7 +102,7 @@ const config = {
             items: [
               {
                 label: 'my Tumblr',
-                href: 'https://xj4cks.blog',
+                href: 'https://www.tumblr.com/xj4x',
               },
               {
                 label: 'my BlueSky',
@@ -115,7 +115,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media<br/>Fonts by Google, Images by xJ4cks<br/>8BhHgt8JWHide48mVCysvoXk4TdX6v86EbgBSkTnrLsK`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jacks dot Media<br/>Fonts by Google, Images by xJ4cks<br/>$SOL: 8BhHgt8JWHide48mVCysvoXk4TdX6v86EbgBSkTnrLsK`,
       },
       prism: {
         theme: lightCodeTheme,
