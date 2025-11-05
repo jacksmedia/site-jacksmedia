@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://j4cks-flux.onrender.com/">
+            to="https://www.j4cks.com/">
             Go To App
           </Link>
         </div>
