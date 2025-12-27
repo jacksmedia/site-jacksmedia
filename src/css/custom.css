@@ -101,7 +101,7 @@ a:hover {
   outline-color: cornflowerblue;
   color: black;
 }
-.palegreen{
+.darkgrey{
   background: linear-gradient(darkgrey, rgba(128,128,128,0.3)) !important;
   outline-color: darkgrey;
   color: black;
