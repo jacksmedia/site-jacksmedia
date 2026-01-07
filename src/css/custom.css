@@ -16,6 +16,8 @@
 .responsive-text {
   font-size: 0.9rem;
   padding-left: 3px;
+  text-wrap: wrap;
+  max-width: 30vw;
 }
 
 /* Basic responsive row layout */
@@ -56,7 +58,7 @@
 }
 
 .inner-content-div {
-  padding: 1rem;
+  padding: 0.8rem;
   margin: 1px;
   background-color: inherit;  /* Inherit the background color from parent */
   border-radius: 20px;        /* Ensure the inner content also has rounded corners */
@@ -87,27 +89,27 @@ a:hover {
 
 /* qi page styling  */
 .lemonchiffon{
-  background: linear-gradient(LemonChiffon, rgba(128,128,128,0.3)) !important;
+  background: linear-gradient(LemonChiffon, aliceblue) !important;
   outline-color: LemonChiffon;
   color: black;
 }
 .mediumaquamarine{
-  background: linear-gradient(MediumAquamarine, rgba(128,128,128,0.3)) !important;
+  background: linear-gradient(MediumAquamarine, aliceblue) !important;
   outline-color: MediumAquamarine;
   color: black;
 }
 .cornflowerblue{
-  background: linear-gradient(cornflowerblue, rgba(128,128,128,0.3)) !important;
+  background: linear-gradient(cornflowerblue, aliceblue) !important;
   outline-color: cornflowerblue;
   color: black;
 }
 .darkgrey{
-  background: linear-gradient(#A9a9a9, rgba(128,128,128,0.3)) !important;
+  background: linear-gradient(#A9a9a9, aliceblue) !important;
   outline-color: darkgrey;
   color: black;
 }
 .orchid{
-  background: linear-gradient(orchid, rgba(128,128,128,0.3)) !important;
+  background: linear-gradient(orchid, aliceblue) !important;
   outline-color: orchid;
   color: black;
 }
