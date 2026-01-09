@@ -71,7 +71,7 @@ export default function WorkoutStopwatch() {
   const getBackgroundStyle = (index) => {
     // Completed exercises stay styled
     if (index < currentIndex) {
-      return { backgroundColor: 'maroon', color: 'white' };
+      return { backgroundColor: 'black', color: 'white' };
     }
     
     // Current exercise during active phase shows fill animation
@@ -79,16 +79,15 @@ export default function WorkoutStopwatch() {
       const duration = 30000;
       const percentage = (progress / duration) * 100;
       return {
-        background: `linear-gradient(to right, maroon ${percentage}%, white ${percentage}%)`,
-        color: percentage > 50 ? 'white' : 'black'
+        background: `linear-gradient(to right, black ${percentage}%, firebrick ${percentage}%)`,
+        color: percentage > 0 ? 'white' : 'black'
       };
     }
     
     // Current exercise during rest phase stays completed (maroon)
     if (index === currentIndex && phase === 'rest') {
-      return { backgroundColor: 'maroon', color: 'white' };
+      return { backgroundColor: 'black', color: 'white' };
     }
-    
     return { backgroundColor: 'white', color: 'black' };
   };
 
@@ -128,8 +127,8 @@ export default function WorkoutStopwatch() {
         )}
         
         {isRunning && phase === 'rest' && (
-          <span style={{ marginLeft: '20px', fontSize: '16px', color: '#666' }}>
-            Rest period... ({Math.ceil((10000 - progress) / 1000)}s)
+          <span style={{ marginLeft: '20px', fontSize: '28px', color: '#000' }}>
+            Rest period... <span style={{fontSize: '40px', color: 'firebrick'}}>{Math.ceil((10000 - progress) / 1000)}s</span>
           </span>
         )}
       </div>
