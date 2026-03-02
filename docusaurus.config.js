@@ -102,7 +102,7 @@ const config = {
             items: [
               {
                 label: 'my Tumblr',
-                href: 'https://www.tumblr.com/xj4x',
+                href: 'https://www.tumblr.com/xetcx',
               },
               {
                 label: 'my BlueSky',

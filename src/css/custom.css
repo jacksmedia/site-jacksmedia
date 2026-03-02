@@ -87,6 +87,7 @@ a:hover {
   outline-color: black;
 }
 
+
 /* qi page styling  */
 .lemonchiffon{
   background: linear-gradient(LemonChiffon, aliceblue) !important;
@@ -102,7 +103,7 @@ a:hover {
   color: black;
 }
 .mediumaquamarine div:hover {
-  color: red;
+  color: orangered;
 }
 .cornflowerblue{
   background: linear-gradient(cornflowerblue, aliceblue) !important;
@@ -110,7 +111,7 @@ a:hover {
   color: black;
 }
 .cornflowerblue div:hover {
-  color: red;
+  color: orangered;
 }
 .darkgrey{
   background: linear-gradient(#A9a9a9, aliceblue) !important;
@@ -118,7 +119,7 @@ a:hover {
   color: black;
 }
 .darkgrey div:hover {
-  color: red;
+  color: orangered;
 }
 .orchid{
   background: linear-gradient(orchid, aliceblue) !important;
@@ -131,13 +132,13 @@ a:hover {
 
 /* boilerplate Infinima defaults */
 :root {
-  --ifm-color-primary: firebrick;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: rgb(255, 25, 0);
+  --ifm-color-primary-dark: #2978ff;
+  --ifm-color-primary-darker: #2771ff;
+  --ifm-color-primary-darkest: #205dff;
+  --ifm-color-primary-light: #3392ff;
+  --ifm-color-primary-lighter: #3599ff;
+  --ifm-color-primary-lightest: #3cadff;
   --ifm-code-font-size: 95%;
 }
 
@@ -155,12 +156,12 @@ h1, h2, h3, button {
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: LemonChiffon;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary-dark: #21afff;
+  --ifm-color-primary-darker: #1fa5ff;
+  --ifm-color-primary-darkest: #1a88ff;
+  --ifm-color-primary-light: #29d5ff;
+  --ifm-color-primary-lighter: #32d8ff;
+  --ifm-color-primary-lightest: #4fddff;
   color: #333;
 }
 
@@ -181,20 +182,28 @@ h1, h2, h3, button {
 
 /* forces styling over the HomepageFeatures objects*/
 .feature-card-style {
-  background: linear-gradient(0deg, rgba(10,0,0,0.7), rgba(0,172,138,0.4));
+  background: linear-gradient(0deg, rgba(10,0,0,0.7), var(--ifm-color-primary-darkest));
   border-radius: 130px;
+  border: #333 5px groove;
+  margin-bottom: 2.5rem;
 }
-.feature-card-style a {
-  color: white;
+
+/* button upgrade */
+.glossy-btn {
+  padding: 2rem;
+  border-radius: 90px;
+  border: var(--ifm-color-primary-darkest) 2px solid;
+  background: linear-gradient(-14deg, rgba(10,0,0,0.8), #2978ff);
 }
 
 /* makes the default footer colors into a slight gradient */ 
 .footer {
-  background: linear-gradient(-14deg, rgba(10,0,0,0.8), rgba(0,172,138,0.4));
+  background: linear-gradient(-14deg, rgba(10,0,0,0.8), #2978ff);
+  border: #333 5px groove;
 }
 .hero__subtitle {
   color: #FFFFFF;
-  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff5e2d 0px 0px 20px, #ff5e2d 0px 0px 30px, #ff5e2d 0px 0px 40px, #ff5e2d 0px 0px 50px, #ff5e2d 0px 0px 75px;
 }
 .hero__title {
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFF 0px 0px 20px, #FFF 0px 0px 30px, #FFF 0px 0px 40px, #FFF 0px 0px 50px, #FFF 0px 0px 75px;
@@ -204,12 +213,17 @@ h1, h2, h3, button {
 
 /* adapted from https://stackoverflow.com/questions/23441060/how-to-animate-gradients-using-css */
 main {
-    background: linear-gradient(180deg, orchid, lightblue, cadetblue, lightblue, orchid);
+    background: linear-gradient(180deg, 
+    #21afffaa, 
+    #29d5ffaa, 
+    #4fddffaa, 
+    #29d5ffaa, 
+    #21afffaa);
     background-size: 200% 200%;
 
-    -webkit-animation: Animation 57s ease infinite;
-    -moz-animation: Animation 57s ease infinite;
-    animation: Animation 57s ease infinite;
+    -webkit-animation: Animation 17s ease infinite;
+    -moz-animation: Animation 17s ease infinite;
+    animation: Animation 17s ease infinite;
 }
 
 
@@ -252,13 +266,13 @@ div.warning { /* only used for vibing-w-LLMs content*/
 
 .chat-post { /* only used for vibing-w-LLMs content*/
   background: rgba(0,0,0,0.8);
-  color: rgb(249, 67, 182);
+  color: yellowgreen;
   border-radius: 1rem;
   padding: 1rem;
 }
 
 blockquote p { /* mardown styling; meant to be used for vibing-w-LLMs content*/
-  color: #29d5b0;
+  color: var(--ifm-color-primary-darkest);
 }
 
 

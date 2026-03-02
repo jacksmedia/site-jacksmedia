@@ -51,7 +51,7 @@ const FeatureList = [
   {
     title: 'Practice Moving Qi Daily',
     img: require('@site/static/img/qi-videos.png').default,
-    linker: '/docs/tutorial-extras/qi',
+    linker: '/docs/tutorial-extras/chi',
     description: (
       <>
         Healthy body generates healthy mind. 
@@ -72,7 +72,7 @@ function Feature({img, title, description, linker}) {
         <div className="text--center padding-horiz--md padding-vert--md">
           <h3>{title}</h3>
           <p>{description}</p>
-            <button>Read More...</button>
+            <button className='glossy-btn'>Read More...</button>
         </div>
       </a>
     </div>
