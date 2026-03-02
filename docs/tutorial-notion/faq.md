@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Notion is a powerful cloud platform for jotting down thoughts and content, and it's avaiable to be used by anyone for free.  It's always online, so you can see your changes *in real time*, on the actual public internet! And it's very easy to work with, compared to other website builders
 
-> You can document and share anything with Notion, for free. My main site is about one of my hobbies, Super Nintendo romhacking ([xJ4cks Notion](https://www.notion.so/xj4cks/Absolute-Intro-to-FFV-SNES-Romhacking-b1eb9b57f3224683b191614c7b4825fc))
+You can document and share anything with Notion, for free. My main site is about one of my hobbies, Super Nintendo romhacking ([xJ4cks Notion](https://www.notion.so/xj4cks/Absolute-Intro-to-FFV-SNES-Romhacking-b1eb9b57f3224683b191614c7b4825fc))
 
 ## How to Get Started
 

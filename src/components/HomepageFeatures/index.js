@@ -54,8 +54,7 @@ const FeatureList = [
     linker: '/docs/tutorial-extras/chi',
     description: (
       <>
-        Healthy body generates healthy mind. 
-        Use a rotating, curated selection of YTs,
+        A rotating, curated selection of YTs,
         and practice daily for health!
       </>
     ),
@@ -64,16 +63,19 @@ const FeatureList = [
 
 function Feature({img, title, description, linker}) {
   return (
-    <div className={clsx('col col--4 feature-card-style')}>
+    <div className="col feature-card-style content-center">
       <a href={linker} className='footer__link-item'>
-        <div className="text--center">
+
+        <div className="content-center">
           <img className={styles.featureSvg} src={img} />
         </div>
-        <div className="text--center padding-horiz--md padding-vert--md">
+        
+        <div className="content-center max-width-control">
           <h3>{title}</h3>
-          <p>{description}</p>
+          <p className="max-width-control">{description}</p>
             <button className='glossy-btn'>Read More...</button>
         </div>
+      
       </a>
     </div>
   );

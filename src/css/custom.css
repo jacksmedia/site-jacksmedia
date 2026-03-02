@@ -24,7 +24,7 @@
 .row {
   display: flex; /* Make the container a flex container */
   flex-wrap: wrap; /* Allow the columns to wrap onto new lines if needed */
-  gap: 1px; /* Space between the columns */
+  gap: 2vw; /* Space between the columns */
   justify-content: space-around;
 }
 
@@ -180,12 +180,19 @@ h1, h2, h3, button {
   list-style-type: none;
 }
 
+
 /* forces styling over the HomepageFeatures objects*/
 .feature-card-style {
   background: linear-gradient(0deg, rgba(10,0,0,0.7), var(--ifm-color-primary-darkest));
-  border-radius: 130px;
+  border-radius: 15px;
   border: #333 5px groove;
+
   margin-bottom: 2.5rem;
+}
+
+/* tax width control */
+.max-width-control {
+  max-width: 80vw;
 }
 
 /* button upgrade */
@@ -196,11 +203,13 @@ h1, h2, h3, button {
   background: linear-gradient(-14deg, rgba(10,0,0,0.8), #2978ff);
 }
 
+
 /* makes the default footer colors into a slight gradient */ 
 .footer {
   background: linear-gradient(-14deg, rgba(10,0,0,0.8), #2978ff);
   border: #333 5px groove;
 }
+/* text shadows for the top of the landing page */
 .hero__subtitle {
   color: #FFFFFF;
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff5e2d 0px 0px 20px, #ff5e2d 0px 0px 30px, #ff5e2d 0px 0px 40px, #ff5e2d 0px 0px 50px, #ff5e2d 0px 0px 75px;
@@ -271,8 +280,12 @@ div.warning { /* only used for vibing-w-LLMs content*/
   padding: 1rem;
 }
 
-blockquote p { /* mardown styling; meant to be used for vibing-w-LLMs content*/
-  color: var(--ifm-color-primary-darkest);
+.content-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 
