@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Salmon Rice Bowl
+# Salmon Rice Bowl, GF & DF
 
 VERY easy to make high protein meal. 
 
