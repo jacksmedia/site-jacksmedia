@@ -91,8 +91,8 @@ const PanelList = [
     bgColor: 'orchid',
     description: (
       <>
-        A rotating, curated selection of YTs,
-        and practice daily for health!
+        A rotating, curated selection of YTs;
+        practice daily for health!
       </>
     ),
   },
@@ -109,7 +109,7 @@ function Panel({ img, title, description, linker, bgColor, reversed }) {
         <h2>{title}</h2>
         <p>{description}</p>
         <a href={linker}>
-          <button className="glossy-btn">Read More...</button>
+          <button className="glossy-btn">Check it out</button>
         </a>
       </div>
     </div>
