@@ -21,6 +21,7 @@
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 1rem;
+    background: linear-gradient(rbga(0,0,0,0),rgba(0,0,0,1));
   }
 }
 

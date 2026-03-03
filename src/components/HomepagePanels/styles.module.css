@@ -1,0 +1,60 @@
+.panelsSection {
+  width: 100%;
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3rem 5rem;
+  gap: 3rem;
+  border-top: #33333355 3px groove;
+}
+
+/* Flipped variant — applied automatically on odd-indexed panels */
+.panelReversed {
+  flex-direction: row-reverse;
+}
+
+.panelImage {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panelImage img {
+  max-width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+  border-radius: 15px;
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.35);
+}
+
+.panelText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+/* Mobile: both layouts collapse to a vertical stack */
+@media screen and (max-width: 768px) {
+  .panel,
+  .panelReversed {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .panelImage {
+    flex: none;
+    width: 100%;
+  }
+
+  .panelText {
+    align-items: center;
+    text-align: center;
+  }
+}

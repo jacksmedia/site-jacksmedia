@@ -54,8 +54,8 @@ const FeatureList = [
     linker: '/docs/tutorial-extras/chi',
     description: (
       <>
-        A rotating, curated selection of YTs,
-        and practice daily for health!
+        A rotating, curated selection of YTs;
+        practice daily for health!
       </>
     ),
   }
