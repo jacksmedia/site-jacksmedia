@@ -4,6 +4,7 @@ import VideoCard from './VideoCard';
 import PieChartComponent from './PieChartComponent';
 import RandomizerButton from './RandomizerButton';
 import data from './data.json';
+import styles from './styles.module.css';
 
 // original Date count calculation
 const Today = new Date().toLocaleDateString('en-US', { 
@@ -114,89 +115,65 @@ const Timecalc = () => {
       <h3>🥠 Today's Suggested Videos:</h3>
 
       {/* daily practice, 1 from each column in JSON */}
-      <div className="row">
-        <p>Warm Up</p>
-        <p>Exercises</p>
-        <p>Extras</p>
+      <div className={styles.threeCol}>
+        <p className={styles.colLabel}>Warm Up</p>
+        <p className={styles.colLabel}>Exercises</p>
+        <p className={styles.colLabel}>Extras</p>
       </div>
-      <div className="row">
-        <div className='column p-3'>
-          <VideoCard video={choice1} />
-        </div>
-        <div className='column'>
-          <VideoCard video={choice2} />
-        </div>
-        <div className='column'>
-          <VideoCard video={choice3} />
-        </div>
+      <div className={styles.threeCol}>
+        <VideoCard video={choice1} />
+        <VideoCard video={choice2} />
+        <VideoCard video={choice3} />
       </div>
 
       {/* Data on today's practice */}
-      <div className="row">
-        <div className='col-4 p-3'>
+      <div className={styles.twoColStats}>
+        <div>
           <h3>Today's practice is {practiceLength} long.</h3>
           <RandomizerButton handleRandomize={handleRandomize} />
           <p>(Please refresh for original recommendations.)</p>
         </div>
-        <div className='col-8'>
-          <PieChartComponent data={dataForPieChart} />
-        </div>
+        <PieChartComponent data={dataForPieChart} />
       </div>
- 
-       {/* Tomorrow's practice videos, vs today's */}
-      <h2>Tomorrow's Videos</h2>
-      <div className="row">
-        <div className='column p-3'>
-          <VideoCard video={choiceA} />
-        </div>
-        <div className='column'>
-          <VideoCard video={choiceB} />
-        </div>
-        <div className='column'>
-          <VideoCard video={choiceC} />
-        </div>
-      </div> 
 
-      
+      {/* Tomorrow's practice videos, vs today's */}
+      <h2>Tomorrow's Videos</h2>
+      <div className={styles.threeCol}>
+        <VideoCard video={choiceA} />
+        <VideoCard video={choiceB} />
+        <VideoCard video={choiceC} />
+      </div>
+
       {/* Titles for the set columns */}
       <h2>All Videos</h2>
-      <div className="row">
-        <p>Warm Ups</p>
-        <p>Exercises</p>
-        <p>Extras</p>
+      <div className={styles.threeCol}>
+        <p className={styles.colLabel}>Warm Ups</p>
+        <p className={styles.colLabel}>Exercises</p>
+        <p className={styles.colLabel}>Extras</p>
       </div>
 
-      
       {/* Mapping of every object in ./data.json */}
-      <div className="row">
-        <div className="column">
-          <div className="video-card-wrapper">
-            {warmUps.map((item, index) => <VideoCard key={`warmup-${index}`} video={item} />)}
-          </div>
+      <div className={styles.threeCol}>
+        <div className={styles.videoStack}>
+          {warmUps.map((item, index) => <VideoCard key={`warmup-${index}`} video={item} />)}
         </div>
-        <div className="column">
-          <div className="video-card-wrapper">
-            {exercises.map((item, index) => <VideoCard key={`exercise-${index}`} video={item} />)}
-            </div>
+        <div className={styles.videoStack}>
+          {exercises.map((item, index) => <VideoCard key={`exercise-${index}`} video={item} />)}
         </div>
-        <div className="column">
-          <div className="video-card-wrapper">
-            {extras.map((item, index) => <VideoCard key={`extra-${index}`} video={item} />)}
-            </div>
+        <div className={styles.videoStack}>
+          {extras.map((item, index) => <VideoCard key={`extra-${index}`} video={item} />)}
         </div>
       </div>
 
       {/* Count of the column items */}
-      <div className="row">
+      <div className={styles.threeCol}>
         <p>Total Warm Up = <em>{howManyWarmUps}</em></p>
         <p>Total Exercises = <em>{howManyExercises}</em></p>
         <p>Total Extras = <em>{howManyExtras}</em></p>
       </div>
 
       {/* Total permutations of all objects in ./data.json */}
-      <div className="row">
-        <p>Unique combinations of practices: <em>{howManyWarmUps * howManyExercises * howManyExtras}</em></p>
-      </div>
+      <p>Unique combinations of practices: <em>{howManyWarmUps * howManyExercises * howManyExtras}</em></p>
 
     </div>
   );

@@ -1,3 +1,5 @@
+import styles from './styles.module.css';
+
 const VideoCard = ({ video }) => {
   return (
     <div className="video-card">
@@ -6,10 +8,9 @@ const VideoCard = ({ video }) => {
         rel="noreferrer noopener"
         className="footer__link-item">  
         <div className={`inner-content-div ${video.bgc}`}>
-          <div className="bigger-font">{video.emojis}</div>
-          <div className="black-text responsive-text footer__link-item">{video.title}
-          <h5>{[video.length]}</h5>
-          </div>
+          <p>{video.emojis}</p>
+          <p className={styles.specialTextSizing}>{video.title}</p>
+          <p>{[video.length]}</p>
         </div>
       </a>
     </div>

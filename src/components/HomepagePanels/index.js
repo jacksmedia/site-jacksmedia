@@ -1,4 +1,4 @@
-import React from 'react';
+// composed by Claude Sonnet 4.6
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
@@ -60,7 +60,7 @@ const PanelList = [
     {
     title: 'Practice Moving Qi Daily',
     img: require('@site/static/img/qi-videos.png').default,
-    linker: '/docs/tutorial-invideo/chi',
+    linker: '/docs/tutorial-extras/chi',
     bgColor: 'orchid',
     description: (
       <>

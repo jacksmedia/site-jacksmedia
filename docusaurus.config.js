@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const config = {
   title: 'Jacks Media',
   staticDirectories: ['public', 'static'],
-  tagline: 'Enthusiastic Guides for Digital Creatives',
+  tagline: 'Apps & Guides for Digital Creatives',
   url: 'https://j4cks.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',

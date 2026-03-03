@@ -13,13 +13,6 @@
   align-items: stretch;
 }
 
-.responsive-text {
-  font-size: 0.9rem;
-  padding-left: 3px;
-  text-wrap: wrap;
-  max-width: 30vw;
-}
-
 /* Basic responsive row layout */
 .row {
   display: flex; /* Make the container a flex container */
@@ -48,21 +41,23 @@
 
 .video-card {
   display: flex;
-  flex: 1 1 29%;      /* Flexibly take up to 29% */
   max-width: 100%;
+  min-width: 0;              /* allows card to shrink below content size in grid/flex */
   margin-bottom: 1.2rem;
   justify-content: center;
-  align-items: center;        /* Centers child divs vertically (optional) */
-  flex-direction: column;    /* Stacks child divs vertically */
-  box-sizing: border-box; /* Includes padding & border in width */
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .inner-content-div {
   padding: 0.8rem;
   margin: 1px;
-  background-color: inherit;  /* Inherit the background color from parent */
-  border-radius: 20px;        /* Ensure the inner content also has rounded corners */
-  outline-style: groove; /* creates raised effect */
+  max-width: 100%;           /* never wider than the card */
+  box-sizing: border-box;    /* padding included in that width */
+  background-color: inherit;
+  border-radius: 20px;
+  outline-style: groove;
   outline-width: thick;
 }
 
