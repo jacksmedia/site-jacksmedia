@@ -7,6 +7,33 @@ import styles from './styles.module.css';
 // custom.css are: lemonchiffon | cornflowerblue | mediumaquamarine | orchid | darkgrey
 const PanelList = [
   {
+    title: 'Demo the kCal app',
+    img: require('@site/static/img/kcal.png').default,
+    linker: 'https://kcal-pi.vercel.app',
+    bgColor: 'orchid',
+    description: (
+      <>
+        My in-development kCal app uses Kimi AI's
+        K2.5 model to ID food pictures, and offers
+        nutritional info from a free USDA API database.
+      </>
+    ),
+  },
+  {
+    title: 'Simple AI Image Generator',
+    img: require('@site/static/img/j4cks-dot-com.png').default,
+    linker: 'https://j4cks.com',
+    bgColor: 'darkgrey',
+    description: (
+      <>
+        HuggingFace inference providers bring three
+        different open source AI models, rendering a text
+        prompt into imagery. (Free, with rate limiting.)
+        
+      </>
+    ),
+  },
+  {
     title: 'Publish with Notion',
     img: require('@site/static/img/kitten-blogger.png').default,
     linker: '/docs/tutorial-notion/faq',
