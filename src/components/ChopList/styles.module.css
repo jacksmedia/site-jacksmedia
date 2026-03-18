@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem 3rem;
+  user-select: none;
+}
+
+.controls {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  border: 2px solid var(--ifm-color-primary);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.btn:hover {
+  background: var(--ifm-color-primary);
+  color: black;
+}
+
+/* ── Clock face ──────────────────────────────────────────────────── */
+
+.clockFace {
+  position: relative;
+  /*
+   * Explicit height (not aspect-ratio) is required so that position:absolute
+   * children can resolve percentage-based top values. aspect-ratio alone does
+   * not produce a "definite" height for that purpose per the CSS spec.
+   */
+  width: 90vw;
+  max-width: 500px;
+  height: 90vw;
+  max-height: 500px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 50%;
+}
+
+/* ── Zodiac bubbles ──────────────────────────────────────────────── */
+
+.zodiacBubble {
+  position: absolute;
+  /*
+   * All bubbles anchor at the clock-face center. Movement to clock positions
+   * (and back to center when active) is done entirely via transform so we
+   * only need to transition one property — no left/top animation quirks.
+   */
+  left: 50%;
+  top: 50%;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid var(--ifm-color-primary);
+  background-color: var(--ifm-background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: transform 0.6s ease, background-color 0.3s, border-color 0.3s;
+  will-change: transform;
+}
+
+.zodiacBubble.done {
+  background-color: black;
+  border-color: #333;
+}
+
+.zodiacBubble.reviving {
+  animation: reviveBubble 5s ease forwards;
+}
+
+@keyframes reviveBubble {
+  0%   { background-color: black;                       border-color: #333; }
+  100% { background-color: var(--ifm-background-color); border-color: var(--ifm-color-primary); }
+}
+
+/* ── Sweep overlay (conic-gradient applied inline) ───────────────── */
+
+.sweepOverlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* ── Bubble content ──────────────────────────────────────────────── */
+
+.zodiacEmoji {
+  position: relative;
+  z-index: 2;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/*
+ * Only rendered when the sign is active (scaled ~6x), so the tiny layout
+ * size is irrelevant — the visual size at render time is what matters.
+ */
+.signName {
+  position: relative;
+  z-index: 2;
+  font-size: 0.35rem;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: var(--ifm-color-primary);
+  margin-top: 1px;
+  line-height: 1.3;
+  max-width: 100%;
+}
+
+/* ── Rest countdown centered in the clock face ───────────────────── */
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.countdown {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5rem);
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  line-height: 1;
+}
