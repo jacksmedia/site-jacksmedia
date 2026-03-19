@@ -41,8 +41,9 @@
   max-width: 500px;
   height: 90vw;
   max-height: 500px;
-  border: 1px solid var(--ifm-color-emphasis-300);
+  border: 0px solid var(--ifm-color-emphasis-300);
   border-radius: 50%;
+  background: radial-gradient(var(--ifm-color-primary-dark), rgba(255,255,255,0.1) );
 }
 
 /* ── Zodiac bubbles ──────────────────────────────────────────────── */
@@ -71,8 +72,8 @@
 }
 
 .zodiacBubble.done {
-  background-color: black;
-  border-color: #333;
+  background-color: orangered;
+  border-color: black;
 }
 
 .zodiacBubble.reviving {
@@ -113,7 +114,7 @@
 .signName {
   position: relative;
   z-index: 2;
-  font-size: 0.35rem;
+  font-size: 0.3rem;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
   color: var(--ifm-color-primary);

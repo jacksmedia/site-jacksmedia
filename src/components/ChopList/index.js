@@ -194,9 +194,9 @@ export default function ChopList() {
                   className={styles.sweepOverlay}
                   style={{
                     background: `conic-gradient(
-                      from -90deg,
+                      from 0deg,
                       rgba(0,0,0,0.88)   0deg,
-                      rgba(0,0,0,0.88)   ${Math.max(0, sweepAngle - 3)}deg,
+                      rgba(255,60,0,0.95)   ${Math.max(0, sweepAngle - 3)}deg,
                       rgba(255,60,0,0.95) ${Math.max(0, sweepAngle - 3)}deg,
                       rgba(255,60,0,0.95) ${sweepAngle}deg,
                       transparent        ${sweepAngle}deg
