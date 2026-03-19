@@ -29,6 +29,9 @@
   object-fit: contain;
   border-radius: 15px;
   box-shadow: 0 6px 28px rgba(0, 0, 0, 0.35);
+  /* Pre-reveal: image is dim. Fades to full opacity on scroll-in. */
+  opacity: 0.3;
+  transition: opacity 1s ease;
 }
 
 .panelText {
@@ -37,7 +40,27 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
+  /*
+   * Pre-reveal: invisible and clipped from the right edge.
+   * clip-path sweeps left→right at constant linear speed (the "scrawl").
+   * opacity fades in simultaneously.
+   */
+  opacity: 0;
+  clip-path: inset(0 100% 0 0);
+  transition: opacity 1.5s linear, clip-path 1.5s linear;
 }
+
+/* ── Revealed state (class added by IntersectionObserver) ─────────── */
+
+.panelVisible .panelImage img {
+  opacity: 1;
+}
+
+.panelVisible .panelText {
+  opacity: 1;
+  clip-path: inset(0 0% 0 0);
+}
+
 
 /* Mobile: both layouts collapse to a vertical stack */
 @media screen and (max-width: 768px) {

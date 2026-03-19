@@ -1,5 +1,6 @@
 // composed by Claude Sonnet 4.6
 import clsx from 'clsx';
+import { useRef, useEffect, useState } from 'react';
 import styles from './styles.module.css';
 
 // ─── Add / edit your panels here ────────────────────────────────────────────
@@ -13,8 +14,8 @@ const PanelList = [
     bgColor: 'orchid',
     description: (
       <>
-        My in-development kCal app uses Kimi AI's
-        K2.5 model to ID food pictures, and offers
+        My in-development kCal app uses Alibaba's
+        Qwen LLM to ID food pictures, and offers
         nutritional info from a free USDA API database.
       </>
     ),
@@ -100,8 +101,29 @@ const PanelList = [
 // ────────────────────────────────────────────────────────────────────────────
 
 function Panel({ img, title, description, linker, bgColor, reversed }) {
+  const panelRef = useRef(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const el = panelRef.current;
+    // Guard for SSR and environments without IntersectionObserver.
+    if (!el || typeof IntersectionObserver === 'undefined') {
+      setVisible(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setVisible(true); io.disconnect(); } },
+      { threshold: 0.15 }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
   return (
-    <div className={clsx(styles.panel, reversed && styles.panelReversed, bgColor)}>
+    <div
+      ref={panelRef}
+      className={clsx(styles.panel, reversed && styles.panelReversed, bgColor, visible && styles.panelVisible)}
+    >
       <div className={styles.panelImage}>
         <img src={img} alt={title} />
       </div>

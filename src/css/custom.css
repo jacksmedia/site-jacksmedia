@@ -89,41 +89,41 @@ a:hover {
   outline-color: LemonChiffon;
   color: black;
 }
-.lemonchiffon div:hover {
+/* .lemonchiffon div:hover {
   color: blue;
-}
+} */
 .mediumaquamarine{
   background: linear-gradient(MediumAquamarine, aliceblue) !important;
   outline-color: MediumAquamarine;
   color: black;
 }
-.mediumaquamarine div:hover {
+/* .mediumaquamarine div:hover {
   color: orangered;
-}
+} */
 .cornflowerblue{
   background: linear-gradient(cornflowerblue, aliceblue) !important;
   outline-color: cornflowerblue;
   color: black;
 }
-.cornflowerblue div:hover {
+/* .cornflowerblue div:hover {
   color: orangered;
-}
+} */
 .darkgrey{
   background: linear-gradient(#A9a9a9, aliceblue) !important;
   outline-color: darkgrey;
   color: black;
 }
-.darkgrey div:hover {
+/* .darkgrey div:hover {
   color: orangered;
-}
+} */
 .orchid{
-  background: linear-gradient(orchid, aliceblue) !important;
-  outline-color: orchid;
+  background: linear-gradient(orangered, aliceblue) !important;
+  outline-color: orangered;
   color: black;
 }
-.orchid div:hover {
+/* .orchid div:hover {
   color: blue;
-}
+} */
 
 /* boilerplate Infinima defaults */
 :root {
