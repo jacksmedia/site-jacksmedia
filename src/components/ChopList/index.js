@@ -185,6 +185,7 @@ export default function ChopList() {
               style={{
                 transform: getBubbleTransform(i, clockSize, isActive, activeScale),
                 zIndex: isActive ? 20 : 1,
+                '--bubble-done-color': ex.bgc,
               }}
             >
               {/* Radar sweep: black sector grows 0→360° over 30 s.
@@ -195,11 +196,11 @@ export default function ChopList() {
                   style={{
                     background: `conic-gradient(
                       from 0deg,
-                      rgba(0,0,0,0.88)   0deg,
-                      ${ex.bgc}   ${Math.max(0, sweepAngle - 3)}deg,
-                      ${ex.bgc} ${Math.max(0, sweepAngle - 3)}deg,
-                      ${ex.bgc} ${sweepAngle}deg,
-                      transparent        ${sweepAngle}deg
+                      ${ex.bgc}       0deg,
+                      ${ex.bgc}       ${Math.max(0, sweepAngle - 2)}deg,
+                      rgba(255,255,255,0.95) ${Math.max(0, sweepAngle - 2)}deg,
+                      rgba(255,255,255,0.95) ${sweepAngle}deg,
+                      transparent            ${sweepAngle}deg
                     )`,
                   }}
                 />

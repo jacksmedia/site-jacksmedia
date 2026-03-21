@@ -72,7 +72,7 @@
 }
 
 .zodiacBubble.done {
-  background-color: orangered;
+  background-color: var(--bubble-done-color);
   border-color: black;
 }
 
@@ -81,7 +81,7 @@
 }
 
 @keyframes reviveBubble {
-  0%   { background-color: black;                       border-color: #333; }
+  0%   { background-color: var(--bubble-done-color);    border-color: #333; }
   100% { background-color: var(--ifm-background-color); border-color: var(--ifm-color-primary); }
 }
 
@@ -106,7 +106,7 @@
   font-size: 1.5rem;
   line-height: 1;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: orangered;
+  -webkit-text-stroke-color: black;
 }
 
 /*
