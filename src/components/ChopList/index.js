@@ -2,18 +2,18 @@ import React, { useState, useEffect, useRef } from 'react';
 import styles from './styles.module.css';
 
 const EXERCISES = [
-  { sign: '♈', name: 'Wall Sit' },
-  { sign: '♉', name: 'Chair Push-Ups' },
-  { sign: '♊', name: 'Seated Marching' },
-  { sign: '♋', name: 'Leg Raises' },
-  { sign: '♌', name: 'Chair Squats' },
-  { sign: '♍', name: 'Wall Push-Ups' },
-  { sign: '♎', name: 'Shoulder Press' },
-  { sign: '♏', name: 'Side Leg Lifts' },
-  { sign: '♐', name: 'Toe Taps' },
-  { sign: '♑', name: 'Step-Ups' },
-  { sign: '♒', name: 'Side Twists' },
-  { sign: '♓', name: 'Plank' },
+  { sign: '♈︎', name: 'Wall Sit', bgc: '#ef524f' },
+  { sign: '♉︎', name: 'Chair Push-Ups', bgc: '#ff7141' },
+  { sign: '♊︎', name: 'Seated Marching', bgc: '#ffa821' },
+  { sign: '♋︎', name: 'Leg Raises', bgc: '#fecc10' },
+  { sign: '♌︎', name: 'Chair Squats', bgc: '#fce641' },
+  { sign: '♍︎', name: 'Wall Push-Ups', bgc: '#9bcc60' },
+  { sign: '♎︎', name: 'Shoulder Press', bgc: '#66bc6a' },
+  { sign: '♏︎', name: 'Side Leg Lifts', bgc: '#16a89c' },
+  { sign: '♐︎', name: 'Toe Taps', bgc: '#0f76d3' },
+  { sign: '♑︎', name: 'Step-Ups', bgc: '#7d51c2' },
+  { sign: '♒︎', name: 'Side Twists', bgc: '#ab42bd' },
+  { sign: '♓︎', name: 'Plank', bgc: '#ed3e7b' },
 ];
 
 const ACTIVE_MS  = 30_000;
@@ -196,9 +196,9 @@ export default function ChopList() {
                     background: `conic-gradient(
                       from 0deg,
                       rgba(0,0,0,0.88)   0deg,
-                      rgba(255,60,0,0.95)   ${Math.max(0, sweepAngle - 3)}deg,
-                      rgba(255,60,0,0.95) ${Math.max(0, sweepAngle - 3)}deg,
-                      rgba(255,60,0,0.95) ${sweepAngle}deg,
+                      ${ex.bgc}   ${Math.max(0, sweepAngle - 3)}deg,
+                      ${ex.bgc} ${Math.max(0, sweepAngle - 3)}deg,
+                      ${ex.bgc} ${sweepAngle}deg,
                       transparent        ${sweepAngle}deg
                     )`,
                   }}
