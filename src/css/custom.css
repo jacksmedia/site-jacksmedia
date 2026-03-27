@@ -127,7 +127,8 @@ a:hover {
 
 /* boilerplate Infinima defaults */
 :root {
-  --ifm-color-primary: rgb(255, 25, 0);
+  --ifm-color-primary: #ff1900;
+  --chop-primary: black;
   --ifm-color-primary-dark: #2978ff;
   --ifm-color-primary-darker: #2771ff;
   --ifm-color-primary-darkest: #205dff;
@@ -151,6 +152,7 @@ h1, h2, h3, button {
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: LemonChiffon;
+  --chop-primary: LemonChiffon;
   --ifm-color-primary-dark: #21afff;
   --ifm-color-primary-darker: #1fa5ff;
   --ifm-color-primary-darkest: #1a88ff;
