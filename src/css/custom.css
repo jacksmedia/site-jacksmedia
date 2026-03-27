@@ -129,12 +129,12 @@ a:hover {
 :root {
   --ifm-color-primary: #ff1900;
   --chop-primary: black;
-  --ifm-color-primary-dark: #2978ff;
-  --ifm-color-primary-darker: #2771ff;
-  --ifm-color-primary-darkest: #205dff;
-  --ifm-color-primary-light: #3392ff;
-  --ifm-color-primary-lighter: #3599ff;
-  --ifm-color-primary-lightest: #3cadff;
+  --ifm-color-primary-dark: #29a8ff;
+  --ifm-color-primary-darker: #27a1ff;
+  --ifm-color-primary-darkest: #208dff;
+  --ifm-color-primary-light: #33b2ff;
+  --ifm-color-primary-lighter: #35b9ff;
+  --ifm-color-primary-lightest: #3cddff;
   --ifm-code-font-size: 95%;
 }
 
@@ -153,12 +153,12 @@ h1, h2, h3, button {
 [data-theme='dark'] {
   --ifm-color-primary: LemonChiffon;
   --chop-primary: LemonChiffon;
-  --ifm-color-primary-dark: #21afff;
-  --ifm-color-primary-darker: #1fa5ff;
-  --ifm-color-primary-darkest: #1a88ff;
-  --ifm-color-primary-light: #29d5ff;
-  --ifm-color-primary-lighter: #32d8ff;
-  --ifm-color-primary-lightest: #4fddff;
+  --ifm-color-primary-dark: #21dfff;
+  --ifm-color-primary-darker: #1fd5ff;
+  --ifm-color-primary-darkest: #1ab8ff;
+  --ifm-color-primary-light: #29d8ff;
+  --ifm-color-primary-lighter: #32f8ff;
+  --ifm-color-primary-lightest: #4ffdff;
   color: #333;
 }
 
@@ -194,17 +194,18 @@ h1, h2, h3, button {
 
 /* button upgrade */
 .glossy-btn {
+  color: var(--chop-primary);
   padding: 2rem;
   border-radius: 90px;
-  border: var(--ifm-color-primary-darkest) 2px solid;
-  background: linear-gradient(-14deg, rgba(10,0,0,0.8), #2978ff);
+  border: var(--ifm-color-primary-light) 2px groove;
+  background: linear-gradient(-14deg, rgba(10,0,0,0.8), var(--ifm-color-primary-dark));
 }
 
 
 /* makes the default footer colors into a slight gradient */ 
 .footer {
-  background: linear-gradient(-14deg, rgba(10,0,0,0.8), #2978ff);
-  border: #333 5px groove;
+  background: linear-gradient(-14deg, rgba(10,0,0,0.8), var(--ifm-color-primary-light));
+  border: var(--ifm-color-primary-dark) 5px groove;
 }
 /* text shadows for the top of the landing page */
 .hero__subtitle {
