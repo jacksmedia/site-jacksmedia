@@ -47,7 +47,7 @@ const config = {
         title: 'Jacks.Media',
         logo: {
           alt: 'Jacks Media',
-          src: 'img/cat-pfp.png',
+          src: 'img/JM-logo-pfp.png',
         },
         items: [
           {

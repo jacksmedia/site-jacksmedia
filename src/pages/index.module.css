@@ -3,14 +3,13 @@
  * and scoped locally.
  */
 
-/* refer to src/css/custom.css for <header> size ctrl */
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: visible;
   
-  background: url(./cyber-angel.png);
+  background: url(/img/JM-logo-neon.png);
   background-size: 100vw auto;
   background-repeat: no-repeat;
 }
@@ -24,6 +23,7 @@
     background: linear-gradient(rbga(0,0,0,0),rgba(0,0,0,1));
   }
 }
+
 
 .buttons {
   display: flex;
