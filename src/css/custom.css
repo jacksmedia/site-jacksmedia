@@ -1,7 +1,8 @@
 /* Fonts */
 /* new */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Pixelify+Sans:wght@400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Pixelify+Sans:wght@400;600&display=swap'); */
 
 
 .reactive-height {
@@ -141,14 +142,16 @@ a:hover {
 }
 
 *, .footer__title {
-  font-family: "Geist Mono", monospace;
+  /* font-family: "Geist Mono", monospace; */
+  font-family:  "Roboto Serif";
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
 }
 
 h1, h2, h3, button {
-  font-family:  "Orbitron";
+  font-family:  "Roboto Serif";
+  font-weight: 500;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -199,8 +202,8 @@ h1, h2, h3, button {
   color: var(--chop-primary);
   padding: 2rem;
   border-radius: 90px;
-  border: var(--ifm-color-primary-light) 2px groove;
-  background: linear-gradient(-14deg, rgba(10,0,0,0.8), var(--ifm-color-primary-dark));
+  border: var(--ifm-color-primary-lightest) 2px groove;
+  background: linear-gradient(-14deg, rgba(10,0,0,0.8), var(--ifm-color-primary-light));
 }
 
 
