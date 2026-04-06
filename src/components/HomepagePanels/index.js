@@ -8,15 +8,15 @@ import styles from './styles.module.css';
 // custom.css are: lemonchiffon | cornflowerblue | mediumaquamarine | orchid | darkgrey
 const PanelList = [
   {
-    title: 'Demo the kCal app',
+    title: 'kCal Meal Tracker',
     img: require('@site/static/img/kcal.png').default,
-    linker: 'https://kcal-pi.vercel.app',
+    linker: 'https://kcal.you',
     bgColor: 'orchid',
     description: (
       <>
-        My in-development kCal app uses Alibaba's
-        Qwen LLM to ID food pictures, and offers
-        nutritional info from a free USDA API database.
+        The kCal meal tracker app uses Alibaba's
+        Qwen LLM to ID food pictures, sourcing info
+        from the expansive USDA food database.
       </>
     ),
   },
