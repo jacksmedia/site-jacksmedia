@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(command -v node)",
+      "Read(//c/Users/xj4x/AppData/Roaming/**)",
+      "Read(//c/Program Files/nodejs//**)",
+      "Read(//c/Users/xj4x/.nvm/versions/**)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/webpack/package.json'\\).version\\)\")",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/webpackbar/package.json'\\).version\\)\")",
+      "Bash(node -e \"const wb = require\\('./node_modules/webpackbar'\\); console.log\\(Object.keys\\(wb\\)\\); console.log\\(typeof wb.default || typeof wb\\)\")",
+      "Bash(npx patch-package:*)"
+    ]
+  }
+}
