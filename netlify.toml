@@ -1,5 +1,17 @@
 [[redirects]]
-  from = "/docs/tutorial-extras/qi"
-  to = "/docs/tutorial-extras/chi"
+  from = "https://j4cks.com/*"
+  to = "https://jacks.media/flux/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.j4cks.com/*"
+  to = "https://jacks.media/flux/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://jacks.media/docs/tutorial-extras/qi"
+  to = "https://jacks.media/docs/tutorial-extras/chi"
   status = 301
   force = false
