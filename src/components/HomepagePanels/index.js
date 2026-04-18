@@ -57,7 +57,7 @@ const PanelList = [
       <>
         Onblast lets you post to Bluesky,
         Mastodon, Threads, X, and LinkedIn
-        from a single message. Coming soon..
+        from a single message. Coming soon...
       </>
     ),
   },
