@@ -68,46 +68,21 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Guides',
+            title: 'Projects',
             items: [
               {
-                label: 'Intro to Guides',
-                to: '/docs/intro',
+                label: 'Portfolio',
+                to: '/docs/portfolio/projects',
               },
               {
-                label: 'Qi~Chi Calendar of YTs',
-                to: '/docs/tutorial-extras/chi',
-              },
-            ],
-          },
-          {
-            title: 'Creator Communities',
-            items: [
-              {
-                label: 'NightCafe (free AI illustrator)',
-                href: 'https://discord.gg/nightcafestudio',
-              },
-              {
-                label: 'FF4 Ultima Discord (sprite art & romhacking)',
-                href: 'https://discord.gg/PGMASbSnD9',
-              },
-              {
-                label: 'FF5 Den wiki (romhacking resources)',
-                href: 'https://www.ff6hacking.com/ff5wiki/index.php/Main_Page#Utility',
+                label: 'Daily Exercise App',
+                to: '/docs/tutorial-extras/chop',
               },
             ],
           },
           {
             title: 'Socials',
             items: [
-              {
-                label: 'my Tumblr',
-                href: 'https://www.tumblr.com/xetcx',
-              },
-              {
-                label: 'my BlueSky',
-                href: 'https://bsky.app/profile/xj4cks.bsky.social',
-              },
               {
                 label: 'Jacks.Media GitHub',
                 href: 'https://github.com/jacksmedia',
