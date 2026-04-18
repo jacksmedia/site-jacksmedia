@@ -14,16 +14,16 @@ const PanelList = [
     bgColor: 'orchid',
     description: (
       <>
-        The kCal meal tracker app uses Alibaba's
-        Qwen LLM to ID food pictures, sourcing info
-        from the expansive USDA food database.
+        The kCal meal tracker app uses AI Vision
+        to ID food pictures, sourcing nutritional
+        info from the expansive USDA food database.
       </>
     ),
   },
   {
     title: 'Simple AI Image Generator',
     img: require('@site/static/img/j4cks-dot-com.png').default,
-    linker: 'https://j4cks.com',
+    linker: 'https://jacks.media/flux',
     bgColor: 'darkgrey',
     description: (
       <>
@@ -35,68 +35,44 @@ const PanelList = [
     ),
   },
   {
-    title: 'Publish with Notion',
-    img: require('@site/static/img/kitten-blogger.png').default,
-    linker: '/docs/tutorial-notion/faq',
-    bgColor: 'lemonchiffon',
-    description: (
-      <>
-        Notion helps organize and publish
-        lists, notes or content, for free!
-      </>
-    ),
-  },
-  {
-    title: 'Illustrate with AI',
-    img: require('@site/static/img/tundra0.png').default,
-    linker: '/docs/tutorial-ai-art/DALLE1',
-    bgColor: 'cornflowerblue',
-    description: (
-      <>
-        Current "AI Art" tools let you write 
-        what you wish to see,
-        and to refine your mind's eye.
-      </>
-    ),
-  },
-  {
-    title: 'Create Videos with AI',
-    img: require('@site/static/img/invideo-preview.png').default,
-    linker: '/docs/tutorial-invideo/basics',
-    bgColor: 'darkgrey',
-    description: (
-      <>
-        Once you know how to prompt images, 
-        check out this guide to making videos
-        using public resources & YT clips.
-      </>
-    ),
-  },
-    {
-    title: 'Socialize with Discord',
-    img: require('@site/static/img/top-emoji.png').default,
-    linker: '/docs/tutorial-discord/discord-intro',
+    title: 'Ultima Plus Patcher',
+    img: require('@site/static/img/j4cks-dot-com.png').default,
+    linker: 'https://ultima-plus.vercel.app/',
     bgColor: 'mediumaquamarine',
     description: (
       <>
-        Discord offers dynamic community
-        and useful features for keeping
-        followers and friends informed.
+        Software upgrader and customizer for the
+        SNES game "Final Fantasy 4 Ultima Plus".
+        A fan project authored by "8-bit fan" with
+        extensive options crafted by the community. 
       </>
     ),
   },
-    {
-    title: 'Practice Moving Qi Daily',
-    img: require('@site/static/img/qi-videos.png').default,
-    linker: '/docs/tutorial-extras/chi',
+  {
+    title: 'Post Everywhere at Once',
+    img: require('@site/static/img/onblast-preview.png').default,
+    linker: 'https://onblast.vercel.app',
+    bgColor: 'lemonchiffon',
+    description: (
+      <>
+        Onblast lets you post to Bluesky,
+        Mastodon, Threads, X, and LinkedIn
+        from a single message. Coming soon..
+      </>
+    ),
+  },
+  {
+    title: 'Daily CHOP Practice',
+    img: require('@site/static/img/chop-preview.png').default,
+    linker: '/docs/tutorial-extras/chop',
     bgColor: 'orchid',
     description: (
       <>
-        A rotating, curated selection of YTs;
-        practice daily for health!
+        Bespoke CSS app that cycles through
+        a set of daily orthostatic exercises.
       </>
     ),
-  },
+  }
 ];
 // ────────────────────────────────────────────────────────────────────────────
 
