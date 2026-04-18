@@ -1,0 +1,47 @@
+/* Rigid 3-column grid — holds at every viewport width.
+   repeat(3, minmax(0, 1fr)) is critical: plain "1fr" resolves to
+   minmax(auto, 1fr), where "auto" expands the column to fit its
+   min-content width (the widest non-wrappable word/value in any cell).
+   minmax(0, 1fr) forces the minimum to 0, keeping columns exactly equal. */
+.threeCol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  width: 100%;
+  align-items: start;
+  margin-bottom: 0.5rem;
+}
+
+/* 2-column grid for the stats + pie chart row */
+.twoColStats {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.5rem;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Stacks VideoCards vertically inside an "All Videos" grid cell */
+.videoStack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.2rem;
+}
+
+/* Centered label above each column */
+.colLabel {
+  font-weight: bold;
+  text-align: center;
+  margin: 0.25rem 0;
+}
+
+/* Compact text size for VideoCard titles inside narrow grid columns.
+   Applied via styles.specialTextSizing in VideoCard.jsx. */
+.specialTextSizing {
+  font-size: 0.8rem;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+  max-width: 26vw;
+}
