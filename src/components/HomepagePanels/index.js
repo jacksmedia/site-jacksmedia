@@ -36,7 +36,7 @@ const PanelList = [
   },
   {
     title: 'Ultima Plus Patcher',
-    img: require('@site/static/img/j4cks-dot-com.png').default,
+    img: require('@site/static/img/patcher-preview.png').default,
     linker: 'https://ultima-plus.vercel.app/',
     bgColor: 'mediumaquamarine',
     description: (
