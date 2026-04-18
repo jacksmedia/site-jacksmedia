@@ -1,4 +1,10 @@
 [[redirects]]
+  from = "/flux"
+  to = "https://j4cks-flux.vercel.app/"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/flux/*"
   to = "https://j4cks-flux.vercel.app/:splat"
   status = 200
