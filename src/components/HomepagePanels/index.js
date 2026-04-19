@@ -22,8 +22,8 @@ const PanelList = [
   },
   {
     title: 'Simple AI Image Generator',
-    img: require('@site/static/img/j4cks-dot-com.png').default,
-    linker: 'https://j4cks.com',
+    img: require('@site/static/img/flux.png').default,
+    linker: 'https://jacks.media/flux',
     bgColor: 'darkgrey',
     description: (
       <>
