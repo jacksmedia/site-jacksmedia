@@ -270,6 +270,14 @@ em {
   margin-bottom: 1rem;
 }
 
+
+.cogito-text {
+  color: red;
+  font-weight: 600;
+  font-kerning: 1;
+}
+
+
 div.warning { /* only used for vibing-w-LLMs content*/
   content:url("warning.png");
   aspect-ratio: 6.17;

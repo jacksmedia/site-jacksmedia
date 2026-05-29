@@ -23,7 +23,7 @@ const PanelList = [
   {
     title: 'Simple AI Image Generator',
     img: require('@site/static/img/flux.png').default,
-    linker: 'https://jacks.media/flux',
+    linker: 'https://j4cks-flux.vercel.app/',
     bgColor: 'darkgrey',
     description: (
       <>
@@ -49,6 +49,18 @@ const PanelList = [
     ),
   },
   {
+    title: 'Daily CHOP Practice',
+    img: require('@site/static/img/chop-preview.png').default,
+    linker: '/docs/tutorial-extras/chop',
+    bgColor: 'orchid',
+    description: (
+      <>
+        Bespoke CSS app that cycles through
+        a set of daily orthostatic exercises.
+      </>
+    ),
+  },
+  {
     title: 'Post Everywhere at Once',
     img: require('@site/static/img/onblast-preview.png').default,
     linker: 'https://onblast.vercel.app',
@@ -58,18 +70,6 @@ const PanelList = [
         Onblast lets you post to Bluesky,
         Mastodon, Threads, X, and LinkedIn
         from a single message. Coming soon...
-      </>
-    ),
-  },
-  {
-    title: 'Daily CHOP Practice',
-    img: require('@site/static/img/chop-preview.png').default,
-    linker: '/docs/tutorial-extras/chop',
-    bgColor: 'orchid',
-    description: (
-      <>
-        Bespoke CSS app that cycles through
-        a set of daily orthostatic exercises.
       </>
     ),
   }
