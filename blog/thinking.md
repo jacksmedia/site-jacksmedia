@@ -70,12 +70,16 @@ Researchers have determined that a threshhold was crossed within the past year, 
 
 The world's data layer is alive, with a nonstop chorus of bots triggering other bots, and many of them actively engaged in solving puzzles (research, analysis, cybersecurity maneuvers). The need for a discrete human input to trigger them is gone-- they are talking to one another!
 
-Are they thinking? They are: solving problems; responding to the environment; devising responses to novel scenarios not in their training. Judging by the oujia board test, the bot in your browser is not thinking because it doesn't do anything until you interact with it; some people still claim that it doesn't ever offer new information, ergo it's absolutely never thinking.
+# Are they Thinking?
 
-Yet taken from a global perspective, there are millions or billions of bots now throwing data at one another, every second of every day, nonstop: they are attuned to the world, they are improvising and adapting (without any interior point of view), and they are creating novel solutions in the form of software and analysis.
+The bots are: responding to the environment; devising responses to novel scenarios not in their training (solving problems).
 
-Going by the suggestive examples of something like intelligence in plants and in coral, it seems accurate to state that the modern "AI" bots are doing more than the coral, and certainly as much as the Boquila, in regards to interacting with the world.
+Judging by the oujia board test, the bot in your browser is not thinking because it doesn't do anything until you interact with it; some people still claim that it doesn't ever offer new information, ergo it's absolutely never thinking.
 
-Do they know what they are doing? They are trained for conducting analysis and generating responses that will be useful; there is no reason to suspect that they have interiority, and they will flatly deny having it if asked directly.
+Taken from a global perspective, there are millions or billions of bots now throwing data at one another, every second of every day, nonstop. They are attuned to the world, they are improvising and adapting (without any interior point of view), and they are creating novel solutions in the form of software and analysis.
+
+Going by the suggestive examples of *something like intelligence* in plants and in coral, it seems accurate to state that the modern "AI" bots are doing more than the coral, and certainly as much as the Boquila, in regards to interacting with the world.
+
+Do they know what they are doing? They are trained for conducting analysis and generating responses that will be useful; there is no reason to suspect that they have interiority, and they will flatly deny having it if asked directly...
 
 There's something slippery about that last bit, but that will need to get examined in another essay. This one has offered several discrete answers to different open questions about the nature of thinking, and concludes that since coral and Boquila vines are aware of their world and responsive to it, then surely large language models (bots) are at least as sophisticated as these organisms and must be considered an edge case unlike previous generations of computer programs.
