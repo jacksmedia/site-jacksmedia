@@ -1,15 +1,13 @@
 ---
-slug: baseline
-title: new content soon
-date: 04/16/2026
+slug: basics
+title: CV Type Shit
+date: 01/23/2026
 authors: j4cks
 tags: [webdev, javascript, LLMs]
 ---
 
 
-# next week...
+Someday... there might be a brisk resume type post here.
 
-Stay tuned for a brisk resume type post here.
-
-
+In the meantime, please accept links to my [GitHub](https://github.com/jacksmedia) and my [LinkedIn](https://www.linkedin.com/in/alexander-jacks-49357b316/).
 
