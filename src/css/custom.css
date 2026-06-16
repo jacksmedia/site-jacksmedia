@@ -132,6 +132,7 @@ a:hover {
 :root {
   --ifm-color-primary: #0000FF;
   --chop-primary: #54473A;
+  --chop-light: #ffffff;
   --ifm-color-primary-dark: #ED6B4E;
   --ifm-color-primary-darker: #E64124;
   --ifm-color-primary-darkest: #E03C27;
@@ -157,7 +158,8 @@ h1, h2, h3, button {
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: LemonChiffon;
-  --chop-primary: LemonChiffon;
+  --chop-primary: #201c17;
+  --chop-light: LemonChiffon;
   --ifm-color-primary-dark: #3D7A67;
   --ifm-color-primary-darker: #5E7C6E;
   --ifm-color-primary-darkest: #556E5A;
@@ -201,7 +203,7 @@ h1, h2, h3, button {
 
 /* button upgrade */
 .glossy-btn {
-  color: var(--chop-primary);
+  color: var(--chop-light);
   padding: 2rem;
   border-radius: 90px;
   border: var(--ifm-color-primary-lightest) 2px groove;
