@@ -130,14 +130,14 @@ a:hover {
 
 /* boilerplate Infinima defaults */
 :root {
-  --ifm-color-primary: #ff1900;
-  --chop-primary: black;
-  --ifm-color-primary-dark: #29a8ff;
-  --ifm-color-primary-darker: #27a1ff;
-  --ifm-color-primary-darkest: #208dff;
-  --ifm-color-primary-light: #33b2ff;
-  --ifm-color-primary-lighter: #35b9ff;
-  --ifm-color-primary-lightest: #3cddff;
+  --ifm-color-primary: #0000FF;
+  --chop-primary: #54473A;
+  --ifm-color-primary-dark: #ED6B4E;
+  --ifm-color-primary-darker: #E64124;
+  --ifm-color-primary-darkest: #E03C27;
+  --ifm-color-primary-light: #1F9573;
+  --ifm-color-primary-lighter: #23bb90;
+  --ifm-color-primary-lightest: #18e7ad;
   --ifm-code-font-size: 95%;
 }
 
@@ -158,12 +158,14 @@ h1, h2, h3, button {
 [data-theme='dark'] {
   --ifm-color-primary: LemonChiffon;
   --chop-primary: LemonChiffon;
-  --ifm-color-primary-dark: #21dfff;
-  --ifm-color-primary-darker: #1fd5ff;
-  --ifm-color-primary-darkest: #1ab8ff;
-  --ifm-color-primary-light: #29d8ff;
-  --ifm-color-primary-lighter: #32f8ff;
-  --ifm-color-primary-lightest: #4ffdff;
+  --ifm-color-primary-dark: #3D7A67;
+  --ifm-color-primary-darker: #5E7C6E;
+  --ifm-color-primary-darkest: #556E5A;
+  --ifm-color-primary-light: #1F9573;
+  --ifm-color-primary-lighter: #23bb90;
+  --ifm-color-primary-lightest: #18e7ad;
+
+
   color: #333;
 }
 
@@ -226,16 +228,15 @@ h1, h2, h3, button {
 /* adapted from https://stackoverflow.com/questions/23441060/how-to-animate-gradients-using-css */
 main {
     background: linear-gradient(180deg, 
-    #21afffaa, 
-    #29d5ffaa, 
-    #4fddffaa, 
-    #29d5ffaa, 
-    #21afffaa);
+    #5E7C6E
+    #1F9573, 
+    #3D7A67, 
+    #556E5A);
     background-size: 200% 200%;
 
-    -webkit-animation: Animation 17s ease infinite;
-    -moz-animation: Animation 17s ease infinite;
-    animation: Animation 17s ease infinite;
+    -webkit-animation: Animation 37s ease infinite;
+    -moz-animation: Animation 37s ease infinite;
+    animation: Animation 37s ease infinite;
 }
 
 
