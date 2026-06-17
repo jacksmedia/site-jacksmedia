@@ -1,7 +1,7 @@
 /* Fonts */
 /* new */
 /* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Pixelify+Sans:wght@400;600&display=swap'); */
 
 
@@ -144,14 +144,14 @@ a:hover {
 
 *, .footer__title {
   /* font-family: "Geist Mono", monospace; */
-  font-family:  "Roboto Serif";
+  font-family:  "Rubik";
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
 }
 
 h1, h2, h3, button {
-  font-family:  "Roboto Serif";
+  font-family:  "Rubik";
   font-weight: 500;
 }
 
