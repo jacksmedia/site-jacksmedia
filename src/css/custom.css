@@ -158,7 +158,7 @@ h1, h2, h3, button {
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: LemonChiffon;
-  --chop-primary: #201c17;
+  --chop-primary: #f5d0a3;
   --chop-light: LemonChiffon;
   --ifm-color-primary-dark: #3D7A67;
   --ifm-color-primary-darker: #5E7C6E;
