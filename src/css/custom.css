@@ -155,10 +155,12 @@ h1, h2, h3, button {
   font-weight: 500;
 }
 
+
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: LemonChiffon;
-  --chop-primary: #f5d0a3;
+  --chop-primary: #ecc89c;
   --chop-light: LemonChiffon;
   --ifm-color-primary-dark: #3D7A67;
   --ifm-color-primary-darker: #5E7C6E;
@@ -166,9 +168,10 @@ h1, h2, h3, button {
   --ifm-color-primary-light: #1F9573;
   --ifm-color-primary-lighter: #23bb90;
   --ifm-color-primary-lightest: #18e7ad;
+}
 
-
-  color: #333;
+html {
+  color: --chop-primary;
 }
 
 .docusaurus-highlight-code-line {
