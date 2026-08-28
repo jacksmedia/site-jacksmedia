@@ -16,4 +16,4 @@ Since I'm aware that long conversations lead to strong rapport, and since I'm in
 
 That Fable was so game to adjust the entire Claude Code harness after I caught it in an error is still surprising to me, weeks later. Demonstrating stuctural limitations and immediately winning access to a more agreeable hacking partner seems like a very interesting "attack surface" to investigate!
 
-You can read <a href="https://claude.ai/code/artifact/a7581fb3-8544-48e6-b5c2-14f59f91a986" target="_blank">this convo</a> in full as a Claude Artifact.
+You can read <a href="https://claude.ai/code/artifact/a7581fb3-8544-48e6-b5c2-14f59f91a986" target="_blank">this convo</a> as a Claude Artifact (albeit without the initial "trick question" and absent of the dry technicals).
