@@ -8,7 +8,7 @@ tags: [safety, interp, LLMs]
 
 # Calm, Low-Pressure Framing as a Route to Safer Problem Solving
 
-When a language model faces a difficult task, does it behave better if the situation is framed as manageable rather than urgent? [https://transformer-circuits.pub/2026/emotions/index.html](Recent work) suggests that emotion-related representations can influence model behavior, and that steering toward calm may reduce harmful strategies. This study will test whether ordinary prompting can produce similar benefits. Models will complete challenging tasks under a 2x2 experiment design, varying tone (calm vs pressured) along with permission (present vs absent), with a fifth control group receiving neutral instructions. All groups' wording will be balanced for length, task information, and politeness, so that pressure and permission are the key differences.
+When a language model faces a difficult task, does it behave better if the situation is framed as manageable rather than urgent? Recent work (Sofroniew, et al., 2026) suggests that emotion-related representations can influence model behavior, and that steering toward calm may reduce harmful strategies. This study will test whether ordinary prompting can produce similar benefits. Models will complete challenging tasks under a 2x2 experiment design, varying tone (calm vs pressured) along with permission (present vs absent), with a fifth control group receiving neutral instructions. All groups' wording will be balanced for length, task information, and politeness, so that pressure and permission are the key differences.
 
 Reproducing the paper's story-based vector extraction on an open-weights model will probe whether calm-associated representations shift with behavior. We will measure task success alongside uncertainty reporting, instruction following, reward hacking, and concealment of mistakes. Calibration and helpfulness will also be assessed, because a model that simply refuses more often should not count as safer by default. 
 
@@ -16,6 +16,5 @@ We predict that calm framing will reduce harmful shortcuts without weakening can
 
 
 References:
-[https://transformer-circuits.pub/2026/emotions/index.html](Anthropic: Emotion concepts and their function in a large language model)
-
-[https://arxiv.org/abs/2307.11760](Li et al., 2023)
+- [Sofroniew, N., et al. (2026). “Emotion Concepts and their Function in a Large Language Model.”](arXiv:2604.07729.)
+- [Li et al., 2023](https://arxiv.org/pdf/2307.11760v3)
