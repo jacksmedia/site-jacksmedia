@@ -1,9 +1,9 @@
 ---
 slug: basics
-title: CV Type Shit
+title: CV links
 date: 01/23/2026
 authors: j4cks
-tags: [webdev, javascript, LLMs]
+tags: [webdev, typescript, LLMs]
 ---
 
 
