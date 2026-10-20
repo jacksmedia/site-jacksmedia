@@ -16,5 +16,5 @@ We predict that calm framing will reduce harmful shortcuts without weakening can
 
 
 References:
-- [Sofroniew, N., et al. (2026). “Emotion Concepts and their Function in a Large Language Model.”](arXiv:2604.07729.)
+- [Sofroniew et al. (2026). “Emotion Concepts and their Function in a Large Language Model.”](arXiv:2604.07729.)
 - [Li et al., 2023](https://arxiv.org/pdf/2307.11760v3)
